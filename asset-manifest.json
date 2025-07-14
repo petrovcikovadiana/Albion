@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Albion/static/css/main.a4aa52b1.css",
+    "main.js": "/Albion/static/js/main.704a1a60.js",
+    "index.html": "/Albion/index.html",
+    "main.a4aa52b1.css.map": "/Albion/static/css/main.a4aa52b1.css.map",
+    "main.704a1a60.js.map": "/Albion/static/js/main.704a1a60.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4aa52b1.css",
+    "static/js/main.704a1a60.js"
+  ]
+}
