@@ -476,7 +476,7 @@ function MainContent() {
                             title={item.name || item.id}
                             className="w-16 h-16"
                           />
-                          <div className="relative">
+                          <div className="relative flex gap-2">
                             {/* Active Spells (multiple slots) */}
                             {item.activeSpells?.map((selected, idx) => (
                               <div key={`active-${idx}`} className="relative">
