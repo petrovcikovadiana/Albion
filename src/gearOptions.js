@@ -357,7 +357,7 @@ const gearOptions = {
             image: "T3_MAIN_FIRESTAFF",
             items: [
               {
-                id: "T8_MAIN_FIRESTAFF", //ano
+                id: "T8_MAIN_FIRESTAFF",
                 twoHanded: false,
                 name: "Scholar Cowl",
               },
@@ -379,8 +379,8 @@ const gearOptions = {
             image: "T3_MAIN_HOLYSTAFF",
             items: [
               { id: "T8_MAIN_HOLYSTAFF", twoHanded: false },
-              { id: "T8_2H_HOLYSTAFF", twoHanded: true }, //ano
-              { id: "T8_2H_DIVINESTAFF", twoHanded: true }, //ano
+              { id: "T8_2H_HOLYSTAFF", twoHanded: true },
+              { id: "T8_2H_DIVINESTAFF", twoHanded: true },
               { id: "T8_MAIN_HOLYSTAFF_MORGANA", twoHanded: false },
               { id: "T8_2H_HOLYSTAFF_HELL", twoHanded: true },
               { id: "T8_2H_HOLYSTAFF_UNDEAD", twoHanded: true },
@@ -392,13 +392,13 @@ const gearOptions = {
             name: "Rapíry",
             image: "T3_MAIN_ARCANESTAFF",
             items: [
-              { id: "T8_MAIN_ARCANESTAFF", twoHanded: false }, //ano
-              { id: "T8_2H_ARCANESTAFF", twoHanded: true }, //ano
-              { id: "T8_2H_ENIGMATICSTAFF", twoHanded: true }, //ano
+              { id: "T8_MAIN_ARCANESTAFF", twoHanded: false },
+              { id: "T8_2H_ARCANESTAFF", twoHanded: true },
+              { id: "T8_2H_ENIGMATICSTAFF", twoHanded: true },
               { id: "T8_MAIN_ARCANESTAFF_UNDEAD", twoHanded: false },
-              { id: "T8_2H_ARCANESTAFF_HELL", twoHanded: true }, //ano
-              { id: "T8_2H_ENIGMATICORB_MORGANA", twoHanded: true }, //ano
-              { id: "T8_2H_ARCANE_RINGPAIR_AVALON", twoHanded: true }, //ano
+              { id: "T8_2H_ARCANESTAFF_HELL", twoHanded: true },
+              { id: "T8_2H_ENIGMATICORB_MORGANA", twoHanded: true },
+              { id: "T8_2H_ARCANE_RINGPAIR_AVALON", twoHanded: true },
               { id: "T8_2H_ARCANESTAFF_CRYSTAL", twoHanded: true },
             ],
           },
@@ -406,26 +406,26 @@ const gearOptions = {
             name: "Meče s efektem",
             image: "T3_MAIN_FROSTSTAFF",
             items: [
-              { id: "T8_MAIN_FROSTSTAFF", twoHanded: false }, //ano
-              { id: "T8_2H_FROSTSTAFF", twoHanded: true }, //ano
-              { id: "T8_2H_GLACIALSTAFF", twoHanded: true }, //ano
+              { id: "T8_MAIN_FROSTSTAFF", twoHanded: false },
+              { id: "T8_2H_FROSTSTAFF", twoHanded: true },
+              { id: "T8_2H_GLACIALSTAFF", twoHanded: true },
               { id: "T8_MAIN_FROSTSTAFF_KEEPER", twoHanded: false },
-              { id: "T8_2H_ICEGAUNTLETS_HELL", twoHanded: true }, //ano
-              { id: "T8_2H_ICECRYSTAL_UNDEAD", twoHanded: true }, //ano
+              { id: "T8_2H_ICEGAUNTLETS_HELL", twoHanded: true },
+              { id: "T8_2H_ICECRYSTAL_UNDEAD", twoHanded: true },
               { id: "T8_MAIN_FROSTSTAFF_AVALON", twoHanded: false },
-              { id: "T8_2H_FROSTSTAFF_CRYSTAL", twoHanded: true }, //ano
+              { id: "T8_2H_FROSTSTAFF_CRYSTAL", twoHanded: true },
             ],
           },
           {
             name: "Artefakty",
             image: "T3_MAIN_CURSEDSTAFF",
             items: [
-              { id: "T8_MAIN_CURSEDSTAFF", twoHanded: false }, //ano
-              { id: "T8_2H_CURSEDSTAFF", twoHanded: true }, //ano
-              { id: "T8_2H_DEMONICSTAFF", twoHanded: true }, //ano
+              { id: "T8_MAIN_CURSEDSTAFF", twoHanded: false },
+              { id: "T8_2H_CURSEDSTAFF", twoHanded: true },
+              { id: "T8_2H_DEMONICSTAFF", twoHanded: true },
               { id: "T8_MAIN_CURSEDSTAFF_UNDEAD", twoHanded: false },
-              { id: "T8_2H_SKULLORB_HELL", twoHanded: true }, //ano
-              { id: "T8_2H_CURSEDSTAFF_MORGANA", twoHanded: true }, //ano
+              { id: "T8_2H_SKULLORB_HELL", twoHanded: true },
+              { id: "T8_2H_CURSEDSTAFF_MORGANA", twoHanded: true },
               { id: "T8_MAIN_CURSEDSTAFF_AVALON", twoHanded: false },
               { id: "T8_MAIN_CURSEDSTAFF_CRYSTAL", twoHanded: false },
             ],
@@ -440,9 +440,9 @@ const gearOptions = {
             name: "Knihy",
             image: "T3_2H_BOW",
             items: [
-              { id: "T8_2H_BOW", twoHanded: true }, //ano
-              { id: "T8_2H_WARBOW", twoHanded: true }, //ano
-              { id: "T8_2H_LONGBOW", twoHanded: true }, //ano
+              { id: "T8_2H_BOW", twoHanded: true },
+              { id: "T8_2H_WARBOW", twoHanded: true },
+              { id: "T8_2H_LONGBOW", twoHanded: true },
               { id: "T8_2H_LONGBOW_UNDEAD", twoHanded: true },
               { id: "T8_2H_BOW_HELL", twoHanded: true },
               { id: "T8_2H_BOW_KEEPER", twoHanded: true },
@@ -454,7 +454,7 @@ const gearOptions = {
             name: "Orby",
             image: "T3_MAIN_DAGGER",
             items: [
-              { id: "T8_MAIN_DAGGER", twoHanded: false }, //ano
+              { id: "T8_MAIN_DAGGER", twoHanded: false },
               { id: "T8_2H_DAGGERPAIR", twoHanded: true },
               { id: "T8_2H_CLAWPAIR", twoHanded: true },
               { id: "T8_MAIN_RAPIER_MORGANA", twoHanded: false },
@@ -468,7 +468,7 @@ const gearOptions = {
             name: "Orby",
             image: "T3_MAIN_SPEAR",
             items: [
-              { id: "T8_MAIN_SPEAR", twoHanded: false }, //ano
+              { id: "T8_MAIN_SPEAR", twoHanded: false },
               { id: "T8_2H_SPEAR", twoHanded: true },
               { id: "T8_2H_GLAIVE", twoHanded: true },
               { id: "T8_MAIN_SPEAR_KEEPER", twoHanded: false },
@@ -482,7 +482,7 @@ const gearOptions = {
             name: "Orby",
             image: "T3_2H_QUARTERSTAFF",
             items: [
-              { id: "T8_2H_QUARTERSTAFF", twoHanded: true }, //ano
+              { id: "T8_2H_QUARTERSTAFF", twoHanded: true },
               { id: "T8_2H_IRONCLADEDSTAFF", twoHanded: true },
               { id: "T8_2H_DOUBLEBLADEDSTAFF", twoHanded: true },
               { id: "T8_2H_COMBATSTAFF_MORGANA", twoHanded: true },
@@ -496,7 +496,7 @@ const gearOptions = {
             name: "Orby",
             image: "T8_2H_SHAPESHIFTER_SET1",
             items: [
-              { id: "T8_2H_SHAPESHIFTER_SET1", twoHanded: true }, //ano
+              { id: "T8_2H_SHAPESHIFTER_SET1", twoHanded: true },
               { id: "T8_2H_SHAPESHIFTER_SET2", twoHanded: true },
               { id: "T8_2H_SHAPESHIFTER_SET3", twoHanded: true },
               { id: "T8_2H_SHAPESHIFTER_MORGANA", twoHanded: true },
@@ -510,7 +510,7 @@ const gearOptions = {
             name: "Orby",
             image: "T3_MAIN_NATURESTAFF",
             items: [
-              { id: "T8_MAIN_NATURESTAFF", twoHanded: false }, //ano
+              { id: "T8_MAIN_NATURESTAFF", twoHanded: false },
               { id: "T8_2H_NATURESTAFF", twoHanded: true },
               { id: "T8_2H_WILDSTAFF", twoHanded: true },
               { id: "T8_MAIN_NATURESTAFF_KEEPER", twoHanded: false },
@@ -530,7 +530,7 @@ const gearOptions = {
             name: "Ohnivé hole",
             image: "T3_MAIN_SWORD",
             items: [
-              { id: "T8_MAIN_SWORD", twoHanded: false }, //ano
+              { id: "T8_MAIN_SWORD", twoHanded: false },
               { id: "T8_2H_CLAYMORE", twoHanded: true },
               { id: "T8_2H_DUALSWORD", twoHanded: true },
               { id: "T8_MAIN_SCIMITAR_MORGANA", twoHanded: false },
@@ -558,7 +558,7 @@ const gearOptions = {
             name: "Svaté hole",
             image: "T3_MAIN_MACE",
             items: [
-              { id: "T8_MAIN_MACE", twoHanded: false }, //ano
+              { id: "T8_MAIN_MACE", twoHanded: false },
               { id: "T8_2H_MACE", twoHanded: true },
               { id: "T8_2H_FLAIL", twoHanded: true },
               { id: "T8_MAIN_ROCKMACE_KEEPER", twoHanded: false },
@@ -572,7 +572,7 @@ const gearOptions = {
             name: "Temné hole",
             image: "T3_MAIN_HAMMER",
             items: [
-              { id: "T8_MAIN_HAMMER", twoHanded: false }, //ano
+              { id: "T8_MAIN_HAMMER", twoHanded: false },
               { id: "T8_2H_POLEHAMMER", twoHanded: true },
               { id: "T8_2H_HAMMER", twoHanded: true },
               { id: "T8_2H_HAMMER_UNDEAD", twoHanded: true },
@@ -586,7 +586,7 @@ const gearOptions = {
             name: "Artefakty",
             image: "T3_2H_KNUCKLES_SET1",
             items: [
-              { id: "T8_2H_KNUCKLES_SET1", twoHanded: true }, //ano
+              { id: "T8_2H_KNUCKLES_SET1", twoHanded: true },
               { id: "T8_2H_KNUCKLES_SET2", twoHanded: true },
               { id: "T8_2H_KNUCKLES_SET3", twoHanded: true },
               { id: "T8_2H_KNUCKLES_KEEPER", twoHanded: true },
@@ -600,7 +600,7 @@ const gearOptions = {
             name: "Artefakty",
             image: "T3_2H_CROSSBOW",
             items: [
-              { id: "T8_2H_CROSSBOW", twoHanded: true }, //ano
+              { id: "T8_2H_CROSSBOW", twoHanded: true },
               { id: "T8_2H_CROSSBOWLARGE", twoHanded: true },
               { id: "T8_MAIN_1HCROSSBOW", twoHanded: false },
               { id: "T8_2H_REPEATINGCROSSBOW_UNDEAD", twoHanded: true },
