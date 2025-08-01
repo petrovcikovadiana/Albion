@@ -141,14 +141,25 @@ function MainContent() {
 
           const id = getItemIdByIndex(itemIndexRaw);
           const imageUrl = getImageUrlFromId(id);
+          if (!id) return;
 
-          if (id) {
-            newSlots[slot] = imageUrl;
+          const isTwoHanded = gearOptions.offhand.categories
+            .flatMap(
+              (cat) => cat.subcategories?.flatMap((sub) => sub.items) ?? []
+            )
+            .some((item) => item.id === id && item.twoHanded);
+
+          if (
+            slot === 4 &&
+            newDetails.find((item) => item.slot === 2 && item.twoHanded)
+          ) {
+            return;
           }
 
-          const { active: activeCount, passive: passiveCount } = id
-            ? getSpellSlotCount(id)
-            : { active: 0, passive: 0 };
+          newSlots[slot] = imageUrl;
+
+          const { active: activeCount, passive: passiveCount } =
+            getSpellSlotCount(id);
 
           const activeIndexes = Array.from(
             { length: activeCount },
@@ -176,8 +187,21 @@ function MainContent() {
             slot,
             activeSpells,
             passiveSpells,
+            twoHanded: isTwoHanded,
           });
         });
+        const slot2Item = newDetails.find(
+          (item) => item.slot === 2 && item.twoHanded
+        );
+        if (slot2Item) {
+          const imageUrl = getImageUrlFromId(slot2Item.id);
+          newSlots[4] = imageUrl;
+
+          newDetails.push({
+            ...slot2Item,
+            slot: 4,
+          });
+        }
 
         return { slots: newSlots, selectedItemDetails: newDetails };
       });
