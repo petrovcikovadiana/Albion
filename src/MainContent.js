@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import spellIcons from "./spellIcons";
 import gearOptions from "./gearOptions";
 import spellDB from "./spellDB";
 import Tooltip from "./Tooltip";
@@ -350,10 +349,25 @@ function MainContent() {
 
   const handleRemoveImage = (buildIndex, slotIndex) => {
     const updated = [...builds];
-    updated[buildIndex].slots[slotIndex] = null;
-    updated[buildIndex].selectedItemDetails = updated[
-      buildIndex
-    ].selectedItemDetails.filter((item) => item.slot !== slotIndex);
+    const build = updated[buildIndex];
+
+    const itemToRemove = build.selectedItemDetails.find(
+      (item) => item.slot === slotIndex
+    );
+
+    build.slots[slotIndex] = null;
+    build.selectedItemDetails = build.selectedItemDetails.filter(
+      (item) => item.slot !== slotIndex
+    );
+
+    if (slotIndex === 2 && itemToRemove?.twoHanded) {
+      build.slots[4] = null;
+      build.selectedItemDetails = build.selectedItemDetails.filter(
+        (item) => item.slot !== 4
+      );
+    }
+
+    updated[buildIndex] = build;
     setBuilds(updated);
   };
 
@@ -466,37 +480,21 @@ function MainContent() {
                       );
                     }
                   );
-                  const withoutSpells = build.selectedItemDetails.filter(
-                    (item) =>
-                      getSpellsForItem(item, "activeSpell").length === 0 &&
-                      getSpellsForItem(item, "passiveSpell").length === 0
-                  );
 
                   return (
                     <>
                       {/* Items with spells */}
                       {withSpells.map((item, i) => (
                         <div key={i} className="flex items-center gap-2 mb-3">
-
                           <Tooltip content={item.name || item.id}>
                             <img
                               src={getImageUrlFromId(item.id)}
                               alt={item.name || item.id}
-                              title={item.name || item.id}
                               className="w-16 h-16"
                             />
                           </Tooltip>
                           {/* Active spell */}
-                          <div className="relative">
-
-                          <img
-                            src={getImageUrlFromId(item.id)}
-                            alt={item.name || item.id}
-                            title={item.name || item.id}
-                            className="w-16 h-16"
-                          />
-                          <div className="relative flex gap-2">
-
+                          <div className="relative flex gap-2 items-center justify-center">
                             {/* Active Spells (multiple slots) */}
                             {item.activeSpells?.map((selected, idx) => (
                               <div key={`active-${idx}`} className="relative">
@@ -507,7 +505,7 @@ function MainContent() {
                                     <img
                                       src={selected.icon}
                                       alt={selected.name}
-                                      className="w-12 h-12 cursor-pointer"
+                                      className="w-[48px] h-[48px] min-w-[48px] min-h-[48px] flex items-center justify-center mt-2"
                                       onClick={() =>
                                         setSpellDropdown({
                                           buildIndex,
@@ -528,7 +526,7 @@ function MainContent() {
                                         index: idx,
                                       })
                                     }
-                                    className="w-10 h-10 text-xl border border-cyan-500 rounded-full text-cyan-400 hover:bg-zinc-800"
+                                    className="w-[40px] h-[40px] min-w-[40px] min-h-[40px] border border-cyan-500 rounded-full text-cyan-400 hover:bg-zinc-800 flex items-center justify-center"
                                   >
                                     +
                                   </button>
@@ -545,7 +543,9 @@ function MainContent() {
                                         "activeSpell",
                                         idx
                                       ).map((spell, i) => (
-                                        <Tooltip content={item.name || item.id}>
+                                        <Tooltip
+                                          content={spell.name || spell.id}
+                                        >
                                           <img
                                             key={i}
                                             src={spell.icon}
@@ -578,7 +578,7 @@ function MainContent() {
                                     <img
                                       src={selected.icon}
                                       alt={selected.name}
-                                      className="w-12 h-12 cursor-pointer"
+                                      className="w-[48px] h-[48px] min-w-[48px] min-h-[48px] flex items-center justify-center mt-2"
                                       onClick={() =>
                                         setSpellDropdown({
                                           buildIndex,
@@ -599,7 +599,7 @@ function MainContent() {
                                         index: idx,
                                       })
                                     }
-                                    className="w-10 h-10 text-xl border border-cyan-500 rounded-full text-cyan-400 hover:bg-zinc-800"
+                                    className="w-[40px] h-[40px] min-w-[40px] min-h-[40px] border border-cyan-500 rounded-full text-cyan-400 hover:bg-zinc-800 flex items-center justify-center"
                                   >
                                     +
                                   </button>
@@ -639,22 +639,6 @@ function MainContent() {
                             ))}
                         </div>
                       ))}
-
-                      {/* Items without spells */}
-                      {withoutSpells.length > 0 && (
-                        <div className="flex flex-wrap gap-2 mt-3">
-                          {withoutSpells.map((item, i) => (
-                            <Tooltip content={item.name || item.id}>
-                              <img
-                                key={i}
-                                src={getImageUrlFromId(item.id)}
-                                alt="item"
-                                className="w-16 h-16"
-                              />
-                            </Tooltip>
-                          ))}
-                        </div>
-                      )}
                     </>
                   );
                 })()}
@@ -702,144 +686,162 @@ function MainContent() {
           >
             {slotTypes[selectedSlot.slotIndex] &&
               gearOptions[slotTypes[selectedSlot.slotIndex]] && (
-                <div className="flex flex-col items-center">
-                  {"categories" in
-                    gearOptions[slotTypes[selectedSlot.slotIndex]] &&
-                  gearOptions[slotTypes[selectedSlot.slotIndex]].categories[0]
-                    ?.subcategories ? (
-                    <>
-                      {/*  Cat */}
-                      {!activeCategory && (
-                        <div className="grid grid-cols-3 gap-3">
-                          {gearOptions[
-                            slotTypes[selectedSlot.slotIndex]
-                          ].categories.map((category, i) => (
-                            <Tooltip content={category.name}>
-                              <img
-                                key={i}
-                                src={getImageUrlFromId(category.image)}
-                                alt={category.name}
-                                onClick={() => {
-                                  setActiveCategory(category);
-                                  setActiveSubcategory(null);
-                                }}
-                                className="cursor-pointer max-h-[100px]"
-                              />
-                            </Tooltip>
-                          ))}
-                        </div>
-                      )}
+                <div className="flex flex-col items-center gap-6">
+                  {(() => {
+                    const slotData =
+                      gearOptions[slotTypes[selectedSlot.slotIndex]];
 
-                      {/*  Subcat */}
-                      {activeCategory && !activeSubcategory && (
-                        <div className="grid grid-cols-3 gap-3 mt-4">
-                          {activeCategory.subcategories.map((subcat, i) => (
-                            <Tooltip content={subcat.name || subcat.id}>
-                              <img
+                    if (
+                      "categories" in slotData &&
+                      slotData.categories[0]?.subcategories
+                    ) {
+                      return (
+                        <>
+                          <div className="grid grid-cols-3 gap-3">
+                            {slotData.categories.map((category, i) => (
+                              <Tooltip
+                                content={category.name || category.id}
                                 key={i}
-                                src={getImageUrlFromId(subcat.image)}
-                                alt={subcat.name}
-                                onClick={() => setActiveSubcategory(subcat)}
-                                className="cursor-pointer max-h-[100px]"
-                              />
-                            </Tooltip>
-                          ))}
-                        </div>
-                      )}
+                              >
+                                <img
+                                  src={getImageUrlFromId(category.image)}
+                                  alt={category.name}
+                                  onClick={() => {
+                                    setActiveCategory(category);
+                                    setActiveSubcategory(null);
+                                  }}
+                                  className={`cursor-pointer max-h-[100px] }`}
+                                />
+                              </Tooltip>
+                            ))}
+                          </div>
 
-                      {/*  Items */}
-                      {activeSubcategory && (
-                        <div className="grid grid-cols-6 gap-2 mt-4">
-                          {activeSubcategory.items.map((item) => (
-                            <Tooltip content={item.name || item.id}>
-                              <img
-                                key={item.id}
-                                src={getImageUrlFromId(item.id)}
-                                alt={item.id}
-                                onClick={() =>
-                                  handleImageSelect(
-                                    getImageUrlFromId(item.id),
-                                    item
-                                  )
-                                }
-                                className="cursor-pointer max-h-[100px]"
-                              />
-                            </Tooltip>
-                          ))}
-                        </div>
-                      )}
-                    </>
-                  ) : "categories" in
-                    gearOptions[slotTypes[selectedSlot.slotIndex]] ? (
-                    <>
-                      {!activeCategory && (
-                        <div className="grid grid-cols-3 gap-3">
-                          {gearOptions[
-                            slotTypes[selectedSlot.slotIndex]
-                          ].categories.map((category, i) => (
-                            <Tooltip content={category.name || category.id}>
-                              <img
+                          {activeCategory?.subcategories && (
+                            <div className="grid grid-cols-5 gap-3">
+                              {activeCategory.subcategories.map((subcat, i) => (
+                                <Tooltip
+                                  content={subcat.name || subcat.id}
+                                  key={i}
+                                >
+                                  <img
+                                    src={getImageUrlFromId(subcat.image)}
+                                    alt={subcat.name}
+                                    onClick={() => setActiveSubcategory(subcat)}
+                                    className={`cursor-pointer max-h-[100px] `}
+                                  />
+                                </Tooltip>
+                              ))}
+                            </div>
+                          )}
+
+                          {activeSubcategory && (
+                            <div className="grid grid-cols-6 gap-2">
+                              {activeSubcategory.items.map((item) => (
+                                <Tooltip
+                                  content={item.name || item.id}
+                                  key={item.id}
+                                >
+                                  <img
+                                    src={getImageUrlFromId(item.id)}
+                                    alt={item.name}
+                                    onClick={() =>
+                                      handleImageSelect(
+                                        getImageUrlFromId(item.id),
+                                        item
+                                      )
+                                    }
+                                    className="cursor-pointer max-h-[100px]"
+                                  />
+                                </Tooltip>
+                              ))}
+                            </div>
+                          )}
+                        </>
+                      );
+                    }
+
+                    if ("categories" in slotData) {
+                      return (
+                        <>
+                          {/* Categories */}
+                          <div className="grid grid-cols-3 gap-3">
+                            {slotData.categories.map((category, i) => (
+                              <Tooltip
+                                content={category.name || category.id}
                                 key={i}
-                                src={getImageUrlFromId(category.image)}
-                                alt={category.name}
-                                onClick={() => setActiveCategory(category)}
-                                className="cursor-pointer max-h-[100px]"
-                              />
-                            </Tooltip>
-                          ))}
-                        </div>
-                      )}
-                      {activeCategory && (
-                        <div className="grid grid-cols-5 gap-2 mt-4">
-                          {activeCategory.items.map((item) => (
-                            <Tooltip content={item.name || item.id}>
-                              <img
-                                key={item.id}
-                                src={getImageUrlFromId(item.id)}
-                                alt={item.name}
-                                onClick={() =>
-                                  handleImageSelect(
-                                    getImageUrlFromId(item.id),
-                                    item
-                                  )
-                                }
-                                className="cursor-pointer max-h-[100px]"
-                              />
-                            </Tooltip>
-                          ))}
-                        </div>
-                      )}
-                    </>
-                  ) : "items" in
-                    gearOptions[slotTypes[selectedSlot.slotIndex]] ? (
-                    <div className="grid grid-cols-7 gap-2 mt-4">
-                      {gearOptions[slotTypes[selectedSlot.slotIndex]].items.map(
-                        (rawItem) => {
-                          const item =
-                            typeof rawItem === "string"
-                              ? { id: rawItem, name: rawItem }
-                              : rawItem;
+                              >
+                                <img
+                                  src={getImageUrlFromId(category.image)}
+                                  alt={category.name}
+                                  onClick={() => {
+                                    setActiveCategory(category);
+                                  }}
+                                  className={`cursor-pointer max-h-[100px]`}
+                                />
+                              </Tooltip>
+                            ))}
+                          </div>
 
-                          return (
-                            <Tooltip content={item.name || item.id}>
-                              <img
+                          {/* Items */}
+                          {activeCategory?.items && (
+                            <div className="grid grid-cols-6 gap-2">
+                              {activeCategory.items.map((item) => (
+                                <Tooltip
+                                  content={item.name || item.id}
+                                  key={item.id}
+                                >
+                                  <img
+                                    src={getImageUrlFromId(item.id)}
+                                    alt={item.name}
+                                    onClick={() =>
+                                      handleImageSelect(
+                                        getImageUrlFromId(item.id),
+                                        item
+                                      )
+                                    }
+                                    className="cursor-pointer max-h-[100px]"
+                                  />
+                                </Tooltip>
+                              ))}
+                            </div>
+                          )}
+                        </>
+                      );
+                    }
+
+                    if ("items" in slotData) {
+                      return (
+                        <div className="grid grid-cols-7 gap-2">
+                          {slotData.items.map((rawItem) => {
+                            const item =
+                              typeof rawItem === "string"
+                                ? { id: rawItem, name: rawItem }
+                                : rawItem;
+
+                            return (
+                              <Tooltip
+                                content={item.name || item.id}
                                 key={item.id}
-                                src={getImageUrlFromId(item.id)}
-                                alt={item.name}
-                                onClick={() =>
-                                  handleImageSelect(
-                                    getImageUrlFromId(item.id),
-                                    item
-                                  )
-                                }
-                                className="cursor-pointer max-h-[100px]"
-                              />
-                            </Tooltip>
-                          );
-                        }
-                      )}
-                    </div>
-                  ) : null}
+                              >
+                                <img
+                                  src={getImageUrlFromId(item.id)}
+                                  alt={item.name}
+                                  onClick={() =>
+                                    handleImageSelect(
+                                      getImageUrlFromId(item.id),
+                                      item
+                                    )
+                                  }
+                                  className="cursor-pointer max-h-[100px]"
+                                />
+                              </Tooltip>
+                            );
+                          })}
+                        </div>
+                      );
+                    }
+                    return null;
+                  })()}
                 </div>
               )}
           </div>
