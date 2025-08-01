@@ -43,10 +43,9 @@ const Tooltip = ({ children, content }) => {
           ref={tooltipRef}
           className="fixed z-50 pointer-events-none bg-black/80 text-white text-sm px-3 py-2 rounded-lg shadow-lg border border-white/10"
           style={{
-            top: position.y - tooltipSize.height - 12,
-            left: position.x - tooltipSize.width / 2,
-            whiteSpace: "pre-line",
-            maxWidth: "250px",
+            top: position.y,
+            left: position.x,
+            transform: "translate(-50%, -120%)",
           }}
         >
           {content}
