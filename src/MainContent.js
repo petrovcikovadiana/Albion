@@ -21,7 +21,7 @@ const itemIndexMap = {};
 let index = 0;
 
 for (const slot of Object.values(gearOptions)) {
-  // Přímé itemy
+  // Items
   if (slot.items) {
     for (const rawItem of slot.items) {
       const id = typeof rawItem === "string" ? rawItem : rawItem.id;
@@ -30,10 +30,9 @@ for (const slot of Object.values(gearOptions)) {
     }
   }
 
-  // Kategorie
+  // Cat
   if (slot.categories) {
     for (const cat of slot.categories) {
-      // Přímé itemy v kategorii
       if (cat.items) {
         for (const rawItem of cat.items) {
           const id = typeof rawItem === "string" ? rawItem : rawItem.id;
@@ -42,7 +41,7 @@ for (const slot of Object.values(gearOptions)) {
         }
       }
 
-      // Subkategorie (např. offhand)
+      // Subcat
       if (cat.subcategories) {
         for (const sub of cat.subcategories) {
           for (const rawItem of sub.items) {
@@ -70,7 +69,6 @@ const getSpellSlotCount = (itemId) => {
   const data = spellDB[itemId];
   if (!data) return { active: 0, passive: 0 };
 
-  // Offhandy mají 3 aktivní sloty a 1 pasivní
   const isOffhand = gearOptions.offhand.categories.some((cat) =>
     cat.subcategories?.some((subcat) =>
       subcat.items.some((item) => item.id === itemId)
@@ -153,7 +151,6 @@ function MainContent() {
             ? getSpellSlotCount(id)
             : { active: 0, passive: 0 };
 
-          // Doplň chybějící null hodnoty, pokud ve zkrácené URL chybí
           const activeIndexes = Array.from(
             { length: activeCount },
             (_, i) => spellIndexes[i] ?? null
@@ -214,7 +211,6 @@ function MainContent() {
               });
             }
 
-            // Fill in nulls if missing actives
             while (parts.length < 2 + activeCount) {
               parts.push("null");
             }
@@ -232,7 +228,6 @@ function MainContent() {
                 });
             }
 
-            // Fill in nulls if missing passives
             while (parts.length > 2 && parts[parts.length - 1] === "null") {
               parts.pop();
             }
@@ -459,7 +454,6 @@ function MainContent() {
                 {(() => {
                   const withSpells = build.selectedItemDetails.filter(
                     (item) => {
-                      // Slot 4 (right hand) se nezobrazí, pokud je v slotu 2 dvouruční zbraň
                       const offhandItem = build.selectedItemDetails.find(
                         (i) => i.slot === 2
                       );
@@ -483,6 +477,7 @@ function MainContent() {
                       {/* Items with spells */}
                       {withSpells.map((item, i) => (
                         <div key={i} className="flex items-center gap-2 mb-3">
+
                           <Tooltip content={item.name || item.id}>
                             <img
                               src={getImageUrlFromId(item.id)}
@@ -493,6 +488,15 @@ function MainContent() {
                           </Tooltip>
                           {/* Active spell */}
                           <div className="relative">
+
+                          <img
+                            src={getImageUrlFromId(item.id)}
+                            alt={item.name || item.id}
+                            title={item.name || item.id}
+                            className="w-16 h-16"
+                          />
+                          <div className="relative flex gap-2">
+
                             {/* Active Spells (multiple slots) */}
                             {item.activeSpells?.map((selected, idx) => (
                               <div key={`active-${idx}`} className="relative">
@@ -565,7 +569,7 @@ function MainContent() {
                             ))}
                           </div>
 
-                          {/* Passive spell(s) */}
+                          {/* Passive spell */}
                           {item.passiveSpells &&
                             item.passiveSpells.map((selected, idx) => (
                               <div key={idx} className="relative">
@@ -699,13 +703,12 @@ function MainContent() {
             {slotTypes[selectedSlot.slotIndex] &&
               gearOptions[slotTypes[selectedSlot.slotIndex]] && (
                 <div className="flex flex-col items-center">
-                  {/* Slot má 3 úrovně: category -> subcategory -> items */}
                   {"categories" in
                     gearOptions[slotTypes[selectedSlot.slotIndex]] &&
                   gearOptions[slotTypes[selectedSlot.slotIndex]].categories[0]
                     ?.subcategories ? (
                     <>
-                      {/*  Kategorie */}
+                      {/*  Cat */}
                       {!activeCategory && (
                         <div className="grid grid-cols-3 gap-3">
                           {gearOptions[
@@ -727,7 +730,7 @@ function MainContent() {
                         </div>
                       )}
 
-                      {/*  Podkategorie */}
+                      {/*  Subcat */}
                       {activeCategory && !activeSubcategory && (
                         <div className="grid grid-cols-3 gap-3 mt-4">
                           {activeCategory.subcategories.map((subcat, i) => (
@@ -744,7 +747,7 @@ function MainContent() {
                         </div>
                       )}
 
-                      {/*  Itemy */}
+                      {/*  Items */}
                       {activeSubcategory && (
                         <div className="grid grid-cols-6 gap-2 mt-4">
                           {activeSubcategory.items.map((item) => (
