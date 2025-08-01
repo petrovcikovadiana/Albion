@@ -2,7 +2,7 @@ const gearOptions = {
   helmet: {
     categories: [
       {
-        name: "Soldier",
+        name: "Scholar Cowl",
         image: "T3_HEAD_CLOTH_SET1",
         items: [
           { id: "T8_HEAD_CLOTH_SET1", name: "Scholar Cowl" },
@@ -17,7 +17,7 @@ const gearOptions = {
         ],
       },
       {
-        name: "Hunter",
+        name: "Mercenary Hood",
         image: "T3_HEAD_LEATHER_SET1",
         items: [
           { id: "T8_HEAD_LEATHER_SET1", name: "Mercenary Hood" },
@@ -32,7 +32,7 @@ const gearOptions = {
         ],
       },
       {
-        name: "Mage",
+        name: "Guardian Helmet",
         image: "T3_HEAD_PLATE_SET1",
         items: [
           { id: "T8_HEAD_PLATE_SET1", name: "Guardian Helmet" },
@@ -211,7 +211,7 @@ const gearOptions = {
   armor: {
     categories: [
       {
-        name: "Cloth",
+        name: "Scholar Robe",
         image: "T3_ARMOR_CLOTH_SET1",
         items: [
           { id: "T8_ARMOR_CLOTH_SET1", name: "Scholar Robe" },
@@ -226,7 +226,7 @@ const gearOptions = {
         ],
       },
       {
-        name: "Leather",
+        name: "Mercenary Jacket",
         image: "T3_ARMOR_LEATHER_SET1",
         items: [
           { id: "T8_ARMOR_LEATHER_SET1", name: "Mercenary Jacket" },
@@ -241,7 +241,7 @@ const gearOptions = {
         ],
       },
       {
-        name: "Plate",
+        name: "Soldier Armor",
         image: "T3_ARMOR_PLATE_SET1",
         items: [
           { id: "T8_ARMOR_PLATE_SET1", name: "Soldier Armor" },
@@ -261,7 +261,7 @@ const gearOptions = {
   right: {
     categories: [
       {
-        name: "Book",
+        name: "Tome of Spells",
         image: "T3_OFF_BOOK",
         items: [
           { id: "T8_OFF_BOOK", name: "Tome of Spells" },
@@ -299,7 +299,7 @@ const gearOptions = {
   boots: {
     categories: [
       {
-        name: "Boots",
+        name: "Scholar Sandals",
         image: "T3_SHOES_CLOTH_SET1",
         items: [
           { id: "T8_SHOES_CLOTH_SET1", name: "Scholar Sandals" },
@@ -314,7 +314,7 @@ const gearOptions = {
         ],
       },
       {
-        name: "boots",
+        name: "Hunter Shoes",
         image: "T3_SHOES_LEATHER_SET1",
         items: [
           { id: "T8_SHOES_LEATHER_SET1", name: "Hunter Shoes" },
@@ -330,7 +330,7 @@ const gearOptions = {
         ],
       },
       {
-        name: "boots",
+        name: "Soldier Boots",
         image: "T3_SHOES_PLATE_SET1",
         items: [
           { id: "T8_SHOES_PLATE_SET1", name: "Soldier Boots" },
@@ -349,265 +349,681 @@ const gearOptions = {
   offhand: {
     categories: [
       {
-        name: "Jednoruční meče",
+        name: "Fire staff",
         image: "T2_MAIN_FIRESTAFF",
         subcategories: [
           {
-            name: "Krátké meče",
+            name: "Fire staff",
             image: "T3_MAIN_FIRESTAFF",
             items: [
               {
                 id: "T8_MAIN_FIRESTAFF",
                 twoHanded: false,
-                name: "Scholar Cowl",
+                name: "Fire Staff",
               },
-              { id: "T8_2H_FIRESTAFF", twoHanded: true, name: "Scholar Cowl" },
+              {
+                id: "T8_2H_FIRESTAFF",
+                twoHanded: true,
+                name: "Great Fire Staff",
+              },
               {
                 id: "T8_2H_INFERNOSTAFF",
                 twoHanded: true,
-                name: "Scholar Cowl",
+                name: "Infernal Staff",
               },
-              { id: "T8_MAIN_FIRESTAFF_KEEPER", twoHanded: false },
-              { id: "T8_2H_FIRESTAFF_HELL", twoHanded: true },
-              { id: "T8_2H_INFERNOSTAFF_MORGANA", twoHanded: true },
-              { id: "T8_2H_FIRE_RINGPAIR_AVALON", twoHanded: true },
-              { id: "T8_MAIN_FIRESTAFF_CRYSTAL", twoHanded: false },
+              {
+                id: "T8_MAIN_FIRESTAFF_KEEPER",
+                twoHanded: false,
+                name: "Wildfire Staff",
+              },
+              {
+                id: "T8_2H_FIRESTAFF_HELL",
+                twoHanded: true,
+                name: "Brimstone Staff",
+              },
+              {
+                id: "T8_2H_INFERNOSTAFF_MORGANA",
+                twoHanded: true,
+                name: "Damnation Staff",
+              },
+              {
+                id: "T8_2H_FIRE_RINGPAIR_AVALON",
+                twoHanded: true,
+                name: "Blazing Staff",
+              },
+              {
+                id: "T8_MAIN_FIRESTAFF_CRYSTAL",
+                twoHanded: false,
+                name: "Crystal Staff",
+              },
             ],
           },
           {
             name: "Fighter Hoods",
             image: "T3_MAIN_HOLYSTAFF",
             items: [
-              { id: "T8_MAIN_HOLYSTAFF", twoHanded: false },
-              { id: "T8_2H_HOLYSTAFF", twoHanded: true },
-              { id: "T8_2H_DIVINESTAFF", twoHanded: true },
-              { id: "T8_MAIN_HOLYSTAFF_MORGANA", twoHanded: false },
-              { id: "T8_2H_HOLYSTAFF_HELL", twoHanded: true },
-              { id: "T8_2H_HOLYSTAFF_UNDEAD", twoHanded: true },
-              { id: "T8_MAIN_HOLYSTAFF_AVALON", twoHanded: false },
-              { id: "T8_2H_HOLYSTAFF_CRYSTAL", twoHanded: true },
+              { id: "T8_MAIN_HOLYSTAFF", twoHanded: false, name: "Holy Staff" },
+              {
+                id: "T8_2H_HOLYSTAFF",
+                twoHanded: true,
+                name: "Great Holy Staff",
+              },
+              {
+                id: "T8_2H_DIVINESTAFF",
+                twoHanded: true,
+                name: "Divine Staff",
+              },
+              {
+                id: "T8_MAIN_HOLYSTAFF_MORGANA",
+                twoHanded: false,
+                name: "Lifetouch Staff",
+              },
+              {
+                id: "T8_2H_HOLYSTAFF_HELL",
+                twoHanded: true,
+                name: "Fallen Staff",
+              },
+              {
+                id: "T8_2H_HOLYSTAFF_UNDEAD",
+                twoHanded: true,
+                name: "Redemption Staff",
+              },
+              {
+                id: "T8_MAIN_HOLYSTAFF_AVALON",
+                twoHanded: false,
+                name: "Hallowfall",
+              },
+              {
+                id: "T8_2H_HOLYSTAFF_CRYSTAL",
+                twoHanded: true,
+                name: "Crystal Holy Staff",
+              },
             ],
           },
           {
-            name: "Rapíry",
+            name: "Arcane Staff",
             image: "T3_MAIN_ARCANESTAFF",
             items: [
-              { id: "T8_MAIN_ARCANESTAFF", twoHanded: false },
-              { id: "T8_2H_ARCANESTAFF", twoHanded: true },
-              { id: "T8_2H_ENIGMATICSTAFF", twoHanded: true },
-              { id: "T8_MAIN_ARCANESTAFF_UNDEAD", twoHanded: false },
-              { id: "T8_2H_ARCANESTAFF_HELL", twoHanded: true },
-              { id: "T8_2H_ENIGMATICORB_MORGANA", twoHanded: true },
-              { id: "T8_2H_ARCANE_RINGPAIR_AVALON", twoHanded: true },
-              { id: "T8_2H_ARCANESTAFF_CRYSTAL", twoHanded: true },
+              {
+                id: "T8_MAIN_ARCANESTAFF",
+                twoHanded: false,
+                name: "Arcane Staff",
+              },
+              {
+                id: "T8_2H_ARCANESTAFF",
+                twoHanded: true,
+                name: "Great Arcane Staff",
+              },
+              {
+                id: "T8_2H_ENIGMATICSTAFF",
+                twoHanded: true,
+                name: "Enigmatic Staff",
+              },
+              {
+                id: "T8_MAIN_ARCANESTAFF_UNDEAD",
+                twoHanded: false,
+                name: "Witchwork Staff",
+              },
+              {
+                id: "T8_2H_ARCANESTAFF_HELL",
+                twoHanded: true,
+                name: "Occult Staff",
+              },
+              {
+                id: "T8_2H_ENIGMATICORB_MORGANA",
+                twoHanded: true,
+                name: "Malevolent Locus",
+              },
+              {
+                id: "T8_2H_ARCANE_RINGPAIR_AVALON",
+                twoHanded: true,
+                name: "Evensong",
+              },
+              {
+                id: "T8_2H_ARCANESTAFF_CRYSTAL",
+                twoHanded: true,
+                name: "Crystal Arcane Staff",
+              },
             ],
           },
           {
-            name: "Meče s efektem",
+            name: "Frost Staff",
             image: "T3_MAIN_FROSTSTAFF",
             items: [
-              { id: "T8_MAIN_FROSTSTAFF", twoHanded: false },
-              { id: "T8_2H_FROSTSTAFF", twoHanded: true },
-              { id: "T8_2H_GLACIALSTAFF", twoHanded: true },
-              { id: "T8_MAIN_FROSTSTAFF_KEEPER", twoHanded: false },
-              { id: "T8_2H_ICEGAUNTLETS_HELL", twoHanded: true },
-              { id: "T8_2H_ICECRYSTAL_UNDEAD", twoHanded: true },
-              { id: "T8_MAIN_FROSTSTAFF_AVALON", twoHanded: false },
-              { id: "T8_2H_FROSTSTAFF_CRYSTAL", twoHanded: true },
+              {
+                id: "T8_MAIN_FROSTSTAFF",
+                twoHanded: false,
+                name: "Frost Staff",
+              },
+              {
+                id: "T8_2H_FROSTSTAFF",
+                twoHanded: true,
+                name: "Great Frost Staff",
+              },
+              {
+                id: "T8_2H_GLACIALSTAFF",
+                twoHanded: true,
+                name: "Glacial Staff",
+              },
+              {
+                id: "T8_MAIN_FROSTSTAFF_KEEPER",
+                twoHanded: false,
+                name: "Hoarfrost Staff",
+              },
+              {
+                id: "T8_2H_ICEGAUNTLETS_HELL",
+                twoHanded: true,
+                name: "Icicle Staff",
+              },
+              {
+                id: "T8_2H_ICECRYSTAL_UNDEAD",
+                twoHanded: true,
+                name: "Permafrost Prism",
+              },
+              {
+                id: "T8_MAIN_FROSTSTAFF_AVALON",
+                twoHanded: false,
+                name: "Chillhowl",
+              },
+              {
+                id: "T8_2H_FROSTSTAFF_CRYSTAL",
+                twoHanded: true,
+                name: "Crystal Frost Staff",
+              },
             ],
           },
           {
-            name: "Artefakty",
+            name: "Cursed Staff",
             image: "T3_MAIN_CURSEDSTAFF",
             items: [
-              { id: "T8_MAIN_CURSEDSTAFF", twoHanded: false },
-              { id: "T8_2H_CURSEDSTAFF", twoHanded: true },
-              { id: "T8_2H_DEMONICSTAFF", twoHanded: true },
-              { id: "T8_MAIN_CURSEDSTAFF_UNDEAD", twoHanded: false },
-              { id: "T8_2H_SKULLORB_HELL", twoHanded: true },
-              { id: "T8_2H_CURSEDSTAFF_MORGANA", twoHanded: true },
-              { id: "T8_MAIN_CURSEDSTAFF_AVALON", twoHanded: false },
-              { id: "T8_MAIN_CURSEDSTAFF_CRYSTAL", twoHanded: false },
+              {
+                id: "T8_MAIN_CURSEDSTAFF",
+                twoHanded: false,
+                name: "Cursed Staff",
+              },
+              {
+                id: "T8_2H_CURSEDSTAFF",
+                twoHanded: true,
+                name: "Great Cursed Staff",
+              },
+              {
+                id: "T8_2H_DEMONICSTAFF",
+                twoHanded: true,
+                name: "Demonic Staff",
+              },
+              {
+                id: "T8_MAIN_CURSEDSTAFF_UNDEAD",
+                twoHanded: false,
+                name: "Lifecurse Staff",
+              },
+              {
+                id: "T8_2H_SKULLORB_HELL",
+                twoHanded: true,
+                name: "Cursed Skull",
+              },
+              {
+                id: "T8_2H_CURSEDSTAFF_MORGANA",
+                twoHanded: true,
+                name: "Damnation Staff",
+              },
+              {
+                id: "T8_MAIN_CURSEDSTAFF_AVALON",
+                twoHanded: false,
+                name: "Shadowcaller",
+              },
+              {
+                id: "T8_MAIN_CURSEDSTAFF_CRYSTAL",
+                twoHanded: false,
+                name: "Crystal Cursed Staff",
+              },
             ],
           },
         ],
       },
       {
-        name: "Magické off-handy",
+        name: "Bow",
         image: "T2_2H_BOW",
         subcategories: [
           {
-            name: "Knihy",
-            image: "T3_2H_BOW",
+            name: "Bows",
+            image: "Bow",
             items: [
-              { id: "T8_2H_BOW", twoHanded: true },
-              { id: "T8_2H_WARBOW", twoHanded: true },
-              { id: "T8_2H_LONGBOW", twoHanded: true },
-              { id: "T8_2H_LONGBOW_UNDEAD", twoHanded: true },
-              { id: "T8_2H_BOW_HELL", twoHanded: true },
-              { id: "T8_2H_BOW_KEEPER", twoHanded: true },
-              { id: "T8_2H_BOW_AVALON", twoHanded: true },
-              { id: "T8_2H_BOW_CRYSTAL", twoHanded: true },
+              { id: "T8_2H_BOW", twoHanded: true, name: "Bow" },
+              { id: "T8_2H_WARBOW", twoHanded: true, name: "Warbow" },
+              { id: "T8_2H_LONGBOW", twoHanded: true, name: "Longbow" },
+              {
+                id: "T8_2H_LONGBOW_UNDEAD",
+                twoHanded: true,
+                name: "Whispering Bow",
+              },
+              { id: "T8_2H_BOW_HELL", twoHanded: true, name: "Wailing Bow" },
+              { id: "T8_2H_BOW_KEEPER", twoHanded: true, name: "Bow of Badon" },
+              { id: "T8_2H_BOW_AVALON", twoHanded: true, name: "Mistpiercer" },
+              { id: "T8_2H_BOW_CRYSTAL", twoHanded: true, name: "Crystal Bow" },
             ],
           },
           {
-            name: "Orby",
+            name: "Daggers",
             image: "T3_MAIN_DAGGER",
             items: [
-              { id: "T8_MAIN_DAGGER", twoHanded: false },
-              { id: "T8_2H_DAGGERPAIR", twoHanded: true },
-              { id: "T8_2H_CLAWPAIR", twoHanded: true },
-              { id: "T8_MAIN_RAPIER_MORGANA", twoHanded: false },
-              { id: "T8_MAIN_DAGGER_HELL", twoHanded: false },
-              { id: "T8_2H_DUALSICKLE_UNDEAD", twoHanded: true },
-              { id: "T8_2H_DAGGER_KATAR_AVALON", twoHanded: true },
-              { id: "T8_2H_DAGGERPAIR_CRYSTAL", twoHanded: true },
+              { id: "T8_MAIN_DAGGER", twoHanded: false, name: "Dagger" },
+              { id: "T8_2H_DAGGERPAIR", twoHanded: true, name: "Dagger Pair" },
+              { id: "T8_2H_CLAWPAIR", twoHanded: true, name: "Claws" },
+              {
+                id: "T8_MAIN_RAPIER_MORGANA",
+                twoHanded: false,
+                name: "Bloodletter",
+              },
+              {
+                id: "T8_MAIN_DAGGER_HELL",
+                twoHanded: false,
+                name: "Bridled Fury",
+              },
+              {
+                id: "T8_2H_DUALSICKLE_UNDEAD",
+                twoHanded: true,
+                name: "Deathgivers",
+              },
+              {
+                id: "T8_2H_DAGGER_KATAR_AVALON",
+                twoHanded: true,
+                name: "Demonfang",
+              },
+              {
+                id: "T8_2H_DAGGERPAIR_CRYSTAL",
+                twoHanded: true,
+                name: "Crystal Daggers",
+              },
             ],
           },
           {
-            name: "Orby",
+            name: "Spears",
             image: "T3_MAIN_SPEAR",
             items: [
-              { id: "T8_MAIN_SPEAR", twoHanded: false },
-              { id: "T8_2H_SPEAR", twoHanded: true },
-              { id: "T8_2H_GLAIVE", twoHanded: true },
-              { id: "T8_MAIN_SPEAR_KEEPER", twoHanded: false },
-              { id: "T8_2H_HARPOON_HELL", twoHanded: true },
-              { id: "T8_2H_TRIDENT_UNDEAD", twoHanded: true },
-              { id: "T8_MAIN_SPEAR_LANCE_AVALON", twoHanded: false },
-              { id: "T8_2H_GLAIVE_CRYSTAL", twoHanded: true },
+              { id: "T8_MAIN_SPEAR", twoHanded: false, name: "Spear" },
+              { id: "T8_2H_SPEAR", twoHanded: true, name: "Pike" },
+              { id: "T8_2H_GLAIVE", twoHanded: true, name: "Glaive" },
+              {
+                id: "T8_MAIN_SPEAR_KEEPER",
+                twoHanded: false,
+                name: "Heron Spear",
+              },
+              {
+                id: "T8_2H_HARPOON_HELL",
+                twoHanded: true,
+                name: "Spirithunter",
+              },
+              {
+                id: "T8_2H_TRIDENT_UNDEAD",
+                twoHanded: true,
+                name: "Trinity Spear",
+              },
+              {
+                id: "T8_MAIN_SPEAR_LANCE_AVALON",
+                twoHanded: false,
+                name: "Daybreaker",
+              },
+              {
+                id: "T8_2H_GLAIVE_CRYSTAL",
+                twoHanded: true,
+                name: "Crystal Glaive",
+              },
             ],
           },
           {
-            name: "Orby",
+            name: "Quarterstaff",
             image: "T3_2H_QUARTERSTAFF",
             items: [
-              { id: "T8_2H_QUARTERSTAFF", twoHanded: true },
-              { id: "T8_2H_IRONCLADEDSTAFF", twoHanded: true },
-              { id: "T8_2H_DOUBLEBLADEDSTAFF", twoHanded: true },
-              { id: "T8_2H_COMBATSTAFF_MORGANA", twoHanded: true },
-              { id: "T8_2H_TWINSCYTHE_HELL", twoHanded: true },
-              { id: "T8_2H_ROCKSTAFF_KEEPER", twoHanded: true },
-              { id: "T8_2H_QUARTERSTAFF_AVALON", twoHanded: true },
-              { id: "T8_2H_DOUBLEBLADEDSTAFF_CRYSTAL", twoHanded: true },
+              {
+                id: "T8_2H_QUARTERSTAFF",
+                twoHanded: true,
+                name: "Quarterstaff",
+              },
+              {
+                id: "T8_2H_IRONCLADEDSTAFF",
+                twoHanded: true,
+                name: "Iron-Clad Staff",
+              },
+              {
+                id: "T8_2H_DOUBLEBLADEDSTAFF",
+                twoHanded: true,
+                name: "Double Bladed Staff",
+              },
+              {
+                id: "T8_2H_COMBATSTAFF_MORGANA",
+                twoHanded: true,
+                name: "Black Monk Staff",
+              },
+              {
+                id: "T8_2H_TWINSCYTHE_HELL",
+                twoHanded: true,
+                name: "Soulscythe",
+              },
+              {
+                id: "T8_2H_ROCKSTAFF_KEEPER",
+                twoHanded: true,
+                name: "Staff of Balance",
+              },
+              {
+                id: "T8_2H_QUARTERSTAFF_AVALON",
+                twoHanded: true,
+                name: "Grailseeker",
+              },
+              {
+                id: "T8_2H_DOUBLEBLADEDSTAFF_CRYSTAL",
+                twoHanded: true,
+                name: "Crystal Double Bladed Staff",
+              },
             ],
           },
           {
-            name: "Orby",
+            name: "Prowling Staff",
             image: "T8_2H_SHAPESHIFTER_SET1",
             items: [
-              { id: "T8_2H_SHAPESHIFTER_SET1", twoHanded: true },
-              { id: "T8_2H_SHAPESHIFTER_SET2", twoHanded: true },
-              { id: "T8_2H_SHAPESHIFTER_SET3", twoHanded: true },
-              { id: "T8_2H_SHAPESHIFTER_MORGANA", twoHanded: true },
-              { id: "T8_2H_SHAPESHIFTER_HELL", twoHanded: true },
-              { id: "T8_2H_SHAPESHIFTER_KEEPER", twoHanded: true },
-              { id: "T8_2H_SHAPESHIFTER_AVALON", twoHanded: true },
-              { id: "T8_2H_SHAPESHIFTER_CRYSTAL", twoHanded: true },
+              {
+                id: "T8_2H_SHAPESHIFTER_SET1",
+                twoHanded: true,
+                name: "Primal Staff",
+              },
+              {
+                id: "T8_2H_SHAPESHIFTER_SET2",
+                twoHanded: true,
+                name: "Savage Staff",
+              },
+              {
+                id: "T8_2H_SHAPESHIFTER_SET3",
+                twoHanded: true,
+                name: "Bestial Staff",
+              },
+              {
+                id: "T8_2H_SHAPESHIFTER_MORGANA",
+                twoHanded: true,
+                name: "Abyssal Staff",
+              },
+              {
+                id: "T8_2H_SHAPESHIFTER_HELL",
+                twoHanded: true,
+                name: "Infernal Shifter Staff",
+              },
+              {
+                id: "T8_2H_SHAPESHIFTER_KEEPER",
+                twoHanded: true,
+                name: "Verdant Staff",
+              },
+              {
+                id: "T8_2H_SHAPESHIFTER_AVALON",
+                twoHanded: true,
+                name: "Dawn Shifter Staff",
+              },
+              {
+                id: "T8_2H_SHAPESHIFTER_CRYSTAL",
+                twoHanded: true,
+                name: "Crystal Shapeshifter Staff",
+              },
             ],
           },
           {
-            name: "Orby",
+            name: "Nature Staff",
             image: "T3_MAIN_NATURESTAFF",
             items: [
-              { id: "T8_MAIN_NATURESTAFF", twoHanded: false },
-              { id: "T8_2H_NATURESTAFF", twoHanded: true },
-              { id: "T8_2H_WILDSTAFF", twoHanded: true },
-              { id: "T8_MAIN_NATURESTAFF_KEEPER", twoHanded: false },
-              { id: "T8_2H_NATURESTAFF_HELL", twoHanded: true },
-              { id: "T8_2H_NATURESTAFF_KEEPER", twoHanded: true },
-              { id: "T8_MAIN_NATURESTAFF_AVALON", twoHanded: false },
-              { id: "T8_MAIN_NATURESTAFF_CRYSTAL", twoHanded: false },
+              {
+                id: "T8_MAIN_NATURESTAFF",
+                twoHanded: false,
+                name: "Nature Staff",
+              },
+              {
+                id: "T8_2H_NATURESTAFF",
+                twoHanded: true,
+                name: "Great Nature Staff",
+              },
+              { id: "T8_2H_WILDSTAFF", twoHanded: true, name: "Wild Staff" },
+              {
+                id: "T8_MAIN_NATURESTAFF_KEEPER",
+                twoHanded: false,
+                name: "Druidic Staff",
+              },
+              {
+                id: "T8_2H_NATURESTAFF_HELL",
+                twoHanded: true,
+                name: "Blight Staff",
+              },
+              {
+                id: "T8_2H_NATURESTAFF_KEEPER",
+                twoHanded: true,
+                name: "Rampant Staff",
+              },
+              {
+                id: "T8_MAIN_NATURESTAFF_AVALON",
+                twoHanded: false,
+                name: "Ironroot Staff",
+              },
+              {
+                id: "T8_MAIN_NATURESTAFF_CRYSTAL",
+                twoHanded: false,
+                name: "Crystal Nature Staff",
+              },
             ],
           },
         ],
       },
       {
-        name: "Dvouruční hole",
+        name: "Broadsword",
         image: "T2_MAIN_SWORD",
         subcategories: [
           {
-            name: "Ohnivé hole",
+            name: "Swords",
             image: "T3_MAIN_SWORD",
             items: [
-              { id: "T8_MAIN_SWORD", twoHanded: false },
-              { id: "T8_2H_CLAYMORE", twoHanded: true },
-              { id: "T8_2H_DUALSWORD", twoHanded: true },
-              { id: "T8_MAIN_SCIMITAR_MORGANA", twoHanded: false },
-              { id: "T8_2H_CLEAVER_HELL", twoHanded: true },
-              { id: "T8_2H_DUALSCIMITAR_UNDEAD", twoHanded: true },
-              { id: "T8_2H_CLAYMORE_AVALON", twoHanded: true },
-              { id: "T8_MAIN_SWORD_CRYSTAL", twoHanded: false },
+              { id: "T8_MAIN_SWORD", twoHanded: false, name: "Broadsword" },
+              { id: "T8_2H_CLAYMORE", twoHanded: true, name: "Claymore" },
+              { id: "T8_2H_DUALSWORD", twoHanded: true, name: "Dual Swords" },
+              {
+                id: "T8_MAIN_SCIMITAR_MORGANA",
+                twoHanded: false,
+                name: "Clarent Blade",
+              },
+              {
+                id: "T8_2H_CLEAVER_HELL",
+                twoHanded: true,
+                name: "Carving Sword",
+              },
+              {
+                id: "T8_2H_DUALSCIMITAR_UNDEAD",
+                twoHanded: true,
+                name: "Kingmaker",
+              },
+              {
+                id: "T8_2H_CLAYMORE_AVALON",
+                twoHanded: true,
+                name: "Galatine Pair",
+              },
+              {
+                id: "T8_MAIN_SWORD_CRYSTAL",
+                twoHanded: false,
+                name: "Crystal Sword",
+              },
             ],
           },
           {
-            name: "Přírodní hole",
+            name: "Battleaxe",
             image: "T3_MAIN_AXE",
             items: [
-              { id: "T8_MAIN_AXE", twoHanded: false },
-              { id: "T8_2H_AXE", twoHanded: true },
-              { id: "T8_2H_HALBERD", twoHanded: true },
-              { id: "T8_2H_HALBERD_MORGANA", twoHanded: true },
-              { id: "T8_2H_SCYTHE_HELL", twoHanded: true },
-              { id: "T8_2H_DUALAXE_KEEPER", twoHanded: true },
-              { id: "T8_2H_AXE_AVALON", twoHanded: true },
-              { id: "T8_2H_SCYTHE_CRYSTAL", twoHanded: true },
+              { id: "T8_MAIN_AXE", twoHanded: false, name: "Battleaxe" },
+              { id: "T8_2H_AXE", twoHanded: true, name: "Greataxe" },
+              { id: "T8_2H_HALBERD", twoHanded: true, name: "Halberd" },
+              {
+                id: "T8_2H_HALBERD_MORGANA",
+                twoHanded: true,
+                name: "Carrioncaller",
+              },
+              {
+                id: "T8_2H_SCYTHE_HELL",
+                twoHanded: true,
+                name: "Infernal Scythe",
+              },
+              {
+                id: "T8_2H_DUALAXE_KEEPER",
+                twoHanded: true,
+                name: "Bear Paws",
+              },
+              { id: "T8_2H_AXE_AVALON", twoHanded: true, name: "Realmbreaker" },
+              {
+                id: "T8_2H_SCYTHE_CRYSTAL",
+                twoHanded: true,
+                name: "Crystal Scythe",
+              },
             ],
           },
           {
-            name: "Svaté hole",
+            name: "Mace",
             image: "T3_MAIN_MACE",
             items: [
-              { id: "T8_MAIN_MACE", twoHanded: false },
-              { id: "T8_2H_MACE", twoHanded: true },
-              { id: "T8_2H_FLAIL", twoHanded: true },
-              { id: "T8_MAIN_ROCKMACE_KEEPER", twoHanded: false },
-              { id: "T8_MAIN_MACE_HELL", twoHanded: false },
-              { id: "T8_2H_MACE_MORGANA", twoHanded: true },
-              { id: "T8_2H_DUALMACE_AVALON", twoHanded: true },
-              { id: "T8_MAIN_MACE_CRYSTAL", twoHanded: false },
+              { id: "T8_MAIN_MACE", twoHanded: false, name: "Mace" },
+              { id: "T8_2H_MACE", twoHanded: true, name: "Heavy Mace" },
+              { id: "T8_2H_FLAIL", twoHanded: true, name: "Morning Star" },
+              {
+                id: "T8_MAIN_ROCKMACE_KEEPER",
+                twoHanded: false,
+                name: "Bedrock Mace",
+              },
+              {
+                id: "T8_MAIN_MACE_HELL",
+                twoHanded: false,
+                name: "Incubus Mace",
+              },
+              {
+                id: "T8_2H_MACE_MORGANA",
+                twoHanded: true,
+                name: "Camlann Mace",
+              },
+              {
+                id: "T8_2H_DUALMACE_AVALON",
+                twoHanded: true,
+                name: "Oathkeepers",
+              },
+              {
+                id: "T8_MAIN_MACE_CRYSTAL",
+                twoHanded: false,
+                name: "Crystal Mace",
+              },
             ],
           },
           {
-            name: "Temné hole",
+            name: "Hammer",
             image: "T3_MAIN_HAMMER",
             items: [
-              { id: "T8_MAIN_HAMMER", twoHanded: false },
-              { id: "T8_2H_POLEHAMMER", twoHanded: true },
-              { id: "T8_2H_HAMMER", twoHanded: true },
-              { id: "T8_2H_HAMMER_UNDEAD", twoHanded: true },
-              { id: "T8_2H_DUALHAMMER_HELL", twoHanded: true },
-              { id: "T8_2H_RAM_KEEPER", twoHanded: true },
-              { id: "T8_2H_HAMMER_AVALON", twoHanded: true },
-              { id: "T8_2H_HAMMER_CRYSTAL", twoHanded: true },
+              { id: "T8_MAIN_HAMMER", twoHanded: false, name: "Hammer" },
+              { id: "T8_2H_POLEHAMMER", twoHanded: true, name: "Polehammer" },
+              { id: "T8_2H_HAMMER", twoHanded: true, name: "Great Hammer" },
+              {
+                id: "T8_2H_HAMMER_UNDEAD",
+                twoHanded: true,
+                name: "Tombhammer",
+              },
+              {
+                id: "T8_2H_DUALHAMMER_HELL",
+                twoHanded: true,
+                name: "Forge Hammers",
+              },
+              { id: "T8_2H_RAM_KEEPER", twoHanded: true, name: "Grovekeeper" },
+              {
+                id: "T8_2H_HAMMER_AVALON",
+                twoHanded: true,
+                name: "Judicator Hammer",
+              },
+              {
+                id: "T8_2H_HAMMER_CRYSTAL",
+                twoHanded: true,
+                name: "Crystal Hammer",
+              },
             ],
           },
           {
-            name: "Artefakty",
+            name: "Brawler Gloves",
             image: "T3_2H_KNUCKLES_SET1",
             items: [
-              { id: "T8_2H_KNUCKLES_SET1", twoHanded: true },
-              { id: "T8_2H_KNUCKLES_SET2", twoHanded: true },
-              { id: "T8_2H_KNUCKLES_SET3", twoHanded: true },
-              { id: "T8_2H_KNUCKLES_KEEPER", twoHanded: true },
-              { id: "T8_2H_KNUCKLES_HELL", twoHanded: true },
-              { id: "T8_2H_KNUCKLES_MORGANA", twoHanded: true },
-              { id: "T8_2H_KNUCKLES_AVALON", twoHanded: true },
-              { id: "T8_2H_KNUCKLES_CRYSTAL", twoHanded: true },
+              {
+                id: "T8_2H_KNUCKLES_SET1",
+                twoHanded: true,
+                name: "Battle Bracers",
+              },
+              {
+                id: "T8_2H_KNUCKLES_SET2",
+                twoHanded: true,
+                name: "Spiked Gauntlets",
+              },
+              {
+                id: "T8_2H_KNUCKLES_SET3",
+                twoHanded: true,
+                name: "Ursine Maulers",
+              },
+              {
+                id: "T8_2H_KNUCKLES_KEEPER",
+                twoHanded: true,
+                name: "Iron Breakers",
+              },
+              {
+                id: "T8_2H_KNUCKLES_HELL",
+                twoHanded: true,
+                name: "Hellfire Hands",
+              },
+              {
+                id: "T8_2H_KNUCKLES_MORGANA",
+                twoHanded: true,
+                name: "Deadgivers' Fists",
+              },
+              {
+                id: "T8_2H_KNUCKLES_AVALON",
+                twoHanded: true,
+                name: "Raging Fists",
+              },
+              {
+                id: "T8_2H_KNUCKLES_CRYSTAL",
+                twoHanded: true,
+                name: "Crystal Knuckles",
+              },
             ],
           },
           {
-            name: "Artefakty",
+            name: "Crossbow",
             image: "T3_2H_CROSSBOW",
             items: [
-              { id: "T8_2H_CROSSBOW", twoHanded: true },
-              { id: "T8_2H_CROSSBOWLARGE", twoHanded: true },
-              { id: "T8_MAIN_1HCROSSBOW", twoHanded: false },
-              { id: "T8_2H_REPEATINGCROSSBOW_UNDEAD", twoHanded: true },
-              { id: "T8_2H_DUALCROSSBOW_HELL", twoHanded: true },
-              { id: "T8_2H_CROSSBOWLARGE_MORGANA", twoHanded: true },
-              { id: "T8_2H_CROSSBOW_CANNON_AVALON", twoHanded: true },
-              { id: "T8_2H_DUALCROSSBOW_CRYSTAL", twoHanded: true },
+              { id: "T8_2H_CROSSBOW", twoHanded: true, name: "Crossbow" },
+              {
+                id: "T8_2H_CROSSBOWLARGE",
+                twoHanded: true,
+                name: "Heavy Crossbow",
+              },
+              {
+                id: "T8_MAIN_1HCROSSBOW",
+                twoHanded: false,
+                name: "Light Crossbow",
+              },
+              {
+                id: "T8_2H_REPEATINGCROSSBOW_UNDEAD",
+                twoHanded: true,
+                name: "Weeping Repeater",
+              },
+              {
+                id: "T8_2H_DUALCROSSBOW_HELL",
+                twoHanded: true,
+                name: "Boltcasters",
+              },
+              {
+                id: "T8_2H_CROSSBOWLARGE_MORGANA",
+                twoHanded: true,
+                name: "Siegebow",
+              },
+              {
+                id: "T8_2H_CROSSBOW_CANNON_AVALON",
+                twoHanded: true,
+                name: "Energy Shaper",
+              },
+              {
+                id: "T8_2H_DUALCROSSBOW_CRYSTAL",
+                twoHanded: true,
+                name: "Crystal Crossbows",
+              },
             ],
           },
         ],
