@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import spellIcons from "./spellIcons";
 import gearOptions from "./gearOptions";
 import spellDB from "./spellDB";
+import Tooltip from "./Tooltip";
 
 const slotTypes = {
   0: "helmet",
@@ -312,6 +313,7 @@ function MainContent() {
 
     setBuilds(updated);
     setIsModalOpen(false);
+    setSpellDropdown(null);
   };
 
   const handleSpellSelect = (
@@ -400,17 +402,22 @@ function MainContent() {
                   >
                     {slot ? (
                       <>
-                        <img
-                          src={slot}
-                          alt="item"
-                          title={
+                        <Tooltip
+                          content={
                             builds[buildIndex].selectedItemDetails.find(
                               (item) => item.slot === slotIndex
                             )?.name || "Item"
                           }
-                          className="max-h-full max-w-full cursor-pointer"
-                          onClick={() => handleSlotClick(buildIndex, slotIndex)}
-                        />
+                        >
+                          <img
+                            src={slot}
+                            alt="item"
+                            className="max-h-full max-w-full cursor-pointer"
+                            onClick={() =>
+                              handleSlotClick(buildIndex, slotIndex)
+                            }
+                          />
+                        </Tooltip>
                         <button
                           onClick={() =>
                             handleRemoveImage(buildIndex, slotIndex)
@@ -470,6 +477,18 @@ function MainContent() {
                       {/* Items with spells */}
                       {withSpells.map((item, i) => (
                         <div key={i} className="flex items-center gap-2 mb-3">
+
+                          <Tooltip content={item.name || item.id}>
+                            <img
+                              src={getImageUrlFromId(item.id)}
+                              alt={item.name || item.id}
+                              title={item.name || item.id}
+                              className="w-16 h-16"
+                            />
+                          </Tooltip>
+                          {/* Active spell */}
+                          <div className="relative">
+
                           <img
                             src={getImageUrlFromId(item.id)}
                             alt={item.name || item.id}
@@ -477,24 +496,28 @@ function MainContent() {
                             className="w-16 h-16"
                           />
                           <div className="relative flex gap-2">
+
                             {/* Active Spells (multiple slots) */}
                             {item.activeSpells?.map((selected, idx) => (
                               <div key={`active-${idx}`} className="relative">
                                 {selected ? (
-                                  <img
-                                    src={selected.icon}
-                                    alt={selected.name}
-                                    title={selected.name}
-                                    className="w-12 h-12 cursor-pointer"
-                                    onClick={() =>
-                                      setSpellDropdown({
-                                        buildIndex,
-                                        slot: item.slot,
-                                        type: "activeSpell",
-                                        index: idx,
-                                      })
-                                    }
-                                  />
+                                  <Tooltip
+                                    content={selected.name || selected.id}
+                                  >
+                                    <img
+                                      src={selected.icon}
+                                      alt={selected.name}
+                                      className="w-12 h-12 cursor-pointer"
+                                      onClick={() =>
+                                        setSpellDropdown({
+                                          buildIndex,
+                                          slot: item.slot,
+                                          type: "activeSpell",
+                                          index: idx,
+                                        })
+                                      }
+                                    />
+                                  </Tooltip>
                                 ) : (
                                   <button
                                     onClick={() =>
@@ -522,22 +545,23 @@ function MainContent() {
                                         "activeSpell",
                                         idx
                                       ).map((spell, i) => (
-                                        <img
-                                          key={i}
-                                          src={spell.icon}
-                                          alt={spell.name}
-                                          title={spell.name}
-                                          className="w-[50px] h-[50px] cursor-pointer hover:scale-110"
-                                          onClick={() =>
-                                            handleSpellSelect(
-                                              buildIndex,
-                                              item.slot,
-                                              "activeSpell",
-                                              spell,
-                                              idx
-                                            )
-                                          }
-                                        />
+                                        <Tooltip content={item.name || item.id}>
+                                          <img
+                                            key={i}
+                                            src={spell.icon}
+                                            alt={spell.name}
+                                            className="w-[50px] h-[50px] cursor-pointer hover:scale-110"
+                                            onClick={() =>
+                                              handleSpellSelect(
+                                                buildIndex,
+                                                item.slot,
+                                                "activeSpell",
+                                                spell,
+                                                idx
+                                              )
+                                            }
+                                          />
+                                        </Tooltip>
                                       ))}
                                     </div>
                                   )}
@@ -550,20 +574,21 @@ function MainContent() {
                             item.passiveSpells.map((selected, idx) => (
                               <div key={idx} className="relative">
                                 {selected ? (
-                                  <img
-                                    src={selected.icon}
-                                    alt={selected.name}
-                                    title={selected.name}
-                                    className="w-12 h-12 cursor-pointer"
-                                    onClick={() =>
-                                      setSpellDropdown({
-                                        buildIndex,
-                                        slot: item.slot,
-                                        type: "passiveSpell",
-                                        index: idx,
-                                      })
-                                    }
-                                  />
+                                  <Tooltip content={item.name || item.id}>
+                                    <img
+                                      src={selected.icon}
+                                      alt={selected.name}
+                                      className="w-12 h-12 cursor-pointer"
+                                      onClick={() =>
+                                        setSpellDropdown({
+                                          buildIndex,
+                                          slot: item.slot,
+                                          type: "passiveSpell",
+                                          index: idx,
+                                        })
+                                      }
+                                    />
+                                  </Tooltip>
                                 ) : (
                                   <button
                                     onClick={() =>
@@ -590,22 +615,23 @@ function MainContent() {
                                         "passiveSpell",
                                         idx
                                       ).map((spell, i) => (
-                                        <img
-                                          key={i}
-                                          src={spell.icon}
-                                          alt={spell.name}
-                                          title={spell.name}
-                                          className="w-[50px] h-[50px] cursor-pointer hover:scale-110"
-                                          onClick={() =>
-                                            handleSpellSelect(
-                                              buildIndex,
-                                              item.slot,
-                                              "passiveSpell",
-                                              spell,
-                                              idx
-                                            )
-                                          }
-                                        />
+                                        <Tooltip content={item.name || item.id}>
+                                          <img
+                                            key={i}
+                                            src={spell.icon}
+                                            alt={spell.name}
+                                            className="w-[50px] h-[50px] cursor-pointer hover:scale-110"
+                                            onClick={() =>
+                                              handleSpellSelect(
+                                                buildIndex,
+                                                item.slot,
+                                                "passiveSpell",
+                                                spell,
+                                                idx
+                                              )
+                                            }
+                                          />
+                                        </Tooltip>
                                       ))}
                                     </div>
                                   )}
@@ -618,13 +644,14 @@ function MainContent() {
                       {withoutSpells.length > 0 && (
                         <div className="flex flex-wrap gap-2 mt-3">
                           {withoutSpells.map((item, i) => (
-                            <img
-                              key={i}
-                              src={getImageUrlFromId(item.id)}
-                              alt="item"
-                              title={item.name || item.id}
-                              className="w-16 h-16"
-                            />
+                            <Tooltip content={item.name || item.id}>
+                              <img
+                                key={i}
+                                src={getImageUrlFromId(item.id)}
+                                alt="item"
+                                className="w-16 h-16"
+                              />
+                            </Tooltip>
                           ))}
                         </div>
                       )}
@@ -687,17 +714,18 @@ function MainContent() {
                           {gearOptions[
                             slotTypes[selectedSlot.slotIndex]
                           ].categories.map((category, i) => (
-                            <img
-                              key={i}
-                              src={getImageUrlFromId(category.image)}
-                              alt={category.name}
-                              title={category.name}
-                              onClick={() => {
-                                setActiveCategory(category);
-                                setActiveSubcategory(null);
-                              }}
-                              className="cursor-pointer max-h-[100px]"
-                            />
+                            <Tooltip content={category.name}>
+                              <img
+                                key={i}
+                                src={getImageUrlFromId(category.image)}
+                                alt={category.name}
+                                onClick={() => {
+                                  setActiveCategory(category);
+                                  setActiveSubcategory(null);
+                                }}
+                                className="cursor-pointer max-h-[100px]"
+                              />
+                            </Tooltip>
                           ))}
                         </div>
                       )}
@@ -706,14 +734,15 @@ function MainContent() {
                       {activeCategory && !activeSubcategory && (
                         <div className="grid grid-cols-3 gap-3 mt-4">
                           {activeCategory.subcategories.map((subcat, i) => (
-                            <img
-                              key={i}
-                              src={getImageUrlFromId(subcat.image)}
-                              alt={subcat.name}
-                              title={subcat.name}
-                              onClick={() => setActiveSubcategory(subcat)}
-                              className="cursor-pointer max-h-[100px]"
-                            />
+                            <Tooltip content={subcat.name || subcat.id}>
+                              <img
+                                key={i}
+                                src={getImageUrlFromId(subcat.image)}
+                                alt={subcat.name}
+                                onClick={() => setActiveSubcategory(subcat)}
+                                className="cursor-pointer max-h-[100px]"
+                              />
+                            </Tooltip>
                           ))}
                         </div>
                       )}
@@ -722,19 +751,20 @@ function MainContent() {
                       {activeSubcategory && (
                         <div className="grid grid-cols-6 gap-2 mt-4">
                           {activeSubcategory.items.map((item) => (
-                            <img
-                              key={item.id}
-                              src={getImageUrlFromId(item.id)}
-                              alt={item.id}
-                              title={item.name || item.id}
-                              onClick={() =>
-                                handleImageSelect(
-                                  getImageUrlFromId(item.id),
-                                  item
-                                )
-                              }
-                              className="cursor-pointer max-h-[100px]"
-                            />
+                            <Tooltip content={item.name || item.id}>
+                              <img
+                                key={item.id}
+                                src={getImageUrlFromId(item.id)}
+                                alt={item.id}
+                                onClick={() =>
+                                  handleImageSelect(
+                                    getImageUrlFromId(item.id),
+                                    item
+                                  )
+                                }
+                                className="cursor-pointer max-h-[100px]"
+                              />
+                            </Tooltip>
                           ))}
                         </div>
                       )}
@@ -747,33 +777,35 @@ function MainContent() {
                           {gearOptions[
                             slotTypes[selectedSlot.slotIndex]
                           ].categories.map((category, i) => (
-                            <img
-                              key={i}
-                              src={getImageUrlFromId(category.image)}
-                              alt={category.name}
-                              title={category.name}
-                              onClick={() => setActiveCategory(category)}
-                              className="cursor-pointer max-h-[100px]"
-                            />
+                            <Tooltip content={category.name || category.id}>
+                              <img
+                                key={i}
+                                src={getImageUrlFromId(category.image)}
+                                alt={category.name}
+                                onClick={() => setActiveCategory(category)}
+                                className="cursor-pointer max-h-[100px]"
+                              />
+                            </Tooltip>
                           ))}
                         </div>
                       )}
                       {activeCategory && (
                         <div className="grid grid-cols-5 gap-2 mt-4">
                           {activeCategory.items.map((item) => (
-                            <img
-                              key={item.id}
-                              src={getImageUrlFromId(item.id)}
-                              alt={item.name}
-                              title={item.name}
-                              onClick={() =>
-                                handleImageSelect(
-                                  getImageUrlFromId(item.id),
-                                  item
-                                )
-                              }
-                              className="cursor-pointer max-h-[100px]"
-                            />
+                            <Tooltip content={item.name || item.id}>
+                              <img
+                                key={item.id}
+                                src={getImageUrlFromId(item.id)}
+                                alt={item.name}
+                                onClick={() =>
+                                  handleImageSelect(
+                                    getImageUrlFromId(item.id),
+                                    item
+                                  )
+                                }
+                                className="cursor-pointer max-h-[100px]"
+                              />
+                            </Tooltip>
                           ))}
                         </div>
                       )}
@@ -789,19 +821,20 @@ function MainContent() {
                               : rawItem;
 
                           return (
-                            <img
-                              key={item.id}
-                              src={getImageUrlFromId(item.id)}
-                              alt={item.name}
-                              title={item.name}
-                              onClick={() =>
-                                handleImageSelect(
-                                  getImageUrlFromId(item.id),
-                                  item
-                                )
-                              }
-                              className="cursor-pointer max-h-[100px]"
-                            />
+                            <Tooltip content={item.name || item.id}>
+                              <img
+                                key={item.id}
+                                src={getImageUrlFromId(item.id)}
+                                alt={item.name}
+                                onClick={() =>
+                                  handleImageSelect(
+                                    getImageUrlFromId(item.id),
+                                    item
+                                  )
+                                }
+                                className="cursor-pointer max-h-[100px]"
+                              />
+                            </Tooltip>
                           );
                         }
                       )}
