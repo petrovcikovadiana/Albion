@@ -450,7 +450,11 @@ function MainContent() {
                           content={
                             builds[buildIndex].selectedItemDetails.find(
                               (item) => item.slot === slotIndex
-                            )?.name || "Item"
+                            )?.name ??
+                            getItemIdFromUrl(
+                              builds[buildIndex].slots[slotIndex]
+                            ) ??
+                            "Item"
                           }
                         >
                           <img
