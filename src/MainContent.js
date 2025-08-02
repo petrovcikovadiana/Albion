@@ -225,35 +225,26 @@ function MainContent() {
 
             // Active spells
             if (Array.isArray(item.activeSpells)) {
-              item.activeSpells.slice(0, activeCount).forEach((spell, idx) => {
+              item.activeSpells.forEach((spell, idx) => {
                 const spellList = getSpellsForItem(item, "activeSpell", idx);
                 const spellIndex = spell
                   ? spellList.findIndex((s) => s.name === spell.name)
                   : -1;
-                parts.push(spellIndex !== -1 ? spellIndex : "null");
+                if (spellIndex !== -1) parts.push(spellIndex);
               });
-            }
-
-            while (parts.length < 2 + activeCount) {
-              parts.push("null");
             }
 
             // Passive spells
             if (Array.isArray(item.passiveSpells)) {
-              item.passiveSpells
-                .slice(0, passiveCount)
-                .forEach((spell, idx) => {
-                  const spellList = getSpellsForItem(item, "passiveSpell", idx);
-                  const spellIndex = spell
-                    ? spellList.findIndex((s) => s.name === spell.name)
-                    : -1;
-                  parts.push(spellIndex !== -1 ? spellIndex : "null");
-                });
+              item.passiveSpells.forEach((spell, idx) => {
+                const spellList = getSpellsForItem(item, "passiveSpell", idx);
+                const spellIndex = spell
+                  ? spellList.findIndex((s) => s.name === spell.name)
+                  : -1;
+                if (spellIndex !== -1) parts.push(spellIndex);
+              });
             }
 
-            while (parts.length > 2 && parts[parts.length - 1] === "null") {
-              parts.pop();
-            }
             return parts.join(":");
           })
           .join(",")
@@ -293,6 +284,9 @@ function MainContent() {
     const { active: activeCount, passive: passiveCount } =
       getSpellSlotCount(itemId);
     const activeSpells = Array(activeCount).fill(null);
+    if (slot === 2 && spellDB[itemId]?.active3?.length === 1) {
+      activeSpells[2] = spellDB[itemId].active3[0];
+    }
     const passiveSpells = Array(passiveCount).fill(null);
     const newItem = {
       ...itemData,
@@ -311,21 +305,28 @@ function MainContent() {
       newDetails.push(newItem);
     }
 
-    if (itemData.twoHanded && slot === 2) {
+    if (slot === 2) {
       const mirrorSlot = 4;
 
-      newSlots[mirrorSlot] = image;
-      const mirrorItem = {
-        ...newItem,
-        slot: mirrorSlot,
-      };
-      const mirrorIndex = newDetails.findIndex(
-        (item) => item.slot === mirrorSlot
-      );
-      if (mirrorIndex !== -1) {
-        newDetails[mirrorIndex] = mirrorItem;
+      if (itemData.twoHanded) {
+        newSlots[mirrorSlot] = image;
+        const mirrorItem = {
+          ...newItem,
+          slot: mirrorSlot,
+        };
+        const mirrorIndex = newDetails.findIndex(
+          (item) => item.slot === mirrorSlot
+        );
+        if (mirrorIndex !== -1) {
+          newDetails[mirrorIndex] = mirrorItem;
+        } else {
+          newDetails.push(mirrorItem);
+        }
       } else {
-        newDetails.push(mirrorItem);
+        newSlots[mirrorSlot] = null;
+        const filtered = newDetails.filter((item) => item.slot !== mirrorSlot);
+        newDetails.length = 0;
+        newDetails.push(...filtered);
       }
     }
 
@@ -430,7 +431,7 @@ function MainContent() {
                 {build.slots.map((slot, slotIndex) => (
                   <div
                     key={slotIndex}
-                    className={`relative w-[100px] h-[100px] flex items-center justify-center rounded-lg ${
+                    className={`relative w-[100px] h-[100px] flex items-center justify-center rounded-lg group ${
                       slot ? "" : "border-2 border-sky-500"
                     } ${
                       isSlotLocked(buildIndex, slotIndex)
@@ -460,7 +461,7 @@ function MainContent() {
                           onClick={() =>
                             handleRemoveImage(buildIndex, slotIndex)
                           }
-                          className="absolute top-1 right-1 text-white"
+                          className="absolute top-1 right-1 text-white hidden group-hover:block"
                         >
                           ×
                         </button>
@@ -490,8 +491,10 @@ function MainContent() {
             {build.selectedItemDetails.length > 0 && (
               <div className="bg-zinc-900 rounded-2xl shadow-lg p-6 border border-white/10 max-w-[350px] max-h-[90vh] overflow-auto">
                 {(() => {
-                  const withSpells = build.selectedItemDetails.filter(
-                    (item) => {
+                  const slotPriority = [4, 2, 0, 3, 6];
+
+                  const withSpells = build.selectedItemDetails
+                    .filter((item) => {
                       const offhandItem = build.selectedItemDetails.find(
                         (i) => i.slot === 2
                       );
@@ -502,8 +505,17 @@ function MainContent() {
                         getSpellsForItem(item, "activeSpell").length > 0 ||
                         getSpellsForItem(item, "passiveSpell").length > 0
                       );
-                    }
-                  );
+                    })
+                    .sort((a, b) => {
+                      const aPriority = slotPriority.includes(a.slot)
+                        ? slotPriority.indexOf(a.slot)
+                        : slotPriority.length;
+                      const bPriority = slotPriority.includes(b.slot)
+                        ? slotPriority.indexOf(b.slot)
+                        : slotPriority.length;
+
+                      return aPriority - bPriority;
+                    });
 
                   return (
                     <>
