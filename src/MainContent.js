@@ -496,7 +496,7 @@ function MainContent() {
                     onClick={() => handleRemoveBuild(buildIndex)}
                     className="mt-4 bg-[#454548] text-white px-3 py-1 rounded-lg text-sm"
                   >
-                    Odebrat
+                    Remove build
                   </button>
                 )}
               </div>
