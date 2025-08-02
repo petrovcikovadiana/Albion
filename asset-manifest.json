@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Albion/static/css/main.d55c06f0.css",
-    "main.js": "/Albion/static/js/main.2ccb709c.js",
+    "main.css": "/Albion/static/css/main.ae71dc0f.css",
+    "main.js": "/Albion/static/js/main.428e6119.js",
     "static/media/REJUVENATION.png": "/Albion/static/media/REJUVENATION.98ad4a1e4b7462c9a0ab.png",
     "static/media/HOLY_DISPEL.png": "/Albion/static/media/HOLY_DISPEL.bc94827aa5c6ec339e0c.png",
     "static/media/STARFALL_DOT.png": "/Albion/static/media/STARFALL_DOT.0b4d8e65916c52a951bd.png",
@@ -448,11 +448,11 @@
     "static/media/CARTWHEEL.png": "/Albion/static/media/CARTWHEEL.ccfcaa0953ffec79ac5b.png",
     "static/media/JUMPSHOT2.png": "/Albion/static/media/JUMPSHOT2.13e690505439749693de.png",
     "index.html": "/Albion/index.html",
-    "main.d55c06f0.css.map": "/Albion/static/css/main.d55c06f0.css.map",
-    "main.2ccb709c.js.map": "/Albion/static/js/main.2ccb709c.js.map"
+    "main.ae71dc0f.css.map": "/Albion/static/css/main.ae71dc0f.css.map",
+    "main.428e6119.js.map": "/Albion/static/js/main.428e6119.js.map"
   },
   "entrypoints": [
-    "static/css/main.d55c06f0.css",
-    "static/js/main.2ccb709c.js"
+    "static/css/main.ae71dc0f.css",
+    "static/js/main.428e6119.js"
   ]
 }
