@@ -29,23 +29,14 @@
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
   <!-- Buy Me a Coffee Button – fixed in bottom right -->
-  <a href="https://www.buymeacoffee.com/dianapet" target="_blank" rel="noopener noreferrer" style="
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    z-index: 10000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
- color: white; text-decoration: none; border-radius: 50%; font-size: 24px; box-shadow: 0
-    2px 6px rgba(0, 0, 0, 0.8); transition: transform 0.2s ease, background-color 0.2s ease; " onmouseover="
-    this.style.transform='scale(1.1)' ; this.style.backgroundColor='#5e2412' ;"
-    onmouseout="this.style.transform='scale(1)'; this.style.backgroundColor='#4c190b';">
-    ☕
-  </a>
-
+  <div id="bmc-fixed-button"
+    style="position: fixed; bottom: 20px; right: 20px; z-index: 10000; transform: scale(0.70); transform-origin: bottom right; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.9);transition: transform 0.2s ease, background-color 0.2s ease; border-radius: 8px;"
+    onmouseover="this.style.transform='scale(0.9)'; this.style.backgroundColor='#4c190b';"
+    onmouseout="this.style.transform='scale(0.7)'; this.style.backgroundColor='#4c190b';">
+    <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button"
+      data-slug="dianapet" data-color="" data-emoji="☕" data-font="Cookie" data-text="Buy me a coffee"
+      data-outline-color="#ffffff" data-font-color="#ffffff" data-coffee-color="#FFDD00"></script>
+  </div>
 
   <!--
       This HTML file is a template.
