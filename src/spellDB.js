@@ -2269,10 +2269,19 @@ const spellDB = {
       },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
-      { name: "PASSIVE_MR_AR", icon: spellIcons.PASSIVE_MR_AR },
-      { name: "PASSIVE_CCDURATION", icon: spellIcons.PASSIVE_CCDURATION },
-      { name: "PASSIVE_INCREASED_CCR", icon: spellIcons.PASSIVE_INCREASED_CCR },
+      { name: "PASSIVE_BURN", icon: spellIcons.PASSIVE_BURN },
+      {
+        name: "PASSIVE_ENERGYCHANCE_FIRESTAFF",
+        icon: spellIcons.PASSIVE_ENERGYCHANCE_FIRESTAFF,
+      },
+      {
+        name: "PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF",
+        icon: spellIcons.PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF,
+      },
+      {
+        name: "PASSIVE_SPELLPOWER_CASTER_FIRESTAFF",
+        icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_FIRESTAFF,
+      },
     ],
   },
   T8_2H_FIRESTAFF: {
@@ -2319,10 +2328,19 @@ const spellDB = {
       },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
-      { name: "PASSIVE_MR_AR", icon: spellIcons.PASSIVE_MR_AR },
-      { name: "PASSIVE_CCDURATION", icon: spellIcons.PASSIVE_CCDURATION },
-      { name: "PASSIVE_INCREASED_CCR", icon: spellIcons.PASSIVE_INCREASED_CCR },
+      { name: "PASSIVE_BURN", icon: spellIcons.PASSIVE_BURN },
+      {
+        name: "PASSIVE_ENERGYCHANCE_FIRESTAFF",
+        icon: spellIcons.PASSIVE_ENERGYCHANCE_FIRESTAFF,
+      },
+      {
+        name: "PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF",
+        icon: spellIcons.PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF,
+      },
+      {
+        name: "PASSIVE_SPELLPOWER_CASTER_FIRESTAFF",
+        icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_FIRESTAFF,
+      },
     ],
   },
   T8_2H_INFERNOSTAFF: {
@@ -2369,10 +2387,19 @@ const spellDB = {
       },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
-      { name: "PASSIVE_MR_AR", icon: spellIcons.PASSIVE_MR_AR },
-      { name: "PASSIVE_CCDURATION", icon: spellIcons.PASSIVE_CCDURATION },
-      { name: "PASSIVE_INCREASED_CCR", icon: spellIcons.PASSIVE_INCREASED_CCR },
+      { name: "PASSIVE_BURN", icon: spellIcons.PASSIVE_BURN },
+      {
+        name: "PASSIVE_ENERGYCHANCE_FIRESTAFF",
+        icon: spellIcons.PASSIVE_ENERGYCHANCE_FIRESTAFF,
+      },
+      {
+        name: "PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF",
+        icon: spellIcons.PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF,
+      },
+      {
+        name: "PASSIVE_SPELLPOWER_CASTER_FIRESTAFF",
+        icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_FIRESTAFF,
+      },
     ],
   },
   T8_MAIN_FIRESTAFF_KEEPER: {
@@ -2419,10 +2446,19 @@ const spellDB = {
       },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
-      { name: "PASSIVE_MR_AR", icon: spellIcons.PASSIVE_MR_AR },
-      { name: "PASSIVE_CCDURATION", icon: spellIcons.PASSIVE_CCDURATION },
-      { name: "PASSIVE_INCREASED_CCR", icon: spellIcons.PASSIVE_INCREASED_CCR },
+      { name: "PASSIVE_BURN", icon: spellIcons.PASSIVE_BURN },
+      {
+        name: "PASSIVE_ENERGYCHANCE_FIRESTAFF",
+        icon: spellIcons.PASSIVE_ENERGYCHANCE_FIRESTAFF,
+      },
+      {
+        name: "PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF",
+        icon: spellIcons.PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF,
+      },
+      {
+        name: "PASSIVE_SPELLPOWER_CASTER_FIRESTAFF",
+        icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_FIRESTAFF,
+      },
     ],
   },
   T8_2H_FIRESTAFF_HELL: {
@@ -2469,10 +2505,19 @@ const spellDB = {
       },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
-      { name: "PASSIVE_MR_AR", icon: spellIcons.PASSIVE_MR_AR },
-      { name: "PASSIVE_CCDURATION", icon: spellIcons.PASSIVE_CCDURATION },
-      { name: "PASSIVE_INCREASED_CCR", icon: spellIcons.PASSIVE_INCREASED_CCR },
+      { name: "PASSIVE_BURN", icon: spellIcons.PASSIVE_BURN },
+      {
+        name: "PASSIVE_ENERGYCHANCE_FIRESTAFF",
+        icon: spellIcons.PASSIVE_ENERGYCHANCE_FIRESTAFF,
+      },
+      {
+        name: "PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF",
+        icon: spellIcons.PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF,
+      },
+      {
+        name: "PASSIVE_SPELLPOWER_CASTER_FIRESTAFF",
+        icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_FIRESTAFF,
+      },
     ],
   },
   T8_2H_INFERNOSTAFF_MORGANA: {
@@ -2519,10 +2564,19 @@ const spellDB = {
       },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
-      { name: "PASSIVE_MR_AR", icon: spellIcons.PASSIVE_MR_AR },
-      { name: "PASSIVE_CCDURATION", icon: spellIcons.PASSIVE_CCDURATION },
-      { name: "PASSIVE_INCREASED_CCR", icon: spellIcons.PASSIVE_INCREASED_CCR },
+      { name: "PASSIVE_BURN", icon: spellIcons.PASSIVE_BURN },
+      {
+        name: "PASSIVE_ENERGYCHANCE_FIRESTAFF",
+        icon: spellIcons.PASSIVE_ENERGYCHANCE_FIRESTAFF,
+      },
+      {
+        name: "PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF",
+        icon: spellIcons.PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF,
+      },
+      {
+        name: "PASSIVE_SPELLPOWER_CASTER_FIRESTAFF",
+        icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_FIRESTAFF,
+      },
     ],
   },
   T8_2H_FIRE_RINGPAIR_AVALON: {
@@ -2569,10 +2623,19 @@ const spellDB = {
       },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
-      { name: "PASSIVE_MR_AR", icon: spellIcons.PASSIVE_MR_AR },
-      { name: "PASSIVE_CCDURATION", icon: spellIcons.PASSIVE_CCDURATION },
-      { name: "PASSIVE_INCREASED_CCR", icon: spellIcons.PASSIVE_INCREASED_CCR },
+      { name: "PASSIVE_BURN", icon: spellIcons.PASSIVE_BURN },
+      {
+        name: "PASSIVE_ENERGYCHANCE_FIRESTAFF",
+        icon: spellIcons.PASSIVE_ENERGYCHANCE_FIRESTAFF,
+      },
+      {
+        name: "PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF",
+        icon: spellIcons.PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF,
+      },
+      {
+        name: "PASSIVE_SPELLPOWER_CASTER_FIRESTAFF",
+        icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_FIRESTAFF,
+      },
     ],
   },
   T8_MAIN_FIRESTAFF_CRYSTAL: {
@@ -2619,10 +2682,19 @@ const spellDB = {
       },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
-      { name: "PASSIVE_MR_AR", icon: spellIcons.PASSIVE_MR_AR },
-      { name: "PASSIVE_CCDURATION", icon: spellIcons.PASSIVE_CCDURATION },
-      { name: "PASSIVE_INCREASED_CCR", icon: spellIcons.PASSIVE_INCREASED_CCR },
+      { name: "PASSIVE_BURN", icon: spellIcons.PASSIVE_BURN },
+      {
+        name: "PASSIVE_ENERGYCHANCE_FIRESTAFF",
+        icon: spellIcons.PASSIVE_ENERGYCHANCE_FIRESTAFF,
+      },
+      {
+        name: "PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF",
+        icon: spellIcons.PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF,
+      },
+      {
+        name: "PASSIVE_SPELLPOWER_CASTER_FIRESTAFF",
+        icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_FIRESTAFF,
+      },
     ],
   },
   T8_MAIN_HOLYSTAFF: {
