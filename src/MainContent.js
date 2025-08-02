@@ -409,6 +409,11 @@ function MainContent() {
     setBuilds(updated);
   };
 
+  const handleRemoveBuild = (buildIndex) => {
+    const updated = builds.filter((_, i) => i !== buildIndex);
+    setBuilds(updated);
+  };
+
   const handleCopyLink = async () => {
     try {
       await navigator.clipboard.writeText(window.location.href);
@@ -479,12 +484,22 @@ function MainContent() {
                   </div>
                 ))}
               </div>
-              <button
-                onClick={() => handleResetBuild(buildIndex)}
-                className="mt-4 bg-[#4c190b] text-white px-3 py-1 rounded-lg text-sm"
-              >
-                Reset
-              </button>
+              <div className="flex items-center justify-between">
+                <button
+                  onClick={() => handleResetBuild(buildIndex)}
+                  className="mt-4 bg-[#4c190b] text-white px-3 py-1 rounded-lg text-sm"
+                >
+                  Reset
+                </button>
+                {builds.length > 1 && buildIndex > 0 && (
+                  <button
+                    onClick={() => handleRemoveBuild(buildIndex)}
+                    className="mt-4 bg-[#454548] text-white px-3 py-1 rounded-lg text-sm"
+                  >
+                    Odebrat
+                  </button>
+                )}
+              </div>
             </div>
 
             {/* Spells */}
@@ -530,7 +545,7 @@ function MainContent() {
                             />
                           </Tooltip>
                           {/* Active spell */}
-                          <div className="relative flex gap-2 items-center justify-center">
+                          <div className="relative flex gap-2 items-center justify-center ">
                             {/* Active Spells (multiple slots) */}
                             {item.activeSpells?.map((selected, idx) => (
                               <div key={`active-${idx}`} className="relative">
@@ -541,7 +556,7 @@ function MainContent() {
                                     <img
                                       src={selected.icon}
                                       alt={selected.name}
-                                      className="w-[48px] h-[48px] min-w-[48px] min-h-[48px] flex items-center justify-center mt-2"
+                                      className="w-[48px] h-[48px] min-w-[48px] min-h-[48px] flex items-center justify-center mt-2 "
                                       onClick={() =>
                                         setSpellDropdown({
                                           buildIndex,
