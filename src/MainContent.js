@@ -181,9 +181,12 @@ function MainContent() {
               ? getSpellsForItem({ id }, "passiveSpell", i)[idx]
               : null
           );
+          const itemData = getItemDataById(id);
 
           newDetails.push({
             id,
+            name: itemData?.name,
+
             slot,
             activeSpells,
             passiveSpells,
@@ -271,6 +274,24 @@ function MainContent() {
     setIsModalOpen(true);
     setModalStep("category");
     setActiveCategory(null);
+  };
+
+  const getItemDataById = (id) => {
+    for (const slot of Object.values(gearOptions)) {
+      const sources = [
+        slot.items || [],
+        ...(slot.categories || []).flatMap((cat) => [
+          cat.items || [],
+          ...(cat.subcategories || []).flatMap((sub) => sub.items || []),
+        ]),
+      ].flat();
+
+      for (const raw of sources) {
+        const item = typeof raw === "string" ? { id: raw } : raw;
+        if (item.id === id) return item;
+      }
+    }
+    return null;
   };
 
   const handleImageSelect = (image, itemData = {}) => {
@@ -629,7 +650,9 @@ function MainContent() {
                             item.passiveSpells.map((selected, idx) => (
                               <div key={idx} className="relative">
                                 {selected ? (
-                                  <Tooltip content={item.name || item.id}>
+                                  <Tooltip
+                                    content={selected.name || selected.id}
+                                  >
                                     <img
                                       src={selected.icon}
                                       alt={selected.name}
