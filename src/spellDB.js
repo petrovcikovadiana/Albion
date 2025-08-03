@@ -503,7 +503,7 @@ const spellDB = {
       },
     ],
     passive1: [
-      { name: "toughness", icon: spellIcons.toughness },
+      { name: "Toughness", icon: spellIcons.toughness },
       {
         name: "authority",
         icon: spellIcons.authority,
@@ -521,22 +521,22 @@ const spellDB = {
         icon: spellIcons.ENERGIZING_SHIELD,
       },
       {
-        name: "stone_skin",
+        name: "Stone Skin",
         icon: spellIcons.stone_skin,
       },
       {
-        name: "displacement_immunity",
+        name: "Displacement Immunity",
         icon: spellIcons.displacement_immunity,
       },
     ],
     passive1: [
-      { name: "toughness", icon: spellIcons.toughness },
+      { name: "Toughness", icon: spellIcons.toughness },
       {
-        name: "authority",
+        name: "Authority",
         icon: spellIcons.authority,
       },
       {
-        name: "tenacity",
+        name: "Tenacity",
         icon: spellIcons.tenacity,
       },
     ],
@@ -548,22 +548,22 @@ const spellDB = {
         icon: spellIcons.ENERGIZING_SHIELD,
       },
       {
-        name: "stone_skin",
+        name: "Stone Skin",
         icon: spellIcons.stone_skin,
       },
       {
-        name: "emergency_shield",
+        name: "Emergency Shield",
         icon: spellIcons.emergency_shield,
       },
     ],
     passive1: [
-      { name: "toughness", icon: spellIcons.toughness },
+      { name: "Toughness", icon: spellIcons.toughness },
       {
-        name: "authority",
+        name: "Authority",
         icon: spellIcons.authority,
       },
       {
-        name: "tenacity",
+        name: "Tenacity",
         icon: spellIcons.tenacity,
       },
     ],
@@ -575,22 +575,22 @@ const spellDB = {
         icon: spellIcons.ENERGIZING_SHIELD,
       },
       {
-        name: "stone_skin",
+        name: "Stone Skin",
         icon: spellIcons.stone_skin,
       },
       {
-        name: "ballista_support_fire",
+        name: "Ballista_Support_Fire",
         icon: spellIcons.ballista_support_fire,
       },
     ],
     passive1: [
-      { name: "toughness", icon: spellIcons.toughness },
+      { name: "Toughness", icon: spellIcons.toughness },
       {
-        name: "authority",
+        name: "Authority",
         icon: spellIcons.authority,
       },
       {
-        name: "tenacity",
+        name: "Tenacity",
         icon: spellIcons.tenacity,
       },
     ],
@@ -602,7 +602,7 @@ const spellDB = {
         icon: spellIcons.ENERGIZING_SHIELD,
       },
       {
-        name: "stone_skin",
+        name: "Stone Skin",
         icon: spellIcons.stone_skin,
       },
       {
@@ -611,13 +611,13 @@ const spellDB = {
       },
     ],
     passive1: [
-      { name: "toughness", icon: spellIcons.toughness },
+      { name: "Toughness", icon: spellIcons.toughness },
       {
-        name: "authority",
+        name: "Authority",
         icon: spellIcons.authority,
       },
       {
-        name: "tenacity",
+        name: "Tenacity",
         icon: spellIcons.tenacity,
       },
     ],
@@ -629,22 +629,22 @@ const spellDB = {
         icon: spellIcons.ENERGIZING_SHIELD,
       },
       {
-        name: "stone_skin",
+        name: "Stone Skin",
         icon: spellIcons.stone_skin,
       },
       {
-        name: "WEAPON_SILENCE",
+        name: "Weapon silence",
         icon: spellIcons.WEAPON_SILENCE,
       },
     ],
     passive1: [
-      { name: "toughness", icon: spellIcons.toughness },
+      { name: "Toughness", icon: spellIcons.toughness },
       {
-        name: "authority",
+        name: "Authority",
         icon: spellIcons.authority,
       },
       {
-        name: "tenacity",
+        name: "Tenacity",
         icon: spellIcons.tenacity,
       },
     ],
@@ -656,22 +656,22 @@ const spellDB = {
         icon: spellIcons.ENERGIZING_SHIELD,
       },
       {
-        name: "stone_skin",
+        name: "Stone Skin",
         icon: spellIcons.stone_skin,
       },
       {
-        name: "electric_discharge",
+        name: "Electric Discharge",
         icon: spellIcons.electric_discharge,
       },
     ],
     passive1: [
-      { name: "toughness", icon: spellIcons.toughness },
+      { name: "Toughness", icon: spellIcons.toughness },
       {
-        name: "authority",
+        name: "Authority",
         icon: spellIcons.authority,
       },
       {
-        name: "tenacity",
+        name: "Tenacity",
         icon: spellIcons.tenacity,
       },
     ],
@@ -683,22 +683,22 @@ const spellDB = {
         icon: spellIcons.ENERGIZING_SHIELD,
       },
       {
-        name: "stone_skin",
+        name: "Stone Skin",
         icon: spellIcons.stone_skin,
       },
       {
-        name: "spiders_thread",
+        name: "Spiders thread",
         icon: spellIcons.spiders_thread,
       },
     ],
     passive1: [
-      { name: "toughness", icon: spellIcons.toughness },
+      { name: "Toughness", icon: spellIcons.toughness },
       {
-        name: "authority",
+        name: "Authority",
         icon: spellIcons.authority,
       },
       {
-        name: "tenacity",
+        name: "Tenacity",
         icon: spellIcons.tenacity,
       },
     ],
@@ -710,22 +710,22 @@ const spellDB = {
         icon: spellIcons.ENERGIZING_SHIELD,
       },
       {
-        name: "stone_skin",
+        name: "Stone Skin",
         icon: spellIcons.stone_skin,
       },
       {
-        name: "purifying_smoke",
+        name: "Purifying smoke",
         icon: spellIcons.purifying_smoke,
       },
     ],
     passive1: [
-      { name: "toughness", icon: spellIcons.toughness },
+      { name: "Toughness", icon: spellIcons.toughness },
       {
-        name: "authority",
+        name: "Authority",
         icon: spellIcons.authority,
       },
       {
-        name: "tenacity",
+        name: "Tenacity",
         icon: spellIcons.tenacity,
       },
     ],
@@ -733,15 +733,15 @@ const spellDB = {
   T8_ARMOR_CLOTH_SET1: {
     active1: [
       {
-        name: "OUTOFCOMBATHEAL",
+        name: "Outofcombatheal",
         icon: spellIcons.OUTOFCOMBATHEAL,
       },
       {
-        name: "Frost_Shield",
+        name: "Frost Shield",
         icon: spellIcons.Frost_Shield,
       },
       {
-        name: "Speed_Caster",
+        name: "Speed Caster",
         icon: spellIcons.Speed_Caster,
       },
     ],
@@ -760,15 +760,15 @@ const spellDB = {
   T8_ARMOR_CLOTH_SET2: {
     active1: [
       {
-        name: "OUTOFCOMBATHEAL",
+        name: "Outofcombatheal",
         icon: spellIcons.OUTOFCOMBATHEAL,
       },
       {
-        name: "Frost_Shield",
+        name: "Frost Shield",
         icon: spellIcons.Frost_Shield,
       },
       {
-        name: "Everlasting_Spirit",
+        name: "Everlasting Spirit",
         icon: spellIcons.Everlasting_Spirit,
       },
     ],
@@ -787,15 +787,15 @@ const spellDB = {
   T8_ARMOR_CLOTH_SET3: {
     active1: [
       {
-        name: "OUTOFCOMBATHEAL",
+        name: "Outofcombatheal",
         icon: spellIcons.OUTOFCOMBATHEAL,
       },
       {
-        name: "Frost_Shield",
+        name: "Frost Shield",
         icon: spellIcons.Frost_Shield,
       },
       {
-        name: "Purging_Shield",
+        name: "Purging Shield",
         icon: spellIcons.Purging_Shield,
       },
     ],
@@ -814,15 +814,15 @@ const spellDB = {
   T8_ARMOR_CLOTH_ROYAL: {
     active1: [
       {
-        name: "OUTOFCOMBATHEAL",
+        name: "Outofcombatheal",
         icon: spellIcons.OUTOFCOMBATHEAL,
       },
       {
-        name: "Frost_Shield",
+        name: "Frost Shield",
         icon: spellIcons.Frost_Shield,
       },
       {
-        name: "Magic_Rune",
+        name: "Magic Rune",
         icon: spellIcons.Magic_Rune,
       },
     ],
@@ -841,15 +841,15 @@ const spellDB = {
   T8_ARMOR_CLOTH_KEEPER: {
     active1: [
       {
-        name: "OUTOFCOMBATHEAL",
+        name: "Outofcombatheal",
         icon: spellIcons.OUTOFCOMBATHEAL,
       },
       {
-        name: "Frost_Shield",
+        name: "Frost Shield",
         icon: spellIcons.Frost_Shield,
       },
       {
-        name: "Obsessive_Burst",
+        name: "Obsessive Burst",
         icon: spellIcons.Obsessive_Burst,
       },
     ],
@@ -868,15 +868,15 @@ const spellDB = {
   T8_ARMOR_CLOTH_HELL: {
     active1: [
       {
-        name: "OUTOFCOMBATHEAL",
+        name: "Outofcombatheal",
         icon: spellIcons.OUTOFCOMBATHEAL,
       },
       {
-        name: "Frost_Shield",
+        name: "Frost Shield",
         icon: spellIcons.Frost_Shield,
       },
       {
-        name: "Fear_Aura",
+        name: "Fear Aura",
         icon: spellIcons.Fear_Aura,
       },
     ],
@@ -895,11 +895,11 @@ const spellDB = {
   T8_ARMOR_CLOTH_MORGANA: {
     active1: [
       {
-        name: "OUTOFCOMBATHEAL",
+        name: "Outofcombatheal",
         icon: spellIcons.OUTOFCOMBATHEAL,
       },
       {
-        name: "Frost_Shield",
+        name: "Frost Shield",
         icon: spellIcons.Frost_Shield,
       },
       {
@@ -922,15 +922,15 @@ const spellDB = {
   T8_ARMOR_CLOTH_FEY: {
     active1: [
       {
-        name: "OUTOFCOMBATHEAL",
+        name: "Outofcombatheal",
         icon: spellIcons.OUTOFCOMBATHEAL,
       },
       {
-        name: "Frost_Shield",
+        name: "Frost Shield",
         icon: spellIcons.Frost_Shield,
       },
       {
-        name: "Wild_Magic",
+        name: "Wild Magic",
         icon: spellIcons.Wild_Magic,
       },
     ],
@@ -949,15 +949,15 @@ const spellDB = {
   T8_ARMOR_CLOTH_AVALON: {
     active1: [
       {
-        name: "OUTOFCOMBATHEAL",
+        name: "Outofcombatheal",
         icon: spellIcons.OUTOFCOMBATHEAL,
       },
       {
-        name: "Frost_Shield",
+        name: "Frost Shield",
         icon: spellIcons.Frost_Shield,
       },
       {
-        name: "Energy_Emission",
+        name: "Energy Emission",
         icon: spellIcons.Energy_Emission,
       },
     ],
@@ -976,7 +976,7 @@ const spellDB = {
   T8_ARMOR_LEATHER_SET1: {
     active1: [
       {
-        name: "OUTOFCOMBATHEAL",
+        name: "Outofcombatheal",
         icon: spellIcons.OUTOFCOMBATHEAL,
       },
       {
@@ -989,13 +989,13 @@ const spellDB = {
       },
     ],
     passive1: [
-      { name: "PASSIVE_BALANCE", icon: spellIcons.PASSIVE_BALANCE },
+      { name: "Passive Balance", icon: spellIcons.PASSIVE_BALANCE },
       {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
       {
-        name: "PASSIVE_CD_REDUCTION",
+        name: "Passive CD Reduction",
         icon: spellIcons.PASSIVE_CD_REDUCTION,
       },
     ],
@@ -1003,7 +1003,7 @@ const spellDB = {
   T8_ARMOR_LEATHER_SET2: {
     active1: [
       {
-        name: "OUTOFCOMBATHEAL",
+        name: "Outofcombatheal",
         icon: spellIcons.OUTOFCOMBATHEAL,
       },
       {
@@ -1016,13 +1016,13 @@ const spellDB = {
       },
     ],
     passive1: [
-      { name: "PASSIVE_BALANCE", icon: spellIcons.PASSIVE_BALANCE },
+      { name: "Passive Balance", icon: spellIcons.PASSIVE_BALANCE },
       {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
       {
-        name: "PASSIVE_CD_REDUCTION",
+        name: "Passive CD Reduction",
         icon: spellIcons.PASSIVE_CD_REDUCTION,
       },
     ],
@@ -1030,7 +1030,7 @@ const spellDB = {
   T8_ARMOR_LEATHER_SET3: {
     active1: [
       {
-        name: "OUTOFCOMBATHEAL",
+        name: "Outofcombatheal",
         icon: spellIcons.OUTOFCOMBATHEAL,
       },
       {
@@ -1043,13 +1043,13 @@ const spellDB = {
       },
     ],
     passive1: [
-      { name: "PASSIVE_BALANCE", icon: spellIcons.PASSIVE_BALANCE },
+      { name: "Passive Balance", icon: spellIcons.PASSIVE_BALANCE },
       {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
       {
-        name: "PASSIVE_CD_REDUCTION",
+        name: "Passive CD Reduction",
         icon: spellIcons.PASSIVE_CD_REDUCTION,
       },
     ],
@@ -1057,7 +1057,7 @@ const spellDB = {
   T8_ARMOR_LEATHER_ROYAL: {
     active1: [
       {
-        name: "OUTOFCOMBATHEAL",
+        name: "Outofcombatheal",
         icon: spellIcons.OUTOFCOMBATHEAL,
       },
       {
@@ -1065,18 +1065,18 @@ const spellDB = {
         icon: spellIcons.FLAMESHIELD,
       },
       {
-        name: "Royal_Banner",
+        name: "Royal Banner",
         icon: spellIcons.Royal_Banner,
       },
     ],
     passive1: [
-      { name: "PASSIVE_BALANCE", icon: spellIcons.PASSIVE_BALANCE },
+      { name: "Passive Balance", icon: spellIcons.PASSIVE_BALANCE },
       {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
       {
-        name: "PASSIVE_CD_REDUCTION",
+        name: "Passive CD Reduction",
         icon: spellIcons.PASSIVE_CD_REDUCTION,
       },
     ],
@@ -1084,7 +1084,7 @@ const spellDB = {
   T8_ARMOR_LEATHER_MORGANA: {
     active1: [
       {
-        name: "OUTOFCOMBATHEAL",
+        name: "Outofcombatheal",
         icon: spellIcons.OUTOFCOMBATHEAL,
       },
       {
@@ -1097,13 +1097,13 @@ const spellDB = {
       },
     ],
     passive1: [
-      { name: "PASSIVE_BALANCE", icon: spellIcons.PASSIVE_BALANCE },
+      { name: "Passive Balance", icon: spellIcons.PASSIVE_BALANCE },
       {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
       {
-        name: "PASSIVE_CD_REDUCTION",
+        name: "Passive CD Reduction",
         icon: spellIcons.PASSIVE_CD_REDUCTION,
       },
     ],
@@ -1111,7 +1111,7 @@ const spellDB = {
   T8_ARMOR_LEATHER_HELL: {
     active1: [
       {
-        name: "OUTOFCOMBATHEAL",
+        name: "Outofcombatheal",
         icon: spellIcons.OUTOFCOMBATHEAL,
       },
       {
@@ -1119,18 +1119,18 @@ const spellDB = {
         icon: spellIcons.FLAMESHIELD,
       },
       {
-        name: "Life_Steal_Aura",
+        name: "Life Steal Aura",
         icon: spellIcons.Life_Steal_Aura,
       },
     ],
     passive1: [
-      { name: "PASSIVE_BALANCE", icon: spellIcons.PASSIVE_BALANCE },
+      { name: "Passive Balance", icon: spellIcons.PASSIVE_BALANCE },
       {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
       {
-        name: "PASSIVE_CD_REDUCTION",
+        name: "Passive CD Reduction",
         icon: spellIcons.PASSIVE_CD_REDUCTION,
       },
     ],
@@ -1138,7 +1138,7 @@ const spellDB = {
   T8_ARMOR_LEATHER_UNDEAD: {
     active1: [
       {
-        name: "OUTOFCOMBATHEAL",
+        name: "Outofcombatheal",
         icon: spellIcons.OUTOFCOMBATHEAL,
       },
       {
@@ -1151,13 +1151,13 @@ const spellDB = {
       },
     ],
     passive1: [
-      { name: "PASSIVE_BALANCE", icon: spellIcons.PASSIVE_BALANCE },
+      { name: "Passive Balance", icon: spellIcons.PASSIVE_BALANCE },
       {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
       {
-        name: "PASSIVE_CD_REDUCTION",
+        name: "Passive CD Reduction",
         icon: spellIcons.PASSIVE_CD_REDUCTION,
       },
     ],
@@ -1165,7 +1165,7 @@ const spellDB = {
   T8_ARMOR_LEATHER_FEY: {
     active1: [
       {
-        name: "OUTOFCOMBATHEAL",
+        name: "Outofcombatheal",
         icon: spellIcons.OUTOFCOMBATHEAL,
       },
       {
@@ -1173,18 +1173,18 @@ const spellDB = {
         icon: spellIcons.FLAMESHIELD,
       },
       {
-        name: "MIST_WALKER",
+        name: "MIST WALKER",
         icon: spellIcons.MIST_WALKER,
       },
     ],
     passive1: [
-      { name: "PASSIVE_BALANCE", icon: spellIcons.PASSIVE_BALANCE },
+      { name: "Passive Balance", icon: spellIcons.PASSIVE_BALANCE },
       {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
       {
-        name: "PASSIVE_CD_REDUCTION",
+        name: "Passive CD Reduction",
         icon: spellIcons.PASSIVE_CD_REDUCTION,
       },
     ],
@@ -1192,7 +1192,7 @@ const spellDB = {
   T8_ARMOR_LEATHER_AVALON: {
     active1: [
       {
-        name: "OUTOFCOMBATHEAL",
+        name: "Outofcombatheal",
         icon: spellIcons.OUTOFCOMBATHEAL,
       },
       {
@@ -1200,18 +1200,18 @@ const spellDB = {
         icon: spellIcons.FLAMESHIELD,
       },
       {
-        name: "Dynamic_Defense",
+        name: "Dynamic Defense",
         icon: spellIcons.Dynamic_Defense,
       },
     ],
     passive1: [
-      { name: "PASSIVE_BALANCE", icon: spellIcons.PASSIVE_BALANCE },
+      { name: "Passive Balance", icon: spellIcons.PASSIVE_BALANCE },
       {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
       {
-        name: "PASSIVE_CD_REDUCTION",
+        name: "Passive CD Reduction",
         icon: spellIcons.PASSIVE_CD_REDUCTION,
       },
     ],
@@ -1219,7 +1219,7 @@ const spellDB = {
   T8_ARMOR_PLATE_SET1: {
     active1: [
       {
-        name: "OUTOFCOMBATHEAL",
+        name: "Outofcombatheal",
         icon: spellIcons.OUTOFCOMBATHEAL,
       },
       {
@@ -1250,7 +1250,7 @@ const spellDB = {
   T8_ARMOR_PLATE_SET2: {
     active1: [
       {
-        name: "OUTOFCOMBATHEAL",
+        name: "Outofcombatheal",
         icon: spellIcons.OUTOFCOMBATHEAL,
       },
       {
@@ -1281,7 +1281,7 @@ const spellDB = {
   T8_ARMOR_PLATE_SET3: {
     active1: [
       {
-        name: "OUTOFCOMBATHEAL",
+        name: "Outofcombatheal",
         icon: spellIcons.OUTOFCOMBATHEAL,
       },
       {
@@ -1312,7 +1312,7 @@ const spellDB = {
   T8_ARMOR_PLATE_ROYAL: {
     active1: [
       {
-        name: "OUTOFCOMBATHEAL",
+        name: "Outofcombatheal",
         icon: spellIcons.OUTOFCOMBATHEAL,
       },
       {
@@ -1343,7 +1343,7 @@ const spellDB = {
   T8_ARMOR_PLATE_UNDEAD: {
     active1: [
       {
-        name: "OUTOFCOMBATHEAL",
+        name: "Outofcombatheal",
         icon: spellIcons.OUTOFCOMBATHEAL,
       },
       {
@@ -1374,7 +1374,7 @@ const spellDB = {
   T8_ARMOR_PLATE_HELL: {
     active1: [
       {
-        name: "OUTOFCOMBATHEAL",
+        name: "Outofcombatheal",
         icon: spellIcons.OUTOFCOMBATHEAL,
       },
       {
@@ -1405,7 +1405,7 @@ const spellDB = {
   T8_ARMOR_PLATE_KEEPER: {
     active1: [
       {
-        name: "OUTOFCOMBATHEAL",
+        name: "Outofcombatheal",
         icon: spellIcons.OUTOFCOMBATHEAL,
       },
       {
@@ -1436,7 +1436,7 @@ const spellDB = {
   T8_ARMOR_PLATE_FEY: {
     active1: [
       {
-        name: "OUTOFCOMBATHEAL",
+        name: "Outofcombatheal",
         icon: spellIcons.OUTOFCOMBATHEAL,
       },
       {
@@ -1467,7 +1467,7 @@ const spellDB = {
   T8_ARMOR_PLATE_AVALON: {
     active1: [
       {
-        name: "OUTOFCOMBATHEAL",
+        name: "Outofcombatheal",
         icon: spellIcons.OUTOFCOMBATHEAL,
       },
       {
@@ -1765,15 +1765,15 @@ const spellDB = {
     passive1: [
       { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
       {
-        name: "PASSIVE_BALANCE",
+        name: "Passive Balance",
         icon: spellIcons.PASSIVE_BALANCE,
       },
       {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
       {
-        name: "PASSIVE_CD_REDUCTION",
+        name: "Passive CD Reduction",
         icon: spellIcons.PASSIVE_CD_REDUCTION,
       },
     ],
@@ -1796,15 +1796,15 @@ const spellDB = {
     passive1: [
       { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
       {
-        name: "PASSIVE_BALANCE",
+        name: "Passive Balance",
         icon: spellIcons.PASSIVE_BALANCE,
       },
       {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
       {
-        name: "PASSIVE_CD_REDUCTION",
+        name: "Passive CD Reduction",
         icon: spellIcons.PASSIVE_CD_REDUCTION,
       },
     ],
@@ -1827,15 +1827,15 @@ const spellDB = {
     passive1: [
       { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
       {
-        name: "PASSIVE_BALANCE",
+        name: "Passive Balance",
         icon: spellIcons.PASSIVE_BALANCE,
       },
       {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
       {
-        name: "PASSIVE_CD_REDUCTION",
+        name: "Passive CD Reduction",
         icon: spellIcons.PASSIVE_CD_REDUCTION,
       },
     ],
@@ -1858,15 +1858,15 @@ const spellDB = {
     passive1: [
       { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
       {
-        name: "PASSIVE_BALANCE",
+        name: "Passive Balance",
         icon: spellIcons.PASSIVE_BALANCE,
       },
       {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
       {
-        name: "PASSIVE_CD_REDUCTION",
+        name: "Passive CD Reduction",
         icon: spellIcons.PASSIVE_CD_REDUCTION,
       },
     ],
@@ -1889,15 +1889,15 @@ const spellDB = {
     passive1: [
       { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
       {
-        name: "PASSIVE_BALANCE",
+        name: "Passive Balance",
         icon: spellIcons.PASSIVE_BALANCE,
       },
       {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
       {
-        name: "PASSIVE_CD_REDUCTION",
+        name: "Passive CD Reduction",
         icon: spellIcons.PASSIVE_CD_REDUCTION,
       },
     ],
@@ -1920,15 +1920,15 @@ const spellDB = {
     passive1: [
       { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
       {
-        name: "PASSIVE_BALANCE",
+        name: "Passive Balance",
         icon: spellIcons.PASSIVE_BALANCE,
       },
       {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
       {
-        name: "PASSIVE_CD_REDUCTION",
+        name: "Passive CD Reduction",
         icon: spellIcons.PASSIVE_CD_REDUCTION,
       },
     ],
@@ -1951,15 +1951,15 @@ const spellDB = {
     passive1: [
       { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
       {
-        name: "PASSIVE_BALANCE",
+        name: "Passive Balance",
         icon: spellIcons.PASSIVE_BALANCE,
       },
       {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
       {
-        name: "PASSIVE_CD_REDUCTION",
+        name: "Passive CD Reduction",
         icon: spellIcons.PASSIVE_CD_REDUCTION,
       },
     ],
@@ -1983,15 +1983,15 @@ const spellDB = {
     passive1: [
       { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
       {
-        name: "PASSIVE_BALANCE",
+        name: "Passive Balance",
         icon: spellIcons.PASSIVE_BALANCE,
       },
       {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
       {
-        name: "PASSIVE_CD_REDUCTION",
+        name: "Passive CD Reduction",
         icon: spellIcons.PASSIVE_CD_REDUCTION,
       },
     ],
@@ -2014,15 +2014,15 @@ const spellDB = {
     passive1: [
       { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
       {
-        name: "PASSIVE_BALANCE",
+        name: "Passive Balance",
         icon: spellIcons.PASSIVE_BALANCE,
       },
       {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
       {
-        name: "PASSIVE_CD_REDUCTION",
+        name: "Passive CD Reduction",
         icon: spellIcons.PASSIVE_CD_REDUCTION,
       },
     ],
@@ -2228,11 +2228,11 @@ const spellDB = {
   T8_MAIN_FIRESTAFF: {
     active1: [
       {
-        name: "Fire_Bolt",
+        name: "Fire Bolt",
         icon: spellIcons.Fire_Bolt,
       },
       {
-        name: "BurningField",
+        name: "Burning Field",
         icon: spellIcons.BurningField,
       },
       {
@@ -2242,23 +2242,23 @@ const spellDB = {
     ],
     active2: [
       {
-        name: "FlameBlast",
+        name: "Flame Blast",
         icon: spellIcons.FlameBlast,
       },
       {
-        name: "WallofFlames",
+        name: "Wall of Flames",
         icon: spellIcons.WallofFlames,
       },
       {
-        name: "RagingFlare",
+        name: "Raging Flare",
         icon: spellIcons.RagingFlare,
       },
       {
-        name: "FireWave",
+        name: "Fire Wave",
         icon: spellIcons.FireWave,
       },
       {
-        name: "FireArtillery",
+        name: "Fire Artillery",
         icon: spellIcons.FireArtillery,
       },
     ],
@@ -2287,11 +2287,11 @@ const spellDB = {
   T8_2H_FIRESTAFF: {
     active1: [
       {
-        name: "Fire_Bolt",
+        name: "Fire Bolt",
         icon: spellIcons.Fire_Bolt,
       },
       {
-        name: "BurningField",
+        name: "Burning Field",
         icon: spellIcons.BurningField,
       },
       {
@@ -2301,23 +2301,23 @@ const spellDB = {
     ],
     active2: [
       {
-        name: "FlameBlast",
+        name: "Flame Blast",
         icon: spellIcons.FlameBlast,
       },
       {
-        name: "WallofFlames",
+        name: "Wall of Flames",
         icon: spellIcons.WallofFlames,
       },
       {
-        name: "RagingFlare",
+        name: "Raging Flare",
         icon: spellIcons.RagingFlare,
       },
       {
-        name: "FireWave",
+        name: "Fire Wave",
         icon: spellIcons.FireWave,
       },
       {
-        name: "FireArtillery",
+        name: "Fire Artillery",
         icon: spellIcons.FireArtillery,
       },
     ],
@@ -2346,11 +2346,11 @@ const spellDB = {
   T8_2H_INFERNOSTAFF: {
     active1: [
       {
-        name: "Fire_Bolt",
+        name: "Fire Bolt",
         icon: spellIcons.Fire_Bolt,
       },
       {
-        name: "BurningField",
+        name: "Burning Field",
         icon: spellIcons.BurningField,
       },
       {
@@ -2360,23 +2360,23 @@ const spellDB = {
     ],
     active2: [
       {
-        name: "FlameBlast",
+        name: "Flame Blast",
         icon: spellIcons.FlameBlast,
       },
       {
-        name: "WallofFlames",
+        name: "Wall of Flames",
         icon: spellIcons.WallofFlames,
       },
       {
-        name: "RagingFlare",
+        name: "Raging Flare",
         icon: spellIcons.RagingFlare,
       },
       {
-        name: "FireWave",
+        name: "Fire Wave",
         icon: spellIcons.FireWave,
       },
       {
-        name: "FireArtillery",
+        name: "Fire Artillery",
         icon: spellIcons.FireArtillery,
       },
     ],
@@ -2405,11 +2405,11 @@ const spellDB = {
   T8_MAIN_FIRESTAFF_KEEPER: {
     active1: [
       {
-        name: "Fire_Bolt",
+        name: "Fire Bolt",
         icon: spellIcons.Fire_Bolt,
       },
       {
-        name: "BurningField",
+        name: "Burning Field",
         icon: spellIcons.BurningField,
       },
       {
@@ -2419,23 +2419,23 @@ const spellDB = {
     ],
     active2: [
       {
-        name: "FlameBlast",
+        name: "Flame Blast",
         icon: spellIcons.FlameBlast,
       },
       {
-        name: "WallofFlames",
+        name: "Wall of Flames",
         icon: spellIcons.WallofFlames,
       },
       {
-        name: "RagingFlare",
+        name: "Raging Flare",
         icon: spellIcons.RagingFlare,
       },
       {
-        name: "FireWave",
+        name: "Fire Wave",
         icon: spellIcons.FireWave,
       },
       {
-        name: "FireArtillery",
+        name: "Fire Artillery",
         icon: spellIcons.FireArtillery,
       },
     ],
@@ -2464,11 +2464,11 @@ const spellDB = {
   T8_2H_FIRESTAFF_HELL: {
     active1: [
       {
-        name: "Fire_Bolt",
+        name: "Fire Bolt",
         icon: spellIcons.Fire_Bolt,
       },
       {
-        name: "BurningField",
+        name: "Burning Field",
         icon: spellIcons.BurningField,
       },
       {
@@ -2478,23 +2478,23 @@ const spellDB = {
     ],
     active2: [
       {
-        name: "FlameBlast",
+        name: "Flame Blast",
         icon: spellIcons.FlameBlast,
       },
       {
-        name: "WallofFlames",
+        name: "Wall of Flames",
         icon: spellIcons.WallofFlames,
       },
       {
-        name: "RagingFlare",
+        name: "Raging Flare",
         icon: spellIcons.RagingFlare,
       },
       {
-        name: "FireWave",
+        name: "Fire Wave",
         icon: spellIcons.FireWave,
       },
       {
-        name: "FireArtillery",
+        name: "Fire Artillery",
         icon: spellIcons.FireArtillery,
       },
     ],
@@ -2523,11 +2523,11 @@ const spellDB = {
   T8_2H_INFERNOSTAFF_MORGANA: {
     active1: [
       {
-        name: "Fire_Bolt",
+        name: "Fire Bolt",
         icon: spellIcons.Fire_Bolt,
       },
       {
-        name: "BurningField",
+        name: "Burning Field",
         icon: spellIcons.BurningField,
       },
       {
@@ -2537,23 +2537,23 @@ const spellDB = {
     ],
     active2: [
       {
-        name: "FlameBlast",
+        name: "Flame Blast",
         icon: spellIcons.FlameBlast,
       },
       {
-        name: "WallofFlames",
+        name: "Wall of Flames",
         icon: spellIcons.WallofFlames,
       },
       {
-        name: "RagingFlare",
+        name: "Raging Flare",
         icon: spellIcons.RagingFlare,
       },
       {
-        name: "FireWave",
+        name: "Fire Wave",
         icon: spellIcons.FireWave,
       },
       {
-        name: "FireArtillery",
+        name: "Fire Artillery",
         icon: spellIcons.FireArtillery,
       },
     ],
@@ -2582,37 +2582,37 @@ const spellDB = {
   T8_2H_FIRE_RINGPAIR_AVALON: {
     active1: [
       {
-        name: "Fire_Bolt",
+        name: "Fire Bolt",
         icon: spellIcons.Fire_Bolt,
       },
       {
-        name: "BurningField",
+        name: "Burning Field",
         icon: spellIcons.BurningField,
       },
       {
-        name: "SearingFlame",
+        name: "Searing Flame",
         icon: spellIcons.SearingFlame,
       },
     ],
     active2: [
       {
-        name: "FlameBlast",
+        name: "Flame Blast",
         icon: spellIcons.FlameBlast,
       },
       {
-        name: "WallofFlames",
+        name: "Wall of Flames",
         icon: spellIcons.WallofFlames,
       },
       {
-        name: "RagingFlare",
+        name: "Raging Flare",
         icon: spellIcons.RagingFlare,
       },
       {
-        name: "FireWave",
+        name: "Fire Wave",
         icon: spellIcons.FireWave,
       },
       {
-        name: "FireArtillery",
+        name: "Fire Artillery",
         icon: spellIcons.FireArtillery,
       },
     ],
@@ -2641,11 +2641,11 @@ const spellDB = {
   T8_MAIN_FIRESTAFF_CRYSTAL: {
     active1: [
       {
-        name: "Fire_Bolt",
+        name: "Fire Bolt",
         icon: spellIcons.Fire_Bolt,
       },
       {
-        name: "BurningField",
+        name: "Burning Field",
         icon: spellIcons.BurningField,
       },
       {
@@ -2655,23 +2655,23 @@ const spellDB = {
     ],
     active2: [
       {
-        name: "FlameBlast",
+        name: "Flame Blast",
         icon: spellIcons.FlameBlast,
       },
       {
-        name: "WallofFlames",
+        name: "Wall of Flames",
         icon: spellIcons.WallofFlames,
       },
       {
-        name: "RagingFlare",
+        name: "Raging Flare",
         icon: spellIcons.RagingFlare,
       },
       {
-        name: "FireWave",
+        name: "Fire Wave",
         icon: spellIcons.FireWave,
       },
       {
-        name: "FireArtillery",
+        name: "Fire Artillery",
         icon: spellIcons.FireArtillery,
       },
     ],
