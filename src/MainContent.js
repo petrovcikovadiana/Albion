@@ -457,13 +457,15 @@ function MainContent() {
                 {build.slots.map((slot, slotIndex) => (
                   <div
                     key={slotIndex}
-                    className={`relative w-[100px] h-[100px] flex items-center justify-center rounded-lg group ${
-                      slot ? "" : "border-2 border-sky-500"
-                    } ${
-                      isSlotLocked(buildIndex, slotIndex)
-                        ? "opacity-50 pointer-events-none"
-                        : ""
-                    }`}
+                    className={`relative w-[100px] h-[100px] flex items-center justify-center rounded-lg group
+      ${slot ? "" : "border-2 border-sky-500"}
+      ${
+        isSlotLocked(buildIndex, slotIndex)
+          ? "opacity-50 pointer-events-none"
+          : ""
+      }
+      ${slotIndex === 8 ? "col-start-2" : ""} 
+    `}
                   >
                     {slot ? (
                       <>
@@ -529,7 +531,7 @@ function MainContent() {
 
             {/* Spells */}
             {build.selectedItemDetails.length > 0 && (
-              <div className="bg-zinc-900 rounded-2xl shadow-lg p-6 border border-white/10 max-w-[350px] max-h-[90vh] overflow-x-hidden">
+              <div className="bg-zinc-900 rounded-2xl shadow-lg p-6 border border-white/10 max-w-[350px] max-h-[90vh]">
                 {(() => {
                   const slotPriority = [4, 2, 0, 3, 6];
 
