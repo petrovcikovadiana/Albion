@@ -1,39 +1,12 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 
 const Tooltip = ({ children, content }) => {
   const tooltipRef = useRef(null);
-  const [position, setPosition] = useState({ x: 0, y: 0 });
   const [visible, setVisible] = useState(false);
-  const [tooltipSize, setTooltipSize] = useState({ width: 0, height: 0 });
-
-  useEffect(() => {
-    const handleMouseMove = (e) => {
-      const tooltip = tooltipRef.current;
-      if (tooltip) {
-        const rect = tooltip.getBoundingClientRect();
-        setTooltipSize({ width: rect.width, height: rect.height });
-      }
-
-      setPosition({
-        x: e.clientX,
-        y: e.clientY,
-      });
-    };
-
-    if (visible) {
-      window.addEventListener("mousemove", handleMouseMove);
-    } else {
-      window.removeEventListener("mousemove", handleMouseMove);
-    }
-
-    return () => {
-      window.removeEventListener("mousemove", handleMouseMove);
-    };
-  }, [visible]);
 
   return (
     <div
-      className="inline-block relative"
+      className="inline-block relative group "
       onMouseEnter={() => setVisible(true)}
       onMouseLeave={() => setVisible(false)}
     >
@@ -41,11 +14,11 @@ const Tooltip = ({ children, content }) => {
       {visible && (
         <div
           ref={tooltipRef}
-          className="fixed z-50 pointer-events-none bg-black/80 text-white text-sm px-3 py-2 rounded-lg shadow-lg border border-white/10"
+          className="absolute z-[9999] pointer-events-none bg-black/80 text-white text-sm px-3 py-2 rounded-lg shadow-lg border border-white/10 whitespace-nowrap "
           style={{
-            top: position.y,
-            left: position.x,
-            transform: "translate(-50%, -120%)",
+            top: 0,
+            left: "50%",
+            transform: "translate(-50%, -100%)",
           }}
         >
           {content}
