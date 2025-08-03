@@ -452,7 +452,7 @@ function MainContent() {
           <div key={buildIndex} className="flex flex-col md:flex-row gap-6">
             {/* Slots */}
             <div className="bg-zinc-900 rounded-2xl shadow-lg p-6 border border-white/10">
-              <div className="grid grid-cols-3 gap-2">
+              <div className="grid grid-cols-3 gap-1">
                 <div></div>
                 {build.slots.map((slot, slotIndex) => (
                   <div
@@ -481,7 +481,7 @@ function MainContent() {
                           <img
                             src={slot}
                             alt="item"
-                            className="max-h-full max-w-full cursor-pointer"
+                            className="w-full h-full object-contain cursor-pointer"
                             onClick={() =>
                               handleSlotClick(buildIndex, slotIndex)
                             }
@@ -529,7 +529,7 @@ function MainContent() {
 
             {/* Spells */}
             {build.selectedItemDetails.length > 0 && (
-              <div className="bg-zinc-900 rounded-2xl shadow-lg p-6 border border-white/10 max-w-[350px] max-h-[90vh] overflow-auto">
+              <div className="bg-zinc-900 rounded-2xl shadow-lg p-6 border border-white/10 max-w-[350px] max-h-[90vh] overflow-x-hidden">
                 {(() => {
                   const slotPriority = [4, 2, 0, 3, 6];
 
