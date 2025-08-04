@@ -695,7 +695,9 @@ function MainContent() {
                                         "passiveSpell",
                                         idx
                                       ).map((spell, i) => (
-                                        <Tooltip content={item.name || item.id}>
+                                        <Tooltip
+                                          content={spell.name || spell.id}
+                                        >
                                           <img
                                             key={i}
                                             src={spell.icon}
