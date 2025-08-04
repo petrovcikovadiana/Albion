@@ -336,7 +336,7 @@ const spellDB = {
         icon: spellIcons.SELF_CLEANSE,
       },
       {
-        name: "Growing_rage",
+        name: "Growing Rage",
         icon: spellIcons.Growing_rage,
       },
     ],
@@ -363,7 +363,7 @@ const spellDB = {
         icon: spellIcons.SELF_CLEANSE,
       },
       {
-        name: "mortal_agony",
+        name: "Mortal Agony",
         icon: spellIcons.mortal_agony,
       },
     ],
@@ -390,7 +390,7 @@ const spellDB = {
         icon: spellIcons.SELF_CLEANSE,
       },
       {
-        name: "smokebomb",
+        name: "Smokebomb",
         icon: spellIcons.smokebomb,
       },
     ],
@@ -417,7 +417,7 @@ const spellDB = {
         icon: spellIcons.SELF_CLEANSE,
       },
       {
-        name: "flash_of_insight",
+        name: "Flash Of Insight",
         icon: spellIcons.flash_of_insight,
       },
     ],
@@ -471,7 +471,7 @@ const spellDB = {
         icon: spellIcons.SELF_CLEANSE,
       },
       {
-        name: "nasty_wounds",
+        name: "Nasty Wounds",
         icon: spellIcons.nasty_wounds,
       },
     ],
@@ -494,5543 +494,3178 @@ const spellDB = {
         icon: spellIcons.ENERGIZING_SHIELD,
       },
       {
-        name: "stone_skin",
+        name: "Stone Skin",
         icon: spellIcons.stone_skin,
       },
       {
-        name: "block",
+        name: "Block",
         icon: spellIcons.block,
       },
     ],
     passive1: [
-      { name: "toughness", icon: spellIcons.toughness },
       {
-        name: "authority",
+        name: "Toughness",
+        icon: spellIcons.toughness,
+      },
+      {
+        name: "Authority",
         icon: spellIcons.authority,
       },
       {
-        name: "tenacity",
+        name: "Tenacity",
         icon: spellIcons.tenacity,
       },
     ],
   },
+
   T8_HEAD_PLATE_SET2: {
     active1: [
-      {
-        name: "Energizing Shield",
-        icon: spellIcons.ENERGIZING_SHIELD,
-      },
-      {
-        name: "stone_skin",
-        icon: spellIcons.stone_skin,
-      },
-      {
-        name: "displacement_immunity",
-        icon: spellIcons.displacement_immunity,
-      },
+      { name: "Energizing Shield", icon: spellIcons.ENERGIZING_SHIELD },
+      { name: "Stone Skin", icon: spellIcons.stone_skin },
+      { name: "Displacement Immunity", icon: spellIcons.displacement_immunity },
     ],
     passive1: [
-      { name: "toughness", icon: spellIcons.toughness },
-      {
-        name: "authority",
-        icon: spellIcons.authority,
-      },
-      {
-        name: "tenacity",
-        icon: spellIcons.tenacity,
-      },
+      { name: "Toughness", icon: spellIcons.toughness },
+      { name: "Authority", icon: spellIcons.authority },
+      { name: "Tenacity", icon: spellIcons.tenacity },
     ],
   },
   T8_HEAD_PLATE_SET3: {
     active1: [
-      {
-        name: "Energizing Shield",
-        icon: spellIcons.ENERGIZING_SHIELD,
-      },
-      {
-        name: "stone_skin",
-        icon: spellIcons.stone_skin,
-      },
-      {
-        name: "emergency_shield",
-        icon: spellIcons.emergency_shield,
-      },
+      { name: "Energizing Shield", icon: spellIcons.ENERGIZING_SHIELD },
+      { name: "Stone Skin", icon: spellIcons.stone_skin },
+      { name: "Emergency Shield", icon: spellIcons.emergency_shield },
     ],
     passive1: [
-      { name: "toughness", icon: spellIcons.toughness },
-      {
-        name: "authority",
-        icon: spellIcons.authority,
-      },
-      {
-        name: "tenacity",
-        icon: spellIcons.tenacity,
-      },
+      { name: "Toughness", icon: spellIcons.toughness },
+      { name: "Authority", icon: spellIcons.authority },
+      { name: "Tenacity", icon: spellIcons.tenacity },
     ],
   },
   T8_HEAD_PLATE_ROYAL: {
     active1: [
-      {
-        name: "Energizing Shield",
-        icon: spellIcons.ENERGIZING_SHIELD,
-      },
-      {
-        name: "stone_skin",
-        icon: spellIcons.stone_skin,
-      },
-      {
-        name: "ballista_support_fire",
-        icon: spellIcons.ballista_support_fire,
-      },
+      { name: "Energizing Shield", icon: spellIcons.ENERGIZING_SHIELD },
+      { name: "Stone Skin", icon: spellIcons.stone_skin },
+      { name: "Ballista Support Fire", icon: spellIcons.ballista_support_fire },
     ],
     passive1: [
-      { name: "toughness", icon: spellIcons.toughness },
-      {
-        name: "authority",
-        icon: spellIcons.authority,
-      },
-      {
-        name: "tenacity",
-        icon: spellIcons.tenacity,
-      },
+      { name: "Toughness", icon: spellIcons.toughness },
+      { name: "Authority", icon: spellIcons.authority },
+      { name: "Tenacity", icon: spellIcons.tenacity },
     ],
   },
   T8_HEAD_PLATE_UNDEAD: {
     active1: [
-      {
-        name: "Energizing Shield",
-        icon: spellIcons.ENERGIZING_SHIELD,
-      },
-      {
-        name: "stone_skin",
-        icon: spellIcons.stone_skin,
-      },
-      {
-        name: "sacrifice",
-        icon: spellIcons.sacrifice,
-      },
+      { name: "Energizing Shield", icon: spellIcons.ENERGIZING_SHIELD },
+      { name: "Stone Skin", icon: spellIcons.stone_skin },
+      { name: "Sacrifice", icon: spellIcons.sacrifice },
     ],
     passive1: [
-      { name: "toughness", icon: spellIcons.toughness },
-      {
-        name: "authority",
-        icon: spellIcons.authority,
-      },
-      {
-        name: "tenacity",
-        icon: spellIcons.tenacity,
-      },
+      { name: "Toughness", icon: spellIcons.toughness },
+      { name: "Authority", icon: spellIcons.authority },
+      { name: "Tenacity", icon: spellIcons.tenacity },
     ],
   },
   T8_HEAD_PLATE_HELL: {
     active1: [
-      {
-        name: "Energizing Shield",
-        icon: spellIcons.ENERGIZING_SHIELD,
-      },
-      {
-        name: "stone_skin",
-        icon: spellIcons.stone_skin,
-      },
-      {
-        name: "WEAPON_SILENCE",
-        icon: spellIcons.WEAPON_SILENCE,
-      },
+      { name: "Energizing Shield", icon: spellIcons.ENERGIZING_SHIELD },
+      { name: "Stone Skin", icon: spellIcons.stone_skin },
+      { name: "Weapon Silence", icon: spellIcons.WEAPON_SILENCE },
     ],
     passive1: [
-      { name: "toughness", icon: spellIcons.toughness },
-      {
-        name: "authority",
-        icon: spellIcons.authority,
-      },
-      {
-        name: "tenacity",
-        icon: spellIcons.tenacity,
-      },
+      { name: "Toughness", icon: spellIcons.toughness },
+      { name: "Authority", icon: spellIcons.authority },
+      { name: "Tenacity", icon: spellIcons.tenacity },
     ],
   },
   T8_HEAD_PLATE_KEEPER: {
     active1: [
-      {
-        name: "Energizing Shield",
-        icon: spellIcons.ENERGIZING_SHIELD,
-      },
-      {
-        name: "stone_skin",
-        icon: spellIcons.stone_skin,
-      },
-      {
-        name: "electric_discharge",
-        icon: spellIcons.electric_discharge,
-      },
+      { name: "Energizing Shield", icon: spellIcons.ENERGIZING_SHIELD },
+      { name: "Stone Skin", icon: spellIcons.stone_skin },
+      { name: "Electric Discharge", icon: spellIcons.electric_discharge },
     ],
     passive1: [
-      { name: "toughness", icon: spellIcons.toughness },
-      {
-        name: "authority",
-        icon: spellIcons.authority,
-      },
-      {
-        name: "tenacity",
-        icon: spellIcons.tenacity,
-      },
+      { name: "Toughness", icon: spellIcons.toughness },
+      { name: "Authority", icon: spellIcons.authority },
+      { name: "Tenacity", icon: spellIcons.tenacity },
     ],
   },
   T8_HEAD_PLATE_FEY: {
     active1: [
-      {
-        name: "Energizing Shield",
-        icon: spellIcons.ENERGIZING_SHIELD,
-      },
-      {
-        name: "stone_skin",
-        icon: spellIcons.stone_skin,
-      },
-      {
-        name: "spiders_thread",
-        icon: spellIcons.spiders_thread,
-      },
+      { name: "Energizing Shield", icon: spellIcons.ENERGIZING_SHIELD },
+      { name: "Stone Skin", icon: spellIcons.stone_skin },
+      { name: "Spiders Thread", icon: spellIcons.spiders_thread },
     ],
     passive1: [
-      { name: "toughness", icon: spellIcons.toughness },
-      {
-        name: "authority",
-        icon: spellIcons.authority,
-      },
-      {
-        name: "tenacity",
-        icon: spellIcons.tenacity,
-      },
+      { name: "Toughness", icon: spellIcons.toughness },
+      { name: "Authority", icon: spellIcons.authority },
+      { name: "Tenacity", icon: spellIcons.tenacity },
     ],
   },
   T8_HEAD_PLATE_AVALON: {
     active1: [
-      {
-        name: "Energizing Shield",
-        icon: spellIcons.ENERGIZING_SHIELD,
-      },
-      {
-        name: "stone_skin",
-        icon: spellIcons.stone_skin,
-      },
-      {
-        name: "purifying_smoke",
-        icon: spellIcons.purifying_smoke,
-      },
+      { name: "Energizing Shield", icon: spellIcons.ENERGIZING_SHIELD },
+      { name: "Stone Skin", icon: spellIcons.stone_skin },
+      { name: "Purifying Smoke", icon: spellIcons.purifying_smoke },
     ],
     passive1: [
-      { name: "toughness", icon: spellIcons.toughness },
-      {
-        name: "authority",
-        icon: spellIcons.authority,
-      },
-      {
-        name: "tenacity",
-        icon: spellIcons.tenacity,
-      },
+      { name: "Toughness", icon: spellIcons.toughness },
+      { name: "Authority", icon: spellIcons.authority },
+      { name: "Tenacity", icon: spellIcons.tenacity },
     ],
   },
+
   T8_ARMOR_CLOTH_SET1: {
     active1: [
-      {
-        name: "OUTOFCOMBATHEAL",
-        icon: spellIcons.OUTOFCOMBATHEAL,
-      },
-      {
-        name: "Frost_Shield",
-        icon: spellIcons.Frost_Shield,
-      },
-      {
-        name: "Speed_Caster",
-        icon: spellIcons.Speed_Caster,
-      },
+      { name: "Out Of Combat Heal", icon: spellIcons.OUTOFCOMBATHEAL },
+      { name: "Frost Shield", icon: spellIcons.Frost_Shield },
+      { name: "Speed Caster", icon: spellIcons.Speed_Caster },
     ],
     passive1: [
       { name: "Aggression", icon: spellIcons.aggression },
-      {
-        name: "Concentration",
-        icon: spellIcons.Concentration,
-      },
-      {
-        name: "Efficiency",
-        icon: spellIcons.Efficiency,
-      },
+      { name: "Concentration", icon: spellIcons.Concentration },
+      { name: "Efficiency", icon: spellIcons.Efficiency },
     ],
   },
   T8_ARMOR_CLOTH_SET2: {
     active1: [
-      {
-        name: "OUTOFCOMBATHEAL",
-        icon: spellIcons.OUTOFCOMBATHEAL,
-      },
-      {
-        name: "Frost_Shield",
-        icon: spellIcons.Frost_Shield,
-      },
-      {
-        name: "Everlasting_Spirit",
-        icon: spellIcons.Everlasting_Spirit,
-      },
+      { name: "Out Of Combat Heal", icon: spellIcons.OUTOFCOMBATHEAL },
+      { name: "Frost Shield", icon: spellIcons.Frost_Shield },
+      { name: "Everlasting Spirit", icon: spellIcons.Everlasting_Spirit },
     ],
     passive1: [
       { name: "Aggression", icon: spellIcons.aggression },
-      {
-        name: "Concentration",
-        icon: spellIcons.Concentration,
-      },
-      {
-        name: "Efficiency",
-        icon: spellIcons.Efficiency,
-      },
+      { name: "Concentration", icon: spellIcons.Concentration },
+      { name: "Efficiency", icon: spellIcons.Efficiency },
     ],
   },
   T8_ARMOR_CLOTH_SET3: {
     active1: [
-      {
-        name: "OUTOFCOMBATHEAL",
-        icon: spellIcons.OUTOFCOMBATHEAL,
-      },
-      {
-        name: "Frost_Shield",
-        icon: spellIcons.Frost_Shield,
-      },
-      {
-        name: "Purging_Shield",
-        icon: spellIcons.Purging_Shield,
-      },
+      { name: "Out Of Combat Heal", icon: spellIcons.OUTOFCOMBATHEAL },
+      { name: "Frost Shield", icon: spellIcons.Frost_Shield },
+      { name: "Purging Shield", icon: spellIcons.Purging_Shield },
     ],
     passive1: [
       { name: "Aggression", icon: spellIcons.aggression },
-      {
-        name: "Concentration",
-        icon: spellIcons.Concentration,
-      },
-      {
-        name: "Efficiency",
-        icon: spellIcons.Efficiency,
-      },
+      { name: "Concentration", icon: spellIcons.Concentration },
+      { name: "Efficiency", icon: spellIcons.Efficiency },
     ],
   },
   T8_ARMOR_CLOTH_ROYAL: {
     active1: [
-      {
-        name: "OUTOFCOMBATHEAL",
-        icon: spellIcons.OUTOFCOMBATHEAL,
-      },
-      {
-        name: "Frost_Shield",
-        icon: spellIcons.Frost_Shield,
-      },
-      {
-        name: "Magic_Rune",
-        icon: spellIcons.Magic_Rune,
-      },
+      { name: "Out Of Combat Heal", icon: spellIcons.OUTOFCOMBATHEAL },
+      { name: "Frost Shield", icon: spellIcons.Frost_Shield },
+      { name: "Magic Rune", icon: spellIcons.Magic_Rune },
     ],
     passive1: [
       { name: "Aggression", icon: spellIcons.aggression },
-      {
-        name: "Concentration",
-        icon: spellIcons.Concentration,
-      },
-      {
-        name: "Efficiency",
-        icon: spellIcons.Efficiency,
-      },
+      { name: "Concentration", icon: spellIcons.Concentration },
+      { name: "Efficiency", icon: spellIcons.Efficiency },
     ],
   },
   T8_ARMOR_CLOTH_KEEPER: {
     active1: [
-      {
-        name: "OUTOFCOMBATHEAL",
-        icon: spellIcons.OUTOFCOMBATHEAL,
-      },
-      {
-        name: "Frost_Shield",
-        icon: spellIcons.Frost_Shield,
-      },
-      {
-        name: "Obsessive_Burst",
-        icon: spellIcons.Obsessive_Burst,
-      },
+      { name: "Out Of Combat Heal", icon: spellIcons.OUTOFCOMBATHEAL },
+      { name: "Frost Shield", icon: spellIcons.Frost_Shield },
+      { name: "Obsessive Burst", icon: spellIcons.Obsessive_Burst },
     ],
     passive1: [
       { name: "Aggression", icon: spellIcons.aggression },
-      {
-        name: "Concentration",
-        icon: spellIcons.Concentration,
-      },
-      {
-        name: "Efficiency",
-        icon: spellIcons.Efficiency,
-      },
+      { name: "Concentration", icon: spellIcons.Concentration },
+      { name: "Efficiency", icon: spellIcons.Efficiency },
     ],
   },
   T8_ARMOR_CLOTH_HELL: {
     active1: [
-      {
-        name: "OUTOFCOMBATHEAL",
-        icon: spellIcons.OUTOFCOMBATHEAL,
-      },
-      {
-        name: "Frost_Shield",
-        icon: spellIcons.Frost_Shield,
-      },
-      {
-        name: "Fear_Aura",
-        icon: spellIcons.Fear_Aura,
-      },
+      { name: "Out Of Combat Heal", icon: spellIcons.OUTOFCOMBATHEAL },
+      { name: "Frost Shield", icon: spellIcons.Frost_Shield },
+      { name: "Fear Aura", icon: spellIcons.Fear_Aura },
     ],
     passive1: [
       { name: "Aggression", icon: spellIcons.aggression },
-      {
-        name: "Concentration",
-        icon: spellIcons.Concentration,
-      },
-      {
-        name: "Efficiency",
-        icon: spellIcons.Efficiency,
-      },
+      { name: "Concentration", icon: spellIcons.Concentration },
+      { name: "Efficiency", icon: spellIcons.Efficiency },
     ],
   },
   T8_ARMOR_CLOTH_MORGANA: {
     active1: [
-      {
-        name: "OUTOFCOMBATHEAL",
-        icon: spellIcons.OUTOFCOMBATHEAL,
-      },
-      {
-        name: "Frost_Shield",
-        icon: spellIcons.Frost_Shield,
-      },
-      {
-        name: "Levitate",
-        icon: spellIcons.Levitate,
-      },
+      { name: "Out Of Combat Heal", icon: spellIcons.OUTOFCOMBATHEAL },
+      { name: "Frost Shield", icon: spellIcons.Frost_Shield },
+      { name: "Levitate", icon: spellIcons.Levitate },
     ],
     passive1: [
       { name: "Aggression", icon: spellIcons.aggression },
-      {
-        name: "Concentration",
-        icon: spellIcons.Concentration,
-      },
-      {
-        name: "Efficiency",
-        icon: spellIcons.Efficiency,
-      },
+      { name: "Concentration", icon: spellIcons.Concentration },
+      { name: "Efficiency", icon: spellIcons.Efficiency },
     ],
   },
   T8_ARMOR_CLOTH_FEY: {
     active1: [
-      {
-        name: "OUTOFCOMBATHEAL",
-        icon: spellIcons.OUTOFCOMBATHEAL,
-      },
-      {
-        name: "Frost_Shield",
-        icon: spellIcons.Frost_Shield,
-      },
-      {
-        name: "Wild_Magic",
-        icon: spellIcons.Wild_Magic,
-      },
+      { name: "Out Of Combat Heal", icon: spellIcons.OUTOFCOMBATHEAL },
+      { name: "Frost Shield", icon: spellIcons.Frost_Shield },
+      { name: "Wild Magic", icon: spellIcons.Wild_Magic },
     ],
     passive1: [
       { name: "Aggression", icon: spellIcons.aggression },
-      {
-        name: "Concentration",
-        icon: spellIcons.Concentration,
-      },
-      {
-        name: "Efficiency",
-        icon: spellIcons.Efficiency,
-      },
+      { name: "Concentration", icon: spellIcons.Concentration },
+      { name: "Efficiency", icon: spellIcons.Efficiency },
     ],
   },
   T8_ARMOR_CLOTH_AVALON: {
     active1: [
-      {
-        name: "OUTOFCOMBATHEAL",
-        icon: spellIcons.OUTOFCOMBATHEAL,
-      },
-      {
-        name: "Frost_Shield",
-        icon: spellIcons.Frost_Shield,
-      },
-      {
-        name: "Energy_Emission",
-        icon: spellIcons.Energy_Emission,
-      },
+      { name: "Out Of Combat Heal", icon: spellIcons.OUTOFCOMBATHEAL },
+      { name: "Frost Shield", icon: spellIcons.Frost_Shield },
+      { name: "Energy Emission", icon: spellIcons.Energy_Emission },
     ],
     passive1: [
       { name: "Aggression", icon: spellIcons.aggression },
-      {
-        name: "Concentration",
-        icon: spellIcons.Concentration,
-      },
-      {
-        name: "Efficiency",
-        icon: spellIcons.Efficiency,
-      },
+      { name: "Concentration", icon: spellIcons.Concentration },
+      { name: "Efficiency", icon: spellIcons.Efficiency },
     ],
   },
   T8_ARMOR_LEATHER_SET1: {
     active1: [
-      {
-        name: "OUTOFCOMBATHEAL",
-        icon: spellIcons.OUTOFCOMBATHEAL,
-      },
-      {
-        name: "FLAMESHIELD",
-        icon: spellIcons.FLAMESHIELD,
-      },
-      {
-        name: "Bloodlust",
-        icon: spellIcons.Bloodlust,
-      },
+      { name: "Out Of Combat Heal", icon: spellIcons.OUTOFCOMBATHEAL },
+      { name: "Flameshield", icon: spellIcons.FLAMESHIELD },
+      { name: "Bloodlust", icon: spellIcons.Bloodlust },
     ],
     passive1: [
-      { name: "PASSIVE_BALANCE", icon: spellIcons.PASSIVE_BALANCE },
+      { name: "Passive Balance", icon: spellIcons.PASSIVE_BALANCE },
       {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
-      {
-        name: "PASSIVE_CD_REDUCTION",
-        icon: spellIcons.PASSIVE_CD_REDUCTION,
-      },
+      { name: "Passive Cd Reduction", icon: spellIcons.PASSIVE_CD_REDUCTION },
     ],
   },
   T8_ARMOR_LEATHER_SET2: {
     active1: [
-      {
-        name: "OUTOFCOMBATHEAL",
-        icon: spellIcons.OUTOFCOMBATHEAL,
-      },
-      {
-        name: "FLAMESHIELD",
-        icon: spellIcons.FLAMESHIELD,
-      },
-      {
-        name: "HASTE",
-        icon: spellIcons.HASTE,
-      },
+      { name: "Out Of Combat Heal", icon: spellIcons.OUTOFCOMBATHEAL },
+      { name: "Flameshield", icon: spellIcons.FLAMESHIELD },
+      { name: "Haste", icon: spellIcons.HASTE },
     ],
     passive1: [
-      { name: "PASSIVE_BALANCE", icon: spellIcons.PASSIVE_BALANCE },
+      { name: "Passive Balance", icon: spellIcons.PASSIVE_BALANCE },
       {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
-      {
-        name: "PASSIVE_CD_REDUCTION",
-        icon: spellIcons.PASSIVE_CD_REDUCTION,
-      },
+      { name: "Passive Cd Reduction", icon: spellIcons.PASSIVE_CD_REDUCTION },
     ],
   },
   T8_ARMOR_LEATHER_SET3: {
     active1: [
-      {
-        name: "OUTOFCOMBATHEAL",
-        icon: spellIcons.OUTOFCOMBATHEAL,
-      },
-      {
-        name: "FLAMESHIELD",
-        icon: spellIcons.FLAMESHIELD,
-      },
-      {
-        name: "Ambush",
-        icon: spellIcons.Ambush,
-      },
+      { name: "Out Of Combat Heal", icon: spellIcons.OUTOFCOMBATHEAL },
+      { name: "Flameshield", icon: spellIcons.FLAMESHIELD },
+      { name: "Ambush", icon: spellIcons.Ambush },
     ],
     passive1: [
-      { name: "PASSIVE_BALANCE", icon: spellIcons.PASSIVE_BALANCE },
+      { name: "Passive Balance", icon: spellIcons.PASSIVE_BALANCE },
       {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
-      {
-        name: "PASSIVE_CD_REDUCTION",
-        icon: spellIcons.PASSIVE_CD_REDUCTION,
-      },
+      { name: "Passive Cd Reduction", icon: spellIcons.PASSIVE_CD_REDUCTION },
     ],
   },
   T8_ARMOR_LEATHER_ROYAL: {
     active1: [
-      {
-        name: "OUTOFCOMBATHEAL",
-        icon: spellIcons.OUTOFCOMBATHEAL,
-      },
-      {
-        name: "FLAMESHIELD",
-        icon: spellIcons.FLAMESHIELD,
-      },
-      {
-        name: "Royal_Banner",
-        icon: spellIcons.Royal_Banner,
-      },
+      { name: "Out Of Combat Heal", icon: spellIcons.OUTOFCOMBATHEAL },
+      { name: "Flameshield", icon: spellIcons.FLAMESHIELD },
+      { name: "Royal Banner", icon: spellIcons.Royal_Banner },
     ],
     passive1: [
-      { name: "PASSIVE_BALANCE", icon: spellIcons.PASSIVE_BALANCE },
+      { name: "Passive Balance", icon: spellIcons.PASSIVE_BALANCE },
       {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
-      {
-        name: "PASSIVE_CD_REDUCTION",
-        icon: spellIcons.PASSIVE_CD_REDUCTION,
-      },
+      { name: "Passive Cd Reduction", icon: spellIcons.PASSIVE_CD_REDUCTION },
     ],
   },
   T8_ARMOR_LEATHER_MORGANA: {
     active1: [
-      {
-        name: "OUTOFCOMBATHEAL",
-        icon: spellIcons.OUTOFCOMBATHEAL,
-      },
-      {
-        name: "FLAMESHIELD",
-        icon: spellIcons.FLAMESHIELD,
-      },
-      {
-        name: "STORMSHIELD",
-        icon: spellIcons.STORMSHIELD,
-      },
+      { name: "Out Of Combat Heal", icon: spellIcons.OUTOFCOMBATHEAL },
+      { name: "Flameshield", icon: spellIcons.FLAMESHIELD },
+      { name: "Stormshield", icon: spellIcons.STORMSHIELD },
     ],
     passive1: [
-      { name: "PASSIVE_BALANCE", icon: spellIcons.PASSIVE_BALANCE },
+      { name: "Passive Balance", icon: spellIcons.PASSIVE_BALANCE },
       {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
-      {
-        name: "PASSIVE_CD_REDUCTION",
-        icon: spellIcons.PASSIVE_CD_REDUCTION,
-      },
+      { name: "Passive Cd Reduction", icon: spellIcons.PASSIVE_CD_REDUCTION },
     ],
   },
   T8_ARMOR_LEATHER_HELL: {
     active1: [
-      {
-        name: "OUTOFCOMBATHEAL",
-        icon: spellIcons.OUTOFCOMBATHEAL,
-      },
-      {
-        name: "FLAMESHIELD",
-        icon: spellIcons.FLAMESHIELD,
-      },
-      {
-        name: "Life_Steal_Aura",
-        icon: spellIcons.Life_Steal_Aura,
-      },
+      { name: "Out Of Combat Heal", icon: spellIcons.OUTOFCOMBATHEAL },
+      { name: "Flameshield", icon: spellIcons.FLAMESHIELD },
+      { name: "Life Steal Aura", icon: spellIcons.Life_Steal_Aura },
     ],
     passive1: [
-      { name: "PASSIVE_BALANCE", icon: spellIcons.PASSIVE_BALANCE },
+      { name: "Passive Balance", icon: spellIcons.PASSIVE_BALANCE },
       {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
-      {
-        name: "PASSIVE_CD_REDUCTION",
-        icon: spellIcons.PASSIVE_CD_REDUCTION,
-      },
+      { name: "Passive Cd Reduction", icon: spellIcons.PASSIVE_CD_REDUCTION },
     ],
   },
   T8_ARMOR_LEATHER_UNDEAD: {
     active1: [
-      {
-        name: "OUTOFCOMBATHEAL",
-        icon: spellIcons.OUTOFCOMBATHEAL,
-      },
-      {
-        name: "FLAMESHIELD",
-        icon: spellIcons.FLAMESHIELD,
-      },
-      {
-        name: "BURNAURA",
-        icon: spellIcons.BURNAURA,
-      },
+      { name: "Out Of Combat Heal", icon: spellIcons.OUTOFCOMBATHEAL },
+      { name: "Flameshield", icon: spellIcons.FLAMESHIELD },
+      { name: "Burnaura", icon: spellIcons.BURNAURA },
     ],
     passive1: [
-      { name: "PASSIVE_BALANCE", icon: spellIcons.PASSIVE_BALANCE },
+      { name: "Passive Balance", icon: spellIcons.PASSIVE_BALANCE },
       {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
-      {
-        name: "PASSIVE_CD_REDUCTION",
-        icon: spellIcons.PASSIVE_CD_REDUCTION,
-      },
+      { name: "Passive Cd Reduction", icon: spellIcons.PASSIVE_CD_REDUCTION },
     ],
   },
   T8_ARMOR_LEATHER_FEY: {
     active1: [
-      {
-        name: "OUTOFCOMBATHEAL",
-        icon: spellIcons.OUTOFCOMBATHEAL,
-      },
-      {
-        name: "FLAMESHIELD",
-        icon: spellIcons.FLAMESHIELD,
-      },
-      {
-        name: "MIST_WALKER",
-        icon: spellIcons.MIST_WALKER,
-      },
+      { name: "Out Of Combat Heal", icon: spellIcons.OUTOFCOMBATHEAL },
+      { name: "Flameshield", icon: spellIcons.FLAMESHIELD },
+      { name: "Mist Walker", icon: spellIcons.MIST_WALKER },
     ],
     passive1: [
-      { name: "PASSIVE_BALANCE", icon: spellIcons.PASSIVE_BALANCE },
+      { name: "Passive Balance", icon: spellIcons.PASSIVE_BALANCE },
       {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
-      {
-        name: "PASSIVE_CD_REDUCTION",
-        icon: spellIcons.PASSIVE_CD_REDUCTION,
-      },
+      { name: "Passive Cd Reduction", icon: spellIcons.PASSIVE_CD_REDUCTION },
     ],
   },
   T8_ARMOR_LEATHER_AVALON: {
     active1: [
-      {
-        name: "OUTOFCOMBATHEAL",
-        icon: spellIcons.OUTOFCOMBATHEAL,
-      },
-      {
-        name: "FLAMESHIELD",
-        icon: spellIcons.FLAMESHIELD,
-      },
-      {
-        name: "Dynamic_Defense",
-        icon: spellIcons.Dynamic_Defense,
-      },
+      { name: "Out Of Combat Heal", icon: spellIcons.OUTOFCOMBATHEAL },
+      { name: "Flameshield", icon: spellIcons.FLAMESHIELD },
+      { name: "Dynamic Defense", icon: spellIcons.Dynamic_Defense },
     ],
     passive1: [
-      { name: "PASSIVE_BALANCE", icon: spellIcons.PASSIVE_BALANCE },
+      { name: "Passive Balance", icon: spellIcons.PASSIVE_BALANCE },
       {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
-      {
-        name: "PASSIVE_CD_REDUCTION",
-        icon: spellIcons.PASSIVE_CD_REDUCTION,
-      },
+      { name: "Passive Cd Reduction", icon: spellIcons.PASSIVE_CD_REDUCTION },
     ],
   },
+
   T8_ARMOR_PLATE_SET1: {
     active1: [
-      {
-        name: "OUTOFCOMBATHEAL",
-        icon: spellIcons.OUTOFCOMBATHEAL,
-      },
-      {
-        name: "Taunt",
-        icon: spellIcons.Taunt,
-      },
-      {
-        name: "ENRAGE",
-        icon: spellIcons.ENRAGE,
-      },
+      { name: "Out Of Combat Heal", icon: spellIcons.OUTOFCOMBATHEAL },
+      { name: "Taunt", icon: spellIcons.Taunt },
+      { name: "Enrage", icon: spellIcons.ENRAGE },
     ],
     passive1: [
-      { name: "PASSIVE_MR_AR", icon: spellIcons.PASSIVE_MR_AR },
-      { name: "PASSIVE_CCDURATION", icon: spellIcons.PASSIVE_CCDURATION },
-      { name: "PASSIVE_INCREASED_CCR", icon: spellIcons.PASSIVE_INCREASED_CCR },
+      { name: "Passive Mr Ar", icon: spellIcons.PASSIVE_MR_AR },
+      { name: "Passive Ccduration", icon: spellIcons.PASSIVE_CCDURATION },
+      { name: "Passive Increased Ccr", icon: spellIcons.PASSIVE_INCREASED_CCR },
     ],
     passive2: [
       {
-        name: "PASSIVE_PLATEARMOR_HEALTH_REDUCTION",
+        name: "Passive Platearmor Health Reduction",
         icon: spellIcons.PASSIVE_PLATEARMOR_HEALTH_REDUCTION,
       },
       {
-        name: "PASSIVE_PLATEARMOR_THREATGENERATION",
+        name: "Passive Platearmor Threatgeneration",
         icon: spellIcons.PASSIVE_PLATEARMOR_THREATGENERATION,
       },
     ],
   },
   T8_ARMOR_PLATE_SET2: {
     active1: [
-      {
-        name: "OUTOFCOMBATHEAL",
-        icon: spellIcons.OUTOFCOMBATHEAL,
-      },
-      {
-        name: "Taunt",
-        icon: spellIcons.Taunt,
-      },
-      {
-        name: "WINDWALL",
-        icon: spellIcons.WINDWALL,
-      },
+      { name: "Out Of Combat Heal", icon: spellIcons.OUTOFCOMBATHEAL },
+      { name: "Taunt", icon: spellIcons.Taunt },
+      { name: "Windwall", icon: spellIcons.WINDWALL },
     ],
     passive1: [
-      { name: "PASSIVE_MR_AR", icon: spellIcons.PASSIVE_MR_AR },
-      { name: "PASSIVE_CCDURATION", icon: spellIcons.PASSIVE_CCDURATION },
-      { name: "PASSIVE_INCREASED_CCR", icon: spellIcons.PASSIVE_INCREASED_CCR },
+      { name: "Passive Mr Ar", icon: spellIcons.PASSIVE_MR_AR },
+      { name: "Passive Ccduration", icon: spellIcons.PASSIVE_CCDURATION },
+      { name: "Passive Increased Ccr", icon: spellIcons.PASSIVE_INCREASED_CCR },
     ],
     passive2: [
       {
-        name: "PASSIVE_PLATEARMOR_HEALTH_REDUCTION",
+        name: "Passive Platearmor Health Reduction",
         icon: spellIcons.PASSIVE_PLATEARMOR_HEALTH_REDUCTION,
       },
       {
-        name: "PASSIVE_PLATEARMOR_THREATGENERATION",
+        name: "Passive Platearmor Threatgeneration",
         icon: spellIcons.PASSIVE_PLATEARMOR_THREATGENERATION,
       },
     ],
   },
   T8_ARMOR_PLATE_SET3: {
     active1: [
-      {
-        name: "OUTOFCOMBATHEAL",
-        icon: spellIcons.OUTOFCOMBATHEAL,
-      },
-      {
-        name: "Taunt",
-        icon: spellIcons.Taunt,
-      },
-      {
-        name: "ENFEEBLEAURA",
-        icon: spellIcons.ENFEEBLEAURA,
-      },
+      { name: "Out Of Combat Heal", icon: spellIcons.OUTOFCOMBATHEAL },
+      { name: "Taunt", icon: spellIcons.Taunt },
+      { name: "Enfeebleaura", icon: spellIcons.ENFEEBLEAURA },
     ],
     passive1: [
-      { name: "PASSIVE_MR_AR", icon: spellIcons.PASSIVE_MR_AR },
-      { name: "PASSIVE_CCDURATION", icon: spellIcons.PASSIVE_CCDURATION },
-      { name: "PASSIVE_INCREASED_CCR", icon: spellIcons.PASSIVE_INCREASED_CCR },
+      { name: "Passive Mr Ar", icon: spellIcons.PASSIVE_MR_AR },
+      { name: "Passive Ccduration", icon: spellIcons.PASSIVE_CCDURATION },
+      { name: "Passive Increased Ccr", icon: spellIcons.PASSIVE_INCREASED_CCR },
     ],
     passive2: [
       {
-        name: "PASSIVE_PLATEARMOR_HEALTH_REDUCTION",
+        name: "Passive Platearmor Health Reduction",
         icon: spellIcons.PASSIVE_PLATEARMOR_HEALTH_REDUCTION,
       },
       {
-        name: "PASSIVE_PLATEARMOR_THREATGENERATION",
+        name: "Passive Platearmor Threatgeneration",
         icon: spellIcons.PASSIVE_PLATEARMOR_THREATGENERATION,
       },
     ],
   },
   T8_ARMOR_PLATE_ROYAL: {
     active1: [
-      {
-        name: "OUTOFCOMBATHEAL",
-        icon: spellIcons.OUTOFCOMBATHEAL,
-      },
-      {
-        name: "Taunt",
-        icon: spellIcons.Taunt,
-      },
-      {
-        name: "MANADRAIN",
-        icon: spellIcons.MANADRAIN,
-      },
+      { name: "Out Of Combat Heal", icon: spellIcons.OUTOFCOMBATHEAL },
+      { name: "Taunt", icon: spellIcons.Taunt },
+      { name: "Manadrain", icon: spellIcons.MANADRAIN },
     ],
     passive1: [
-      { name: "PASSIVE_MR_AR", icon: spellIcons.PASSIVE_MR_AR },
-      { name: "PASSIVE_CCDURATION", icon: spellIcons.PASSIVE_CCDURATION },
-      { name: "PASSIVE_INCREASED_CCR", icon: spellIcons.PASSIVE_INCREASED_CCR },
+      { name: "Passive Mr Ar", icon: spellIcons.PASSIVE_MR_AR },
+      { name: "Passive Ccduration", icon: spellIcons.PASSIVE_CCDURATION },
+      { name: "Passive Increased Ccr", icon: spellIcons.PASSIVE_INCREASED_CCR },
     ],
     passive2: [
       {
-        name: "PASSIVE_PLATEARMOR_HEALTH_REDUCTION",
+        name: "Passive Platearmor Health Reduction",
         icon: spellIcons.PASSIVE_PLATEARMOR_HEALTH_REDUCTION,
       },
       {
-        name: "PASSIVE_PLATEARMOR_THREATGENERATION",
+        name: "Passive Platearmor Threatgeneration",
         icon: spellIcons.PASSIVE_PLATEARMOR_THREATGENERATION,
       },
     ],
   },
   T8_ARMOR_PLATE_UNDEAD: {
     active1: [
-      {
-        name: "OUTOFCOMBATHEAL",
-        icon: spellIcons.OUTOFCOMBATHEAL,
-      },
-      {
-        name: "Taunt",
-        icon: spellIcons.Taunt,
-      },
-      {
-        name: "ARMORCHAIN",
-        icon: spellIcons.ARMORCHAIN,
-      },
+      { name: "Out Of Combat Heal", icon: spellIcons.OUTOFCOMBATHEAL },
+      { name: "Taunt", icon: spellIcons.Taunt },
+      { name: "Armorchain", icon: spellIcons.ARMORCHAIN },
     ],
     passive1: [
-      { name: "PASSIVE_MR_AR", icon: spellIcons.PASSIVE_MR_AR },
-      { name: "PASSIVE_CCDURATION", icon: spellIcons.PASSIVE_CCDURATION },
-      { name: "PASSIVE_INCREASED_CCR", icon: spellIcons.PASSIVE_INCREASED_CCR },
+      { name: "Passive Mr Ar", icon: spellIcons.PASSIVE_MR_AR },
+      { name: "Passive Ccduration", icon: spellIcons.PASSIVE_CCDURATION },
+      { name: "Passive Increased Ccr", icon: spellIcons.PASSIVE_INCREASED_CCR },
     ],
     passive2: [
       {
-        name: "PASSIVE_PLATEARMOR_HEALTH_REDUCTION",
+        name: "Passive Platearmor Health Reduction",
         icon: spellIcons.PASSIVE_PLATEARMOR_HEALTH_REDUCTION,
       },
       {
-        name: "PASSIVE_PLATEARMOR_THREATGENERATION",
+        name: "Passive Platearmor Threatgeneration",
         icon: spellIcons.PASSIVE_PLATEARMOR_THREATGENERATION,
       },
     ],
   },
+
   T8_ARMOR_PLATE_HELL: {
     active1: [
-      {
-        name: "OUTOFCOMBATHEAL",
-        icon: spellIcons.OUTOFCOMBATHEAL,
-      },
-      {
-        name: "Taunt",
-        icon: spellIcons.Taunt,
-      },
-      {
-        name: "REFLECTAREA",
-        icon: spellIcons.REFLECTAREA,
-      },
+      { name: "Out Of Combat Heal", icon: spellIcons.OUTOFCOMBATHEAL },
+      { name: "Taunt", icon: spellIcons.Taunt },
+      { name: "Reflectarea", icon: spellIcons.REFLECTAREA },
     ],
     passive1: [
-      { name: "PASSIVE_MR_AR", icon: spellIcons.PASSIVE_MR_AR },
-      { name: "PASSIVE_CCDURATION", icon: spellIcons.PASSIVE_CCDURATION },
-      { name: "PASSIVE_INCREASED_CCR", icon: spellIcons.PASSIVE_INCREASED_CCR },
+      { name: "Passive Mr Ar", icon: spellIcons.PASSIVE_MR_AR },
+      { name: "Passive Ccduration", icon: spellIcons.PASSIVE_CCDURATION },
+      { name: "Passive Increased Ccr", icon: spellIcons.PASSIVE_INCREASED_CCR },
     ],
     passive2: [
       {
-        name: "PASSIVE_PLATEARMOR_HEALTH_REDUCTION",
+        name: "Passive Platearmor Health Reduction",
         icon: spellIcons.PASSIVE_PLATEARMOR_HEALTH_REDUCTION,
       },
       {
-        name: "PASSIVE_PLATEARMOR_THREATGENERATION",
+        name: "Passive Platearmor Threatgeneration",
         icon: spellIcons.PASSIVE_PLATEARMOR_THREATGENERATION,
       },
     ],
   },
+
   T8_ARMOR_PLATE_KEEPER: {
     active1: [
-      {
-        name: "OUTOFCOMBATHEAL",
-        icon: spellIcons.OUTOFCOMBATHEAL,
-      },
-      {
-        name: "Taunt",
-        icon: spellIcons.Taunt,
-      },
-      {
-        name: "FORCESHIELD",
-        icon: spellIcons.FORCESHIELD,
-      },
+      { name: "Out Of Combat Heal", icon: spellIcons.OUTOFCOMBATHEAL },
+      { name: "Taunt", icon: spellIcons.Taunt },
+      { name: "Forceshield", icon: spellIcons.FORCESHIELD },
     ],
     passive1: [
-      { name: "PASSIVE_MR_AR", icon: spellIcons.PASSIVE_MR_AR },
-      { name: "PASSIVE_CCDURATION", icon: spellIcons.PASSIVE_CCDURATION },
-      { name: "PASSIVE_INCREASED_CCR", icon: spellIcons.PASSIVE_INCREASED_CCR },
+      { name: "Passive Mr Ar", icon: spellIcons.PASSIVE_MR_AR },
+      { name: "Passive Ccduration", icon: spellIcons.PASSIVE_CCDURATION },
+      { name: "Passive Increased Ccr", icon: spellIcons.PASSIVE_INCREASED_CCR },
     ],
     passive2: [
       {
-        name: "PASSIVE_PLATEARMOR_HEALTH_REDUCTION",
+        name: "Passive Platearmor Health Reduction",
         icon: spellIcons.PASSIVE_PLATEARMOR_HEALTH_REDUCTION,
       },
       {
-        name: "PASSIVE_PLATEARMOR_THREATGENERATION",
+        name: "Passive Platearmor Threatgeneration",
         icon: spellIcons.PASSIVE_PLATEARMOR_THREATGENERATION,
       },
     ],
   },
   T8_ARMOR_PLATE_FEY: {
     active1: [
-      {
-        name: "OUTOFCOMBATHEAL",
-        icon: spellIcons.OUTOFCOMBATHEAL,
-      },
-      {
-        name: "Taunt",
-        icon: spellIcons.Taunt,
-      },
-      {
-        name: "ARMOR_WEB",
-        icon: spellIcons.ARMOR_WEB,
-      },
+      { name: "Out Of Combat Heal", icon: spellIcons.OUTOFCOMBATHEAL },
+      { name: "Taunt", icon: spellIcons.Taunt },
+      { name: "Armor Web", icon: spellIcons.ARMOR_WEB },
     ],
     passive1: [
-      { name: "PASSIVE_MR_AR", icon: spellIcons.PASSIVE_MR_AR },
-      { name: "PASSIVE_CCDURATION", icon: spellIcons.PASSIVE_CCDURATION },
-      { name: "PASSIVE_INCREASED_CCR", icon: spellIcons.PASSIVE_INCREASED_CCR },
+      { name: "Passive Mr Ar", icon: spellIcons.PASSIVE_MR_AR },
+      { name: "Passive Ccduration", icon: spellIcons.PASSIVE_CCDURATION },
+      { name: "Passive Increased Ccr", icon: spellIcons.PASSIVE_INCREASED_CCR },
     ],
     passive2: [
       {
-        name: "PASSIVE_PLATEARMOR_HEALTH_REDUCTION",
+        name: "Passive Platearmor Health Reduction",
         icon: spellIcons.PASSIVE_PLATEARMOR_HEALTH_REDUCTION,
       },
       {
-        name: "PASSIVE_PLATEARMOR_THREATGENERATION",
+        name: "Passive Platearmor Threatgeneration",
         icon: spellIcons.PASSIVE_PLATEARMOR_THREATGENERATION,
       },
     ],
   },
   T8_ARMOR_PLATE_AVALON: {
     active1: [
-      {
-        name: "OUTOFCOMBATHEAL",
-        icon: spellIcons.OUTOFCOMBATHEAL,
-      },
-      {
-        name: "Taunt",
-        icon: spellIcons.Taunt,
-      },
-      {
-        name: "REFLECT_CHANNEL",
-        icon: spellIcons.REFLECT_CHANNEL,
-      },
+      { name: "Out Of Combat Heal", icon: spellIcons.OUTOFCOMBATHEAL },
+      { name: "Taunt", icon: spellIcons.Taunt },
+      { name: "Reflect Channel", icon: spellIcons.REFLECT_CHANNEL },
     ],
     passive1: [
-      { name: "PASSIVE_MR_AR", icon: spellIcons.PASSIVE_MR_AR },
-      { name: "PASSIVE_CCDURATION", icon: spellIcons.PASSIVE_CCDURATION },
-      { name: "PASSIVE_INCREASED_CCR", icon: spellIcons.PASSIVE_INCREASED_CCR },
+      { name: "Passive Mr Ar", icon: spellIcons.PASSIVE_MR_AR },
+      { name: "Passive Ccduration", icon: spellIcons.PASSIVE_CCDURATION },
+      { name: "Passive Increased Ccr", icon: spellIcons.PASSIVE_INCREASED_CCR },
     ],
     passive2: [
       {
-        name: "PASSIVE_PLATEARMOR_HEALTH_REDUCTION",
+        name: "Passive Platearmor Health Reduction",
         icon: spellIcons.PASSIVE_PLATEARMOR_HEALTH_REDUCTION,
       },
       {
-        name: "PASSIVE_PLATEARMOR_THREATGENERATION",
+        name: "Passive Platearmor Threatgeneration",
         icon: spellIcons.PASSIVE_PLATEARMOR_THREATGENERATION,
       },
     ],
   },
+
   T8_SHOES_CLOTH_SET1: {
     active1: [
-      {
-        name: "DODGE",
-        icon: spellIcons.DODGE,
-      },
-      {
-        name: "SPRINTEOT",
-        icon: spellIcons.SPRINTEOT,
-      },
-      {
-        name: "CHANNELED_RUN",
-        icon: spellIcons.CHANNELED_RUN,
-      },
+      { name: "Dodge", icon: spellIcons.DODGE },
+      { name: "Sprinteot", icon: spellIcons.SPRINTEOT },
+      { name: "Channeled Run", icon: spellIcons.CHANNELED_RUN },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Maxload Shoes", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
       {
-        name: "PASSIVE_INCREASED_DAMAGE",
+        name: "Passive Increased Damage",
         icon: spellIcons.PASSIVE_INCREASED_DAMAGE,
       },
-      { name: "PASSIVE_CASTSPEED", icon: spellIcons.PASSIVE_CASTSPEED },
+      { name: "Passive Castspeed", icon: spellIcons.PASSIVE_CASTSPEED },
       {
-        name: "PASSIVE_REDUCED_ENERGYCOST",
+        name: "Passive Reduced Energycost",
         icon: spellIcons.PASSIVE_REDUCED_ENERGYCOST,
       },
     ],
   },
   T8_SHOES_CLOTH_SET2: {
     active1: [
-      {
-        name: "DODGE",
-        icon: spellIcons.DODGE,
-      },
-      {
-        name: "SPRINTEOT",
-        icon: spellIcons.SPRINTEOT,
-      },
-      {
-        name: "BLINK",
-        icon: spellIcons.BLINK,
-      },
+      { name: "Dodge", icon: spellIcons.DODGE },
+      { name: "Sprinteot", icon: spellIcons.SPRINTEOT },
+      { name: "Blink", icon: spellIcons.BLINK },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Maxload Shoes", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
       {
-        name: "PASSIVE_INCREASED_DAMAGE",
+        name: "Passive Increased Damage",
         icon: spellIcons.PASSIVE_INCREASED_DAMAGE,
       },
-      { name: "PASSIVE_CASTSPEED", icon: spellIcons.PASSIVE_CASTSPEED },
+      { name: "Passive Castspeed", icon: spellIcons.PASSIVE_CASTSPEED },
       {
-        name: "PASSIVE_REDUCED_ENERGYCOST",
+        name: "Passive Reduced Energycost",
         icon: spellIcons.PASSIVE_REDUCED_ENERGYCOST,
       },
     ],
   },
   T8_SHOES_CLOTH_SET3: {
     active1: [
-      {
-        name: "DODGE",
-        icon: spellIcons.DODGE,
-      },
-      {
-        name: "SPRINTEOT",
-        icon: spellIcons.SPRINTEOT,
-      },
-      {
-        name: "DELAYED_TELEPORT",
-        icon: spellIcons.DELAYED_TELEPORT,
-      },
+      { name: "Dodge", icon: spellIcons.DODGE },
+      { name: "Sprinteot", icon: spellIcons.SPRINTEOT },
+      { name: "Delayed Teleport", icon: spellIcons.DELAYED_TELEPORT },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Maxload Shoes", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
       {
-        name: "PASSIVE_INCREASED_DAMAGE",
+        name: "Passive Increased Damage",
         icon: spellIcons.PASSIVE_INCREASED_DAMAGE,
       },
-      { name: "PASSIVE_CASTSPEED", icon: spellIcons.PASSIVE_CASTSPEED },
+      { name: "Passive Castspeed", icon: spellIcons.PASSIVE_CASTSPEED },
       {
-        name: "PASSIVE_REDUCED_ENERGYCOST",
+        name: "Passive Reduced Energycost",
         icon: spellIcons.PASSIVE_REDUCED_ENERGYCOST,
       },
     ],
   },
   T8_SHOES_CLOTH_ROYAL: {
     active1: [
-      {
-        name: "DODGE",
-        icon: spellIcons.DODGE,
-      },
-      {
-        name: "SPRINTEOT",
-        icon: spellIcons.SPRINTEOT,
-      },
-      {
-        name: "GLASS_MOVESPEED",
-        icon: spellIcons.GLASS_MOVESPEED,
-      },
+      { name: "Dodge", icon: spellIcons.DODGE },
+      { name: "Sprinteot", icon: spellIcons.SPRINTEOT },
+      { name: "Glass Movespeed", icon: spellIcons.GLASS_MOVESPEED },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Maxload Shoes", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
       {
-        name: "PASSIVE_INCREASED_DAMAGE",
+        name: "Passive Increased Damage",
         icon: spellIcons.PASSIVE_INCREASED_DAMAGE,
       },
-      { name: "PASSIVE_CASTSPEED", icon: spellIcons.PASSIVE_CASTSPEED },
+      { name: "Passive Castspeed", icon: spellIcons.PASSIVE_CASTSPEED },
       {
-        name: "PASSIVE_REDUCED_ENERGYCOST",
+        name: "Passive Reduced Energycost",
         icon: spellIcons.PASSIVE_REDUCED_ENERGYCOST,
       },
     ],
   },
   T8_SHOES_CLOTH_KEEPER: {
     active1: [
-      {
-        name: "DODGE",
-        icon: spellIcons.DODGE,
-      },
-      {
-        name: "SPRINTEOT",
-        icon: spellIcons.SPRINTEOT,
-      },
-      {
-        name: "FROSTWALK",
-        icon: spellIcons.FROSTWALK,
-      },
+      { name: "Dodge", icon: spellIcons.DODGE },
+      { name: "Sprinteot", icon: spellIcons.SPRINTEOT },
+      { name: "Frostwalk", icon: spellIcons.FROSTWALK },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Maxload Shoes", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
       {
-        name: "PASSIVE_INCREASED_DAMAGE",
+        name: "Passive Increased Damage",
         icon: spellIcons.PASSIVE_INCREASED_DAMAGE,
       },
-      { name: "PASSIVE_CASTSPEED", icon: spellIcons.PASSIVE_CASTSPEED },
+      { name: "Passive Castspeed", icon: spellIcons.PASSIVE_CASTSPEED },
       {
-        name: "PASSIVE_REDUCED_ENERGYCOST",
+        name: "Passive Reduced Energycost",
         icon: spellIcons.PASSIVE_REDUCED_ENERGYCOST,
       },
     ],
   },
+
   T8_SHOES_CLOTH_HELL: {
     active1: [
-      {
-        name: "DODGE",
-        icon: spellIcons.DODGE,
-      },
-      {
-        name: "SPRINTEOT",
-        icon: spellIcons.SPRINTEOT,
-      },
-      {
-        name: "SWAP",
-        icon: spellIcons.SWAP,
-      },
+      { name: "Dodge", icon: spellIcons.DODGE },
+      { name: "Sprinteot", icon: spellIcons.SPRINTEOT },
+      { name: "Swap", icon: spellIcons.SWAP },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Maxload Shoes", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
       {
-        name: "PASSIVE_INCREASED_DAMAGE",
+        name: "Passive Increased Damage",
         icon: spellIcons.PASSIVE_INCREASED_DAMAGE,
       },
-      { name: "PASSIVE_CASTSPEED", icon: spellIcons.PASSIVE_CASTSPEED },
+      { name: "Passive Castspeed", icon: spellIcons.PASSIVE_CASTSPEED },
       {
-        name: "PASSIVE_REDUCED_ENERGYCOST",
+        name: "Passive Reduced Energycost",
         icon: spellIcons.PASSIVE_REDUCED_ENERGYCOST,
       },
     ],
   },
   T8_SHOES_CLOTH_MORGANA: {
     active1: [
-      {
-        name: "DODGE",
-        icon: spellIcons.DODGE,
-      },
-      {
-        name: "SPRINTEOT",
-        icon: spellIcons.SPRINTEOT,
-      },
-      {
-        name: "DEMONWALK",
-        icon: spellIcons.DEMONWALK,
-      },
+      { name: "Dodge", icon: spellIcons.DODGE },
+      { name: "Sprinteot", icon: spellIcons.SPRINTEOT },
+      { name: "Demonwalk", icon: spellIcons.DEMONWALK },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Maxload Shoes", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
       {
-        name: "PASSIVE_INCREASED_DAMAGE",
+        name: "Passive Increased Damage",
         icon: spellIcons.PASSIVE_INCREASED_DAMAGE,
       },
-      { name: "PASSIVE_CASTSPEED", icon: spellIcons.PASSIVE_CASTSPEED },
+      { name: "Passive Castspeed", icon: spellIcons.PASSIVE_CASTSPEED },
       {
-        name: "PASSIVE_REDUCED_ENERGYCOST",
+        name: "Passive Reduced Energycost",
         icon: spellIcons.PASSIVE_REDUCED_ENERGYCOST,
       },
     ],
   },
   T8_SHOES_CLOTH_FEY: {
     active1: [
-      {
-        name: "DODGE",
-        icon: spellIcons.DODGE,
-      },
-      {
-        name: "SPRINTEOT",
-        icon: spellIcons.SPRINTEOT,
-      },
-      {
-        name: "TRANSLUCENT",
-        icon: spellIcons.TRANSLUCENT,
-      },
+      { name: "Dodge", icon: spellIcons.DODGE },
+      { name: "Sprinteot", icon: spellIcons.SPRINTEOT },
+      { name: "Translucent", icon: spellIcons.TRANSLUCENT },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Maxload Shoes", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
       {
-        name: "PASSIVE_INCREASED_DAMAGE",
+        name: "Passive Increased Damage",
         icon: spellIcons.PASSIVE_INCREASED_DAMAGE,
       },
-      { name: "PASSIVE_CASTSPEED", icon: spellIcons.PASSIVE_CASTSPEED },
+      { name: "Passive Castspeed", icon: spellIcons.PASSIVE_CASTSPEED },
       {
-        name: "PASSIVE_REDUCED_ENERGYCOST",
+        name: "Passive Reduced Energycost",
         icon: spellIcons.PASSIVE_REDUCED_ENERGYCOST,
       },
     ],
   },
   T8_SHOES_CLOTH_AVALON: {
     active1: [
-      {
-        name: "DODGE",
-        icon: spellIcons.DODGE,
-      },
-      {
-        name: "SPRINTEOT",
-        icon: spellIcons.SPRINTEOT,
-      },
-      {
-        name: "HOVER_SPRINT",
-        icon: spellIcons.HOVER_SPRINT,
-      },
+      { name: "Dodge", icon: spellIcons.DODGE },
+      { name: "Sprinteot", icon: spellIcons.SPRINTEOT },
+      { name: "Hover Sprint", icon: spellIcons.HOVER_SPRINT },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Maxload Shoes", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
       {
-        name: "PASSIVE_INCREASED_DAMAGE",
+        name: "Passive Increased Damage",
         icon: spellIcons.PASSIVE_INCREASED_DAMAGE,
       },
-      { name: "PASSIVE_CASTSPEED", icon: spellIcons.PASSIVE_CASTSPEED },
+      { name: "Passive Castspeed", icon: spellIcons.PASSIVE_CASTSPEED },
       {
-        name: "PASSIVE_REDUCED_ENERGYCOST",
+        name: "Passive Reduced Energycost",
         icon: spellIcons.PASSIVE_REDUCED_ENERGYCOST,
       },
     ],
   },
   T8_SHOES_LEATHER_SET1: {
     active1: [
-      {
-        name: "DODGE",
-        icon: spellIcons.DODGE,
-      },
-      {
-        name: "SPRINT_CD_REDUCTION",
-        icon: spellIcons.SPRINT_CD_REDUCTION,
-      },
-      {
-        name: "CLEANSE_DASH",
-        icon: spellIcons.CLEANSE_DASH,
-      },
+      { name: "Dodge", icon: spellIcons.DODGE },
+      { name: "Sprint Cd Reduction", icon: spellIcons.SPRINT_CD_REDUCTION },
+      { name: "Cleanse Dash", icon: spellIcons.CLEANSE_DASH },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Maxload Shoes", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Balance", icon: spellIcons.PASSIVE_BALANCE },
       {
-        name: "PASSIVE_BALANCE",
-        icon: spellIcons.PASSIVE_BALANCE,
-      },
-      {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
-      {
-        name: "PASSIVE_CD_REDUCTION",
-        icon: spellIcons.PASSIVE_CD_REDUCTION,
-      },
+      { name: "Passive Cd Reduction", icon: spellIcons.PASSIVE_CD_REDUCTION },
     ],
   },
   T8_SHOES_LEATHER_SET2: {
     active1: [
-      {
-        name: "DODGE",
-        icon: spellIcons.DODGE,
-      },
-      {
-        name: "SPRINT_CD_REDUCTION",
-        icon: spellIcons.SPRINT_CD_REDUCTION,
-      },
-      {
-        name: "OVERSPRINT",
-        icon: spellIcons.OVERSPRINT,
-      },
+      { name: "Dodge", icon: spellIcons.DODGE },
+      { name: "Sprint Cd Reduction", icon: spellIcons.SPRINT_CD_REDUCTION },
+      { name: "Oversprint", icon: spellIcons.OVERSPRINT },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Maxload Shoes", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Balance", icon: spellIcons.PASSIVE_BALANCE },
       {
-        name: "PASSIVE_BALANCE",
-        icon: spellIcons.PASSIVE_BALANCE,
-      },
-      {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
-      {
-        name: "PASSIVE_CD_REDUCTION",
-        icon: spellIcons.PASSIVE_CD_REDUCTION,
-      },
+      { name: "Passive Cd Reduction", icon: spellIcons.PASSIVE_CD_REDUCTION },
     ],
   },
+
   T8_SHOES_LEATHER_SET3: {
     active1: [
-      {
-        name: "DODGE",
-        icon: spellIcons.DODGE,
-      },
-      {
-        name: "SPRINT_CD_REDUCTION",
-        icon: spellIcons.SPRINT_CD_REDUCTION,
-      },
-      {
-        name: "ASSASSIN_DASH",
-        icon: spellIcons.ASSASSIN_DASH,
-      },
+      { name: "Dodge", icon: spellIcons.DODGE },
+      { name: "Sprint Cd Reduction", icon: spellIcons.SPRINT_CD_REDUCTION },
+      { name: "Assassin Dash", icon: spellIcons.ASSASSIN_DASH },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Maxload Shoes", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Balance", icon: spellIcons.PASSIVE_BALANCE },
       {
-        name: "PASSIVE_BALANCE",
-        icon: spellIcons.PASSIVE_BALANCE,
-      },
-      {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
-      {
-        name: "PASSIVE_CD_REDUCTION",
-        icon: spellIcons.PASSIVE_CD_REDUCTION,
-      },
+      { name: "Passive Cd Reduction", icon: spellIcons.PASSIVE_CD_REDUCTION },
     ],
   },
   T8_SHOES_LEATHER_ROYAL: {
     active1: [
-      {
-        name: "DODGE",
-        icon: spellIcons.DODGE,
-      },
-      {
-        name: "SPRINT_CD_REDUCTION",
-        icon: spellIcons.SPRINT_CD_REDUCTION,
-      },
-      {
-        name: "JUMP",
-        icon: spellIcons.JUMP,
-      },
+      { name: "Dodge", icon: spellIcons.DODGE },
+      { name: "Sprint Cd Reduction", icon: spellIcons.SPRINT_CD_REDUCTION },
+      { name: "Jump", icon: spellIcons.JUMP },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Maxload Shoes", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Balance", icon: spellIcons.PASSIVE_BALANCE },
       {
-        name: "PASSIVE_BALANCE",
-        icon: spellIcons.PASSIVE_BALANCE,
-      },
-      {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
-      {
-        name: "PASSIVE_CD_REDUCTION",
-        icon: spellIcons.PASSIVE_CD_REDUCTION,
-      },
+      { name: "Passive Cd Reduction", icon: spellIcons.PASSIVE_CD_REDUCTION },
     ],
   },
   T8_SHOES_LEATHER_MORGANA: {
     active1: [
-      {
-        name: "DODGE",
-        icon: spellIcons.DODGE,
-      },
-      {
-        name: "SPRINT_CD_REDUCTION",
-        icon: spellIcons.SPRINT_CD_REDUCTION,
-      },
-      {
-        name: "DMG_BLINK",
-        icon: spellIcons.DMG_BLINK,
-      },
+      { name: "Dodge", icon: spellIcons.DODGE },
+      { name: "Sprint Cd Reduction", icon: spellIcons.SPRINT_CD_REDUCTION },
+      { name: "Dmg Blink", icon: spellIcons.DMG_BLINK },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Maxload Shoes", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Balance", icon: spellIcons.PASSIVE_BALANCE },
       {
-        name: "PASSIVE_BALANCE",
-        icon: spellIcons.PASSIVE_BALANCE,
-      },
-      {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
-      {
-        name: "PASSIVE_CD_REDUCTION",
-        icon: spellIcons.PASSIVE_CD_REDUCTION,
-      },
+      { name: "Passive Cd Reduction", icon: spellIcons.PASSIVE_CD_REDUCTION },
     ],
   },
   T8_SHOES_LEATHER_HELL: {
     active1: [
-      {
-        name: "DODGE",
-        icon: spellIcons.DODGE,
-      },
-      {
-        name: "SPRINT_CD_REDUCTION",
-        icon: spellIcons.SPRINT_CD_REDUCTION,
-      },
-      {
-        name: "DEATHMARK",
-        icon: spellIcons.DEATHMARK,
-      },
+      { name: "Dodge", icon: spellIcons.DODGE },
+      { name: "Sprint Cd Reduction", icon: spellIcons.SPRINT_CD_REDUCTION },
+      { name: "Deathmark", icon: spellIcons.DEATHMARK },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Maxload Shoes", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Balance", icon: spellIcons.PASSIVE_BALANCE },
       {
-        name: "PASSIVE_BALANCE",
-        icon: spellIcons.PASSIVE_BALANCE,
-      },
-      {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
-      {
-        name: "PASSIVE_CD_REDUCTION",
-        icon: spellIcons.PASSIVE_CD_REDUCTION,
-      },
+      { name: "Passive Cd Reduction", icon: spellIcons.PASSIVE_CD_REDUCTION },
     ],
   },
   T8_SHOES_LEATHER_UNDEAD: {
     active1: [
-      {
-        name: "DODGE",
-        icon: spellIcons.DODGE,
-      },
-      {
-        name: "SPRINT_CD_REDUCTION",
-        icon: spellIcons.SPRINT_CD_REDUCTION,
-      },
-      {
-        name: "INVISIBLE_WALK",
-        icon: spellIcons.INVISIBLE_WALK,
-      },
+      { name: "Dodge", icon: spellIcons.DODGE },
+      { name: "Sprint Cd Reduction", icon: spellIcons.SPRINT_CD_REDUCTION },
+      { name: "Invisible Walk", icon: spellIcons.INVISIBLE_WALK },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Maxload Shoes", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Balance", icon: spellIcons.PASSIVE_BALANCE },
       {
-        name: "PASSIVE_BALANCE",
-        icon: spellIcons.PASSIVE_BALANCE,
-      },
-      {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
-      {
-        name: "PASSIVE_CD_REDUCTION",
-        icon: spellIcons.PASSIVE_CD_REDUCTION,
-      },
+      { name: "Passive Cd Reduction", icon: spellIcons.PASSIVE_CD_REDUCTION },
     ],
   },
-
   T8_SHOES_LEATHER_FEY: {
     active1: [
-      {
-        name: "DODGE",
-        icon: spellIcons.DODGE,
-      },
-      {
-        name: "SPRINT_CD_REDUCTION",
-        icon: spellIcons.SPRINT_CD_REDUCTION,
-      },
-      {
-        name: "AFTER_IMAGE",
-        icon: spellIcons.AFTER_IMAGE,
-      },
+      { name: "Dodge", icon: spellIcons.DODGE },
+      { name: "Sprint Cd Reduction", icon: spellIcons.SPRINT_CD_REDUCTION },
+      { name: "After Image", icon: spellIcons.AFTER_IMAGE },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Maxload Shoes", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Balance", icon: spellIcons.PASSIVE_BALANCE },
       {
-        name: "PASSIVE_BALANCE",
-        icon: spellIcons.PASSIVE_BALANCE,
-      },
-      {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
-      {
-        name: "PASSIVE_CD_REDUCTION",
-        icon: spellIcons.PASSIVE_CD_REDUCTION,
-      },
+      { name: "Passive Cd Reduction", icon: spellIcons.PASSIVE_CD_REDUCTION },
     ],
   },
   T8_SHOES_LEATHER_AVALON: {
     active1: [
-      {
-        name: "DODGE",
-        icon: spellIcons.DODGE,
-      },
-      {
-        name: "SPRINT_CD_REDUCTION",
-        icon: spellIcons.SPRINT_CD_REDUCTION,
-      },
-      {
-        name: "BLINDSPOT",
-        icon: spellIcons.BLINDSPOT,
-      },
+      { name: "Dodge", icon: spellIcons.DODGE },
+      { name: "Sprint Cd Reduction", icon: spellIcons.SPRINT_CD_REDUCTION },
+      { name: "Blindspot", icon: spellIcons.BLINDSPOT },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Maxload Shoes", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Balance", icon: spellIcons.PASSIVE_BALANCE },
       {
-        name: "PASSIVE_BALANCE",
-        icon: spellIcons.PASSIVE_BALANCE,
-      },
-      {
-        name: "PASSIVE_INCREASED_AASPEED",
+        name: "Passive Increased Aaspeed",
         icon: spellIcons.PASSIVE_INCREASED_AASPEED,
       },
-      {
-        name: "PASSIVE_CD_REDUCTION",
-        icon: spellIcons.PASSIVE_CD_REDUCTION,
-      },
+      { name: "Passive Cd Reduction", icon: spellIcons.PASSIVE_CD_REDUCTION },
     ],
   },
   T8_SHOES_PLATE_SET1: {
     active1: [
-      {
-        name: "DODGE",
-        icon: spellIcons.DODGE,
-      },
-      {
-        name: "Rejuvenating_Sprint",
-        icon: spellIcons.Rejuvenating_Sprint,
-      },
-      {
-        name: "WANDERLUST",
-        icon: spellIcons.WANDERLUST,
-      },
+      { name: "Dodge", icon: spellIcons.DODGE },
+      { name: "Rejuvenating Sprint", icon: spellIcons.Rejuvenating_Sprint },
+      { name: "Wanderlust", icon: spellIcons.WANDERLUST },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
-      { name: "PASSIVE_MR_AR", icon: spellIcons.PASSIVE_MR_AR },
-      { name: "PASSIVE_CCDURATION", icon: spellIcons.PASSIVE_CCDURATION },
-      { name: "PASSIVE_INCREASED_CCR", icon: spellIcons.PASSIVE_INCREASED_CCR },
+      { name: "Passive Maxload Shoes", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Mr Ar", icon: spellIcons.PASSIVE_MR_AR },
+      { name: "Passive Ccduration", icon: spellIcons.PASSIVE_CCDURATION },
+      { name: "Passive Increased Ccr", icon: spellIcons.PASSIVE_INCREASED_CCR },
     ],
   },
+
   T8_SHOES_PLATE_SET2: {
     active1: [
-      {
-        name: "DODGE",
-        icon: spellIcons.DODGE,
-      },
-      {
-        name: "Rejuvenating_Sprint",
-        icon: spellIcons.Rejuvenating_Sprint,
-      },
-      {
-        name: "CHARGE_SHIELD",
-        icon: spellIcons.CHARGE_SHIELD,
-      },
+      { name: "Dodge", icon: spellIcons.DODGE },
+      { name: "Rejuvenating Sprint", icon: spellIcons.Rejuvenating_Sprint },
+      { name: "Charge Shield", icon: spellIcons.CHARGE_SHIELD },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
-      { name: "PASSIVE_MR_AR", icon: spellIcons.PASSIVE_MR_AR },
-      { name: "PASSIVE_CCDURATION", icon: spellIcons.PASSIVE_CCDURATION },
-      { name: "PASSIVE_INCREASED_CCR", icon: spellIcons.PASSIVE_INCREASED_CCR },
+      { name: "Passive Maxload Shoes", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Mr Ar", icon: spellIcons.PASSIVE_MR_AR },
+      { name: "Passive Ccduration", icon: spellIcons.PASSIVE_CCDURATION },
+      { name: "Passive Increased Ccr", icon: spellIcons.PASSIVE_INCREASED_CCR },
     ],
   },
   T8_SHOES_PLATE_SET3: {
     active1: [
-      {
-        name: "DODGE",
-        icon: spellIcons.DODGE,
-      },
-      {
-        name: "Rejuvenating_Sprint",
-        icon: spellIcons.Rejuvenating_Sprint,
-      },
-      {
-        name: "MAXHEALTHBUFF",
-        icon: spellIcons.MAXHEALTHBUFF,
-      },
+      { name: "Dodge", icon: spellIcons.DODGE },
+      { name: "Rejuvenating Sprint", icon: spellIcons.Rejuvenating_Sprint },
+      { name: "Maxhealthbuff", icon: spellIcons.MAXHEALTHBUFF },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
-      { name: "PASSIVE_MR_AR", icon: spellIcons.PASSIVE_MR_AR },
-      { name: "PASSIVE_CCDURATION", icon: spellIcons.PASSIVE_CCDURATION },
-      { name: "PASSIVE_INCREASED_CCR", icon: spellIcons.PASSIVE_INCREASED_CCR },
+      { name: "Passive Maxload Shoes", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Mr Ar", icon: spellIcons.PASSIVE_MR_AR },
+      { name: "Passive Ccduration", icon: spellIcons.PASSIVE_CCDURATION },
+      { name: "Passive Increased Ccr", icon: spellIcons.PASSIVE_INCREASED_CCR },
     ],
   },
   T8_SHOES_PLATE_ROYAL: {
     active1: [
-      {
-        name: "DODGE",
-        icon: spellIcons.DODGE,
-      },
-      {
-        name: "Rejuvenating_Sprint",
-        icon: spellIcons.Rejuvenating_Sprint,
-      },
-      {
-        name: "BATTLEFRENZY",
-        icon: spellIcons.BATTLEFRENZY,
-      },
+      { name: "Dodge", icon: spellIcons.DODGE },
+      { name: "Rejuvenating Sprint", icon: spellIcons.Rejuvenating_Sprint },
+      { name: "Battlefrenzy", icon: spellIcons.BATTLEFRENZY },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
-      { name: "PASSIVE_MR_AR", icon: spellIcons.PASSIVE_MR_AR },
-      { name: "PASSIVE_CCDURATION", icon: spellIcons.PASSIVE_CCDURATION },
-      { name: "PASSIVE_INCREASED_CCR", icon: spellIcons.PASSIVE_INCREASED_CCR },
+      { name: "Passive Maxload Shoes", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Mr Ar", icon: spellIcons.PASSIVE_MR_AR },
+      { name: "Passive Ccduration", icon: spellIcons.PASSIVE_CCDURATION },
+      { name: "Passive Increased Ccr", icon: spellIcons.PASSIVE_INCREASED_CCR },
     ],
   },
   T8_SHOES_PLATE_UNDEAD: {
     active1: [
-      {
-        name: "DODGE",
-        icon: spellIcons.DODGE,
-      },
-      {
-        name: "Rejuvenating_Sprint",
-        icon: spellIcons.Rejuvenating_Sprint,
-      },
-      {
-        name: "ROYAL_MARCH",
-        icon: spellIcons.ROYAL_MARCH,
-      },
+      { name: "Dodge", icon: spellIcons.DODGE },
+      { name: "Rejuvenating Sprint", icon: spellIcons.Rejuvenating_Sprint },
+      { name: "Royal March", icon: spellIcons.ROYAL_MARCH },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
-      { name: "PASSIVE_MR_AR", icon: spellIcons.PASSIVE_MR_AR },
-      { name: "PASSIVE_CCDURATION", icon: spellIcons.PASSIVE_CCDURATION },
-      { name: "PASSIVE_INCREASED_CCR", icon: spellIcons.PASSIVE_INCREASED_CCR },
+      { name: "Passive Maxload Shoes", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Mr Ar", icon: spellIcons.PASSIVE_MR_AR },
+      { name: "Passive Ccduration", icon: spellIcons.PASSIVE_CCDURATION },
+      { name: "Passive Increased Ccr", icon: spellIcons.PASSIVE_INCREASED_CCR },
     ],
   },
   T8_SHOES_PLATE_HELL: {
     active1: [
-      {
-        name: "DODGE",
-        icon: spellIcons.DODGE,
-      },
-      {
-        name: "Rejuvenating_Sprint",
-        icon: spellIcons.Rejuvenating_Sprint,
-      },
-      {
-        name: "BERSERK_SPRINT",
-        icon: spellIcons.BERSERK_SPRINT,
-      },
+      { name: "Dodge", icon: spellIcons.DODGE },
+      { name: "Rejuvenating Sprint", icon: spellIcons.Rejuvenating_Sprint },
+      { name: "Berserk Sprint", icon: spellIcons.BERSERK_SPRINT },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
-      { name: "PASSIVE_MR_AR", icon: spellIcons.PASSIVE_MR_AR },
-      { name: "PASSIVE_CCDURATION", icon: spellIcons.PASSIVE_CCDURATION },
-      { name: "PASSIVE_INCREASED_CCR", icon: spellIcons.PASSIVE_INCREASED_CCR },
+      { name: "Passive Maxload Shoes", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Mr Ar", icon: spellIcons.PASSIVE_MR_AR },
+      { name: "Passive Ccduration", icon: spellIcons.PASSIVE_CCDURATION },
+      { name: "Passive Increased Ccr", icon: spellIcons.PASSIVE_INCREASED_CCR },
     ],
   },
   T8_SHOES_PLATE_KEEPER: {
     active1: [
-      {
-        name: "DODGE",
-        icon: spellIcons.DODGE,
-      },
-      {
-        name: "Rejuvenating_Sprint",
-        icon: spellIcons.Rejuvenating_Sprint,
-      },
-      {
-        name: "SHOULDERTACKLE",
-        icon: spellIcons.SHOULDERTACKLE,
-      },
+      { name: "Dodge", icon: spellIcons.DODGE },
+      { name: "Rejuvenating Sprint", icon: spellIcons.Rejuvenating_Sprint },
+      { name: "Shouldertackle", icon: spellIcons.SHOULDERTACKLE },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
-      { name: "PASSIVE_MR_AR", icon: spellIcons.PASSIVE_MR_AR },
-      { name: "PASSIVE_CCDURATION", icon: spellIcons.PASSIVE_CCDURATION },
-      { name: "PASSIVE_INCREASED_CCR", icon: spellIcons.PASSIVE_INCREASED_CCR },
+      { name: "Passive Maxload Shoes", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Mr Ar", icon: spellIcons.PASSIVE_MR_AR },
+      { name: "Passive Ccduration", icon: spellIcons.PASSIVE_CCDURATION },
+      { name: "Passive Increased Ccr", icon: spellIcons.PASSIVE_INCREASED_CCR },
     ],
   },
   T8_SHOES_PLATE_FEY: {
     active1: [
-      {
-        name: "DODGE",
-        icon: spellIcons.DODGE,
-      },
-      {
-        name: "Rejuvenating_Sprint",
-        icon: spellIcons.Rejuvenating_Sprint,
-      },
-      {
-        name: "CHARGE_IN",
-        icon: spellIcons.CHARGE_IN,
-      },
+      { name: "Dodge", icon: spellIcons.DODGE },
+      { name: "Rejuvenating Sprint", icon: spellIcons.Rejuvenating_Sprint },
+      { name: "Charge In", icon: spellIcons.CHARGE_IN },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
-      { name: "PASSIVE_MR_AR", icon: spellIcons.PASSIVE_MR_AR },
-      { name: "PASSIVE_CCDURATION", icon: spellIcons.PASSIVE_CCDURATION },
-      { name: "PASSIVE_INCREASED_CCR", icon: spellIcons.PASSIVE_INCREASED_CCR },
+      { name: "Passive Maxload Shoes", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Mr Ar", icon: spellIcons.PASSIVE_MR_AR },
+      { name: "Passive Ccduration", icon: spellIcons.PASSIVE_CCDURATION },
+      { name: "Passive Increased Ccr", icon: spellIcons.PASSIVE_INCREASED_CCR },
     ],
   },
   T8_SHOES_PLATE_AVALON: {
     active1: [
-      {
-        name: "DODGE",
-        icon: spellIcons.DODGE,
-      },
-      {
-        name: "Rejuvenating_Sprint",
-        icon: spellIcons.Rejuvenating_Sprint,
-      },
-      {
-        name: "CC_BLOCK",
-        icon: spellIcons.CC_BLOCK,
-      },
+      { name: "Dodge", icon: spellIcons.DODGE },
+      { name: "Rejuvenating Sprint", icon: spellIcons.Rejuvenating_Sprint },
+      { name: "Cc Block", icon: spellIcons.CC_BLOCK },
     ],
     passive1: [
-      { name: "PASSIVE_MAXLOAD_SHOES", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
-      { name: "PASSIVE_MR_AR", icon: spellIcons.PASSIVE_MR_AR },
-      { name: "PASSIVE_CCDURATION", icon: spellIcons.PASSIVE_CCDURATION },
-      { name: "PASSIVE_INCREASED_CCR", icon: spellIcons.PASSIVE_INCREASED_CCR },
+      { name: "Passive Maxload Shoes", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
+      { name: "Passive Mr Ar", icon: spellIcons.PASSIVE_MR_AR },
+      { name: "Passive Ccduration", icon: spellIcons.PASSIVE_CCDURATION },
+      { name: "Passive Increased Ccr", icon: spellIcons.PASSIVE_INCREASED_CCR },
     ],
   },
   T8_MAIN_FIRESTAFF: {
     active1: [
-      {
-        name: "Fire_Bolt",
-        icon: spellIcons.Fire_Bolt,
-      },
-      {
-        name: "BurningField",
-        icon: spellIcons.BurningField,
-      },
-      {
-        name: "SearingFlame",
-        icon: spellIcons.SearingFlame,
-      },
+      { name: "Fire Bolt", icon: spellIcons.Fire_Bolt },
+      { name: "Burning Field", icon: spellIcons.BurningField },
+      { name: "Searing Flame", icon: spellIcons.SearingFlame },
     ],
     active2: [
-      {
-        name: "FlameBlast",
-        icon: spellIcons.FlameBlast,
-      },
-      {
-        name: "WallofFlames",
-        icon: spellIcons.WallofFlames,
-      },
-      {
-        name: "RagingFlare",
-        icon: spellIcons.RagingFlare,
-      },
-      {
-        name: "FireWave",
-        icon: spellIcons.FireWave,
-      },
-      {
-        name: "FireArtillery",
-        icon: spellIcons.FireArtillery,
-      },
+      { name: "Flame Blast", icon: spellIcons.FlameBlast },
+      { name: "Wall Of Flames", icon: spellIcons.WallofFlames },
+      { name: "Raging Flare", icon: spellIcons.RagingFlare },
+      { name: "Fire Wave", icon: spellIcons.FireWave },
+      { name: "Fire Artillery", icon: spellIcons.FireArtillery },
     ],
-    active3: [
-      {
-        name: "Pyroblast",
-        icon: spellIcons.Pyroblast,
-      },
-    ],
+    active3: [{ name: "Pyroblast", icon: spellIcons.Pyroblast }],
     passive1: [
-      { name: "PASSIVE_BURN", icon: spellIcons.PASSIVE_BURN },
+      { name: "Passive Burn", icon: spellIcons.PASSIVE_BURN },
       {
-        name: "PASSIVE_ENERGYCHANCE_FIRESTAFF",
+        name: "Passive Energychance Firestaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_FIRESTAFF,
       },
       {
-        name: "PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF",
+        name: "Passive Castingspeed Chance Firestaff",
         icon: spellIcons.PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CASTER_FIRESTAFF",
+        name: "Passive Spellpower Caster Firestaff",
         icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_FIRESTAFF,
       },
     ],
   },
   T8_2H_FIRESTAFF: {
     active1: [
-      {
-        name: "Fire_Bolt",
-        icon: spellIcons.Fire_Bolt,
-      },
-      {
-        name: "BurningField",
-        icon: spellIcons.BurningField,
-      },
-      {
-        name: "SearingFlame",
-        icon: spellIcons.SearingFlame,
-      },
+      { name: "Fire Bolt", icon: spellIcons.Fire_Bolt },
+      { name: "Burning Field", icon: spellIcons.BurningField },
+      { name: "Searing Flame", icon: spellIcons.SearingFlame },
     ],
     active2: [
-      {
-        name: "FlameBlast",
-        icon: spellIcons.FlameBlast,
-      },
-      {
-        name: "WallofFlames",
-        icon: spellIcons.WallofFlames,
-      },
-      {
-        name: "RagingFlare",
-        icon: spellIcons.RagingFlare,
-      },
-      {
-        name: "FireWave",
-        icon: spellIcons.FireWave,
-      },
-      {
-        name: "FireArtillery",
-        icon: spellIcons.FireArtillery,
-      },
+      { name: "Flame Blast", icon: spellIcons.FlameBlast },
+      { name: "Wall Of Flames", icon: spellIcons.WallofFlames },
+      { name: "Raging Flare", icon: spellIcons.RagingFlare },
+      { name: "Fire Wave", icon: spellIcons.FireWave },
+      { name: "Fire Artillery", icon: spellIcons.FireArtillery },
     ],
-    active3: [
-      {
-        name: "FLAMEPILLAR",
-        icon: spellIcons.FLAMEPILLAR,
-      },
-    ],
+    active3: [{ name: "Flamepillar", icon: spellIcons.FLAMEPILLAR }],
     passive1: [
-      { name: "PASSIVE_BURN", icon: spellIcons.PASSIVE_BURN },
+      { name: "Passive Burn", icon: spellIcons.PASSIVE_BURN },
       {
-        name: "PASSIVE_ENERGYCHANCE_FIRESTAFF",
+        name: "Passive Energychance Firestaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_FIRESTAFF,
       },
       {
-        name: "PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF",
+        name: "Passive Castingspeed Chance Firestaff",
         icon: spellIcons.PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CASTER_FIRESTAFF",
+        name: "Passive Spellpower Caster Firestaff",
         icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_FIRESTAFF,
       },
     ],
   },
   T8_2H_INFERNOSTAFF: {
     active1: [
-      {
-        name: "Fire_Bolt",
-        icon: spellIcons.Fire_Bolt,
-      },
-      {
-        name: "BurningField",
-        icon: spellIcons.BurningField,
-      },
-      {
-        name: "SearingFlame",
-        icon: spellIcons.SearingFlame,
-      },
+      { name: "Fire Bolt", icon: spellIcons.Fire_Bolt },
+      { name: "Burning Field", icon: spellIcons.BurningField },
+      { name: "Searing Flame", icon: spellIcons.SearingFlame },
     ],
     active2: [
-      {
-        name: "FlameBlast",
-        icon: spellIcons.FlameBlast,
-      },
-      {
-        name: "WallofFlames",
-        icon: spellIcons.WallofFlames,
-      },
-      {
-        name: "RagingFlare",
-        icon: spellIcons.RagingFlare,
-      },
-      {
-        name: "FireWave",
-        icon: spellIcons.FireWave,
-      },
-      {
-        name: "FireArtillery",
-        icon: spellIcons.FireArtillery,
-      },
+      { name: "Flame Blast", icon: spellIcons.FlameBlast },
+      { name: "Wall Of Flames", icon: spellIcons.WallofFlames },
+      { name: "Raging Flare", icon: spellIcons.RagingFlare },
+      { name: "Fire Wave", icon: spellIcons.FireWave },
+      { name: "Fire Artillery", icon: spellIcons.FireArtillery },
     ],
-    active3: [
-      {
-        name: "HUMAN_TORCH",
-        icon: spellIcons.HUMAN_TORCH,
-      },
-    ],
+    active3: [{ name: "Human Torch", icon: spellIcons.HUMAN_TORCH }],
     passive1: [
-      { name: "PASSIVE_BURN", icon: spellIcons.PASSIVE_BURN },
+      { name: "Passive Burn", icon: spellIcons.PASSIVE_BURN },
       {
-        name: "PASSIVE_ENERGYCHANCE_FIRESTAFF",
+        name: "Passive Energychance Firestaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_FIRESTAFF,
       },
       {
-        name: "PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF",
+        name: "Passive Castingspeed Chance Firestaff",
         icon: spellIcons.PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CASTER_FIRESTAFF",
+        name: "Passive Spellpower Caster Firestaff",
         icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_FIRESTAFF,
       },
     ],
   },
   T8_MAIN_FIRESTAFF_KEEPER: {
     active1: [
-      {
-        name: "Fire_Bolt",
-        icon: spellIcons.Fire_Bolt,
-      },
-      {
-        name: "BurningField",
-        icon: spellIcons.BurningField,
-      },
-      {
-        name: "SearingFlame",
-        icon: spellIcons.SearingFlame,
-      },
+      { name: "Fire Bolt", icon: spellIcons.Fire_Bolt },
+      { name: "Burning Field", icon: spellIcons.BurningField },
+      { name: "Searing Flame", icon: spellIcons.SearingFlame },
     ],
     active2: [
-      {
-        name: "FlameBlast",
-        icon: spellIcons.FlameBlast,
-      },
-      {
-        name: "WallofFlames",
-        icon: spellIcons.WallofFlames,
-      },
-      {
-        name: "RagingFlare",
-        icon: spellIcons.RagingFlare,
-      },
-      {
-        name: "FireWave",
-        icon: spellIcons.FireWave,
-      },
-      {
-        name: "FireArtillery",
-        icon: spellIcons.FireArtillery,
-      },
+      { name: "Flame Blast", icon: spellIcons.FlameBlast },
+      { name: "Wall Of Flames", icon: spellIcons.WallofFlames },
+      { name: "Raging Flare", icon: spellIcons.RagingFlare },
+      { name: "Fire Wave", icon: spellIcons.FireWave },
+      { name: "Fire Artillery", icon: spellIcons.FireArtillery },
     ],
-    active3: [
-      {
-        name: "MAGMASPHERE",
-        icon: spellIcons.MAGMASPHERE,
-      },
-    ],
+    active3: [{ name: "Magmasphere", icon: spellIcons.MAGMASPHERE }],
     passive1: [
-      { name: "PASSIVE_BURN", icon: spellIcons.PASSIVE_BURN },
+      { name: "Passive Burn", icon: spellIcons.PASSIVE_BURN },
       {
-        name: "PASSIVE_ENERGYCHANCE_FIRESTAFF",
+        name: "Passive Energychance Firestaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_FIRESTAFF,
       },
       {
-        name: "PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF",
+        name: "Passive Castingspeed Chance Firestaff",
         icon: spellIcons.PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CASTER_FIRESTAFF",
+        name: "Passive Spellpower Caster Firestaff",
         icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_FIRESTAFF,
       },
     ],
   },
   T8_2H_FIRESTAFF_HELL: {
     active1: [
-      {
-        name: "Fire_Bolt",
-        icon: spellIcons.Fire_Bolt,
-      },
-      {
-        name: "BurningField",
-        icon: spellIcons.BurningField,
-      },
-      {
-        name: "SearingFlame",
-        icon: spellIcons.SearingFlame,
-      },
+      { name: "Fire Bolt", icon: spellIcons.Fire_Bolt },
+      { name: "Burning Field", icon: spellIcons.BurningField },
+      { name: "Searing Flame", icon: spellIcons.SearingFlame },
     ],
     active2: [
-      {
-        name: "FlameBlast",
-        icon: spellIcons.FlameBlast,
-      },
-      {
-        name: "WallofFlames",
-        icon: spellIcons.WallofFlames,
-      },
-      {
-        name: "RagingFlare",
-        icon: spellIcons.RagingFlare,
-      },
-      {
-        name: "FireWave",
-        icon: spellIcons.FireWave,
-      },
-      {
-        name: "FireArtillery",
-        icon: spellIcons.FireArtillery,
-      },
+      { name: "Flame Blast", icon: spellIcons.FlameBlast },
+      { name: "Wall Of Flames", icon: spellIcons.WallofFlames },
+      { name: "Raging Flare", icon: spellIcons.RagingFlare },
+      { name: "Fire Wave", icon: spellIcons.FireWave },
+      { name: "Fire Artillery", icon: spellIcons.FireArtillery },
     ],
-    active3: [
-      {
-        name: "METEOR",
-        icon: spellIcons.METEOR,
-      },
-    ],
+    active3: [{ name: "Meteor", icon: spellIcons.METEOR }],
     passive1: [
-      { name: "PASSIVE_BURN", icon: spellIcons.PASSIVE_BURN },
+      { name: "Passive Burn", icon: spellIcons.PASSIVE_BURN },
       {
-        name: "PASSIVE_ENERGYCHANCE_FIRESTAFF",
+        name: "Passive Energychance Firestaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_FIRESTAFF,
       },
       {
-        name: "PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF",
+        name: "Passive Castingspeed Chance Firestaff",
         icon: spellIcons.PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CASTER_FIRESTAFF",
+        name: "Passive Spellpower Caster Firestaff",
         icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_FIRESTAFF,
       },
     ],
   },
   T8_2H_INFERNOSTAFF_MORGANA: {
     active1: [
-      {
-        name: "Fire_Bolt",
-        icon: spellIcons.Fire_Bolt,
-      },
-      {
-        name: "BurningField",
-        icon: spellIcons.BurningField,
-      },
-      {
-        name: "SearingFlame",
-        icon: spellIcons.SearingFlame,
-      },
+      { name: "Fire Bolt", icon: spellIcons.Fire_Bolt },
+      { name: "Burning Field", icon: spellIcons.BurningField },
+      { name: "Searing Flame", icon: spellIcons.SearingFlame },
     ],
     active2: [
-      {
-        name: "FlameBlast",
-        icon: spellIcons.FlameBlast,
-      },
-      {
-        name: "WallofFlames",
-        icon: spellIcons.WallofFlames,
-      },
-      {
-        name: "RagingFlare",
-        icon: spellIcons.RagingFlare,
-      },
-      {
-        name: "FireWave",
-        icon: spellIcons.FireWave,
-      },
-      {
-        name: "FireArtillery",
-        icon: spellIcons.FireArtillery,
-      },
+      { name: "Flame Blast", icon: spellIcons.FlameBlast },
+      { name: "Wall Of Flames", icon: spellIcons.WallofFlames },
+      { name: "Raging Flare", icon: spellIcons.RagingFlare },
+      { name: "Fire Wave", icon: spellIcons.FireWave },
+      { name: "Fire Artillery", icon: spellIcons.FireArtillery },
     ],
-    active3: [
-      {
-        name: "FLAMETORNADO",
-        icon: spellIcons.FLAMETORNADO,
-      },
-    ],
+    active3: [{ name: "Flametornado", icon: spellIcons.FLAMETORNADO }],
     passive1: [
-      { name: "PASSIVE_BURN", icon: spellIcons.PASSIVE_BURN },
+      { name: "Passive Burn", icon: spellIcons.PASSIVE_BURN },
       {
-        name: "PASSIVE_ENERGYCHANCE_FIRESTAFF",
+        name: "Passive Energychance Firestaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_FIRESTAFF,
       },
       {
-        name: "PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF",
+        name: "Passive Castingspeed Chance Firestaff",
         icon: spellIcons.PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CASTER_FIRESTAFF",
+        name: "Passive Spellpower Caster Firestaff",
         icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_FIRESTAFF,
       },
     ],
   },
   T8_2H_FIRE_RINGPAIR_AVALON: {
     active1: [
-      {
-        name: "Fire_Bolt",
-        icon: spellIcons.Fire_Bolt,
-      },
-      {
-        name: "BurningField",
-        icon: spellIcons.BurningField,
-      },
-      {
-        name: "SearingFlame",
-        icon: spellIcons.SearingFlame,
-      },
+      { name: "Fire Bolt", icon: spellIcons.Fire_Bolt },
+      { name: "Burning Field", icon: spellIcons.BurningField },
+      { name: "Searing Flame", icon: spellIcons.SearingFlame },
     ],
     active2: [
-      {
-        name: "FlameBlast",
-        icon: spellIcons.FlameBlast,
-      },
-      {
-        name: "WallofFlames",
-        icon: spellIcons.WallofFlames,
-      },
-      {
-        name: "RagingFlare",
-        icon: spellIcons.RagingFlare,
-      },
-      {
-        name: "FireWave",
-        icon: spellIcons.FireWave,
-      },
-      {
-        name: "FireArtillery",
-        icon: spellIcons.FireArtillery,
-      },
+      { name: "Flame Blast", icon: spellIcons.FlameBlast },
+      { name: "Wall Of Flames", icon: spellIcons.WallofFlames },
+      { name: "Raging Flare", icon: spellIcons.RagingFlare },
+      { name: "Fire Wave", icon: spellIcons.FireWave },
+      { name: "Fire Artillery", icon: spellIcons.FireArtillery },
     ],
-    active3: [
-      {
-        name: "FIREPHOENIX",
-        icon: spellIcons.FIREPHOENIX,
-      },
-    ],
+    active3: [{ name: "Firephoenix", icon: spellIcons.FIREPHOENIX }],
     passive1: [
-      { name: "PASSIVE_BURN", icon: spellIcons.PASSIVE_BURN },
+      { name: "Passive Burn", icon: spellIcons.PASSIVE_BURN },
       {
-        name: "PASSIVE_ENERGYCHANCE_FIRESTAFF",
+        name: "Passive Energychance Firestaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_FIRESTAFF,
       },
       {
-        name: "PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF",
+        name: "Passive Castingspeed Chance Firestaff",
         icon: spellIcons.PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CASTER_FIRESTAFF",
+        name: "Passive Spellpower Caster Firestaff",
         icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_FIRESTAFF,
       },
     ],
   },
+
   T8_MAIN_FIRESTAFF_CRYSTAL: {
     active1: [
-      {
-        name: "Fire_Bolt",
-        icon: spellIcons.Fire_Bolt,
-      },
-      {
-        name: "BurningField",
-        icon: spellIcons.BurningField,
-      },
-      {
-        name: "SearingFlame",
-        icon: spellIcons.SearingFlame,
-      },
+      { name: "Fire Bolt", icon: spellIcons.Fire_Bolt },
+      { name: "Burning Field", icon: spellIcons.BurningField },
+      { name: "Searing Flame", icon: spellIcons.SearingFlame },
     ],
     active2: [
-      {
-        name: "FlameBlast",
-        icon: spellIcons.FlameBlast,
-      },
-      {
-        name: "WallofFlames",
-        icon: spellIcons.WallofFlames,
-      },
-      {
-        name: "RagingFlare",
-        icon: spellIcons.RagingFlare,
-      },
-      {
-        name: "FireWave",
-        icon: spellIcons.FireWave,
-      },
-      {
-        name: "FireArtillery",
-        icon: spellIcons.FireArtillery,
-      },
+      { name: "Flame Blast", icon: spellIcons.FlameBlast },
+      { name: "Wall Of Flames", icon: spellIcons.WallofFlames },
+      { name: "Raging Flare", icon: spellIcons.RagingFlare },
+      { name: "Fire Wave", icon: spellIcons.FireWave },
+      { name: "Fire Artillery", icon: spellIcons.FireArtillery },
     ],
-    active3: [
-      {
-        name: "FLAMEDASH",
-        icon: spellIcons.FLAMEDASH,
-      },
-    ],
+    active3: [{ name: "Flame Dash", icon: spellIcons.FLAMEDASH }],
     passive1: [
-      { name: "PASSIVE_BURN", icon: spellIcons.PASSIVE_BURN },
+      { name: "Passive Burn", icon: spellIcons.PASSIVE_BURN },
       {
-        name: "PASSIVE_ENERGYCHANCE_FIRESTAFF",
+        name: "Passive Energychance Firestaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_FIRESTAFF,
       },
       {
-        name: "PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF",
+        name: "Passive Castingspeed Chance Firestaff",
         icon: spellIcons.PASSIVE_CASTINGSPEED_CHANCE_FIRESTAFF,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CASTER_FIRESTAFF",
+        name: "Passive Spellpower Caster Firestaff",
         icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_FIRESTAFF,
       },
     ],
   },
   T8_MAIN_HOLYSTAFF: {
     active1: [
-      {
-        name: "GENEROUSHEAL",
-        icon: spellIcons.GENEROUSHEAL,
-      },
-      {
-        name: "SMITE_AOE",
-        icon: spellIcons.SMITE_AOE,
-      },
-      {
-        name: "HOLYFLASH",
-        icon: spellIcons.HOLYFLASH,
-      },
+      { name: "Generous Heal", icon: spellIcons.GENEROUSHEAL },
+      { name: "Smite Aoe", icon: spellIcons.SMITE_AOE },
+      { name: "Holy Flash", icon: spellIcons.HOLYFLASH },
     ],
     active2: [
-      {
-        name: "PULSINGHEAL",
-        icon: spellIcons.PULSINGHEAL,
-      },
-      {
-        name: "HEALINGBEAM",
-        icon: spellIcons.HEALINGBEAM,
-      },
-      {
-        name: "HOLYHOT",
-        icon: spellIcons.HOLYHOT,
-      },
-      {
-        name: "HOLYORB",
-        icon: spellIcons.HOLYORB,
-      },
-      {
-        name: "RESURRECTION",
-        icon: spellIcons.RESURRECTION,
-      },
+      { name: "Pulsing Heal", icon: spellIcons.PULSINGHEAL },
+      { name: "Healing Beam", icon: spellIcons.HEALINGBEAM },
+      { name: "Holy Hot", icon: spellIcons.HOLYHOT },
+      { name: "Holy Orb", icon: spellIcons.HOLYORB },
+      { name: "Resurrection", icon: spellIcons.RESURRECTION },
     ],
     active3: [
       {
-        name: "HOLYDESPERATEPRAYER2",
+        name: "Holy Desperate Prayer 2",
         icon: spellIcons.HOLYDESPERATEPRAYER2,
       },
     ],
     passive1: [
       {
-        name: "PASSIVE_HEALPOWERCHANCE",
+        name: "Passive Healpowerchance",
         icon: spellIcons.PASSIVE_HEALPOWERCHANCE,
       },
       {
-        name: "PASSIVE_ENERGYCHANCE_HOLYSTAFF",
+        name: "Passive Energychance Holystaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_HOLYSTAFF,
       },
       {
-        name: "PASSIVE_KNOCKBACK_CASTER_HOLYSTAFF",
+        name: "Passive Knockback Caster Holystaff",
         icon: spellIcons.PASSIVE_KNOCKBACK_CASTER_HOLYSTAFF,
       },
-      { name: "PASSIVE_HOLY_ASCENDED", icon: spellIcons.PASSIVE_HOLY_ASCENDED },
+      { name: "Passive Holy Ascended", icon: spellIcons.PASSIVE_HOLY_ASCENDED },
     ],
   },
   T8_2H_HOLYSTAFF: {
     active1: [
-      {
-        name: "GENEROUSHEAL",
-        icon: spellIcons.GENEROUSHEAL,
-      },
-      {
-        name: "SMITE_AOE",
-        icon: spellIcons.SMITE_AOE,
-      },
-      {
-        name: "HOLYFLASH",
-        icon: spellIcons.HOLYFLASH,
-      },
+      { name: "Generous Heal", icon: spellIcons.GENEROUSHEAL },
+      { name: "Smite Aoe", icon: spellIcons.SMITE_AOE },
+      { name: "Holy Flash", icon: spellIcons.HOLYFLASH },
     ],
     active2: [
-      {
-        name: "PULSINGHEAL",
-        icon: spellIcons.PULSINGHEAL,
-      },
-      {
-        name: "HEALINGBEAM",
-        icon: spellIcons.HEALINGBEAM,
-      },
-      {
-        name: "HOLYHOT",
-        icon: spellIcons.HOLYHOT,
-      },
-      {
-        name: "HOLYORB",
-        icon: spellIcons.HOLYORB,
-      },
-      {
-        name: "RESURRECTION",
-        icon: spellIcons.RESURRECTION,
-      },
+      { name: "Pulsing Heal", icon: spellIcons.PULSINGHEAL },
+      { name: "Healing Beam", icon: spellIcons.HEALINGBEAM },
+      { name: "Holy Hot", icon: spellIcons.HOLYHOT },
+      { name: "Holy Orb", icon: spellIcons.HOLYORB },
+      { name: "Resurrection", icon: spellIcons.RESURRECTION },
     ],
-    active3: [
-      {
-        name: "HOLYEXPLOSION",
-        icon: spellIcons.HOLYEXPLOSION,
-      },
-    ],
+    active3: [{ name: "Holy Explosion", icon: spellIcons.HOLYEXPLOSION }],
     passive1: [
       {
-        name: "PASSIVE_HEALPOWERCHANCE",
+        name: "Passive Healpowerchance",
         icon: spellIcons.PASSIVE_HEALPOWERCHANCE,
       },
       {
-        name: "PASSIVE_ENERGYCHANCE_HOLYSTAFF",
+        name: "Passive Energychance Holystaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_HOLYSTAFF,
       },
       {
-        name: "PASSIVE_KNOCKBACK_CASTER_HOLYSTAFF",
+        name: "Passive Knockback Caster Holystaff",
         icon: spellIcons.PASSIVE_KNOCKBACK_CASTER_HOLYSTAFF,
       },
-      { name: "PASSIVE_HOLY_ASCENDED", icon: spellIcons.PASSIVE_HOLY_ASCENDED },
+      { name: "Passive Holy Ascended", icon: spellIcons.PASSIVE_HOLY_ASCENDED },
     ],
   },
   T8_2H_DIVINESTAFF: {
     active1: [
-      {
-        name: "GENEROUSHEAL",
-        icon: spellIcons.GENEROUSHEAL,
-      },
-      {
-        name: "SMITE_AOE",
-        icon: spellIcons.SMITE_AOE,
-      },
-      {
-        name: "HOLYFLASH",
-        icon: spellIcons.HOLYFLASH,
-      },
+      { name: "Generous Heal", icon: spellIcons.GENEROUSHEAL },
+      { name: "Smite Aoe", icon: spellIcons.SMITE_AOE },
+      { name: "Holy Flash", icon: spellIcons.HOLYFLASH },
     ],
     active2: [
-      {
-        name: "PULSINGHEAL",
-        icon: spellIcons.PULSINGHEAL,
-      },
-      {
-        name: "HEALINGBEAM",
-        icon: spellIcons.HEALINGBEAM,
-      },
-      {
-        name: "HOLYHOT",
-        icon: spellIcons.HOLYHOT,
-      },
-      {
-        name: "HOLYORB",
-        icon: spellIcons.HOLYORB,
-      },
-      {
-        name: "RESURRECTION",
-        icon: spellIcons.RESURRECTION,
-      },
+      { name: "Pulsing Heal", icon: spellIcons.PULSINGHEAL },
+      { name: "Healing Beam", icon: spellIcons.HEALINGBEAM },
+      { name: "Holy Hot", icon: spellIcons.HOLYHOT },
+      { name: "Holy Orb", icon: spellIcons.HOLYORB },
+      { name: "Resurrection", icon: spellIcons.RESURRECTION },
     ],
-    active3: [
-      {
-        name: "HOLYSHIELD",
-        icon: spellIcons.HOLYSHIELD,
-      },
-    ],
+    active3: [{ name: "Holy Shield", icon: spellIcons.HOLYSHIELD }],
     passive1: [
       {
-        name: "PASSIVE_HEALPOWERCHANCE",
+        name: "Passive Healpowerchance",
         icon: spellIcons.PASSIVE_HEALPOWERCHANCE,
       },
       {
-        name: "PASSIVE_ENERGYCHANCE_HOLYSTAFF",
+        name: "Passive Energychance Holystaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_HOLYSTAFF,
       },
       {
-        name: "PASSIVE_KNOCKBACK_CASTER_HOLYSTAFF",
+        name: "Passive Knockback Caster Holystaff",
         icon: spellIcons.PASSIVE_KNOCKBACK_CASTER_HOLYSTAFF,
       },
-      { name: "PASSIVE_HOLY_ASCENDED", icon: spellIcons.PASSIVE_HOLY_ASCENDED },
+      { name: "Passive Holy Ascended", icon: spellIcons.PASSIVE_HOLY_ASCENDED },
     ],
   },
+
   T8_MAIN_HOLYSTAFF_MORGANA: {
     active1: [
-      {
-        name: "GENEROUSHEAL",
-        icon: spellIcons.GENEROUSHEAL,
-      },
-      {
-        name: "SMITE_AOE",
-        icon: spellIcons.SMITE_AOE,
-      },
-      {
-        name: "HOLYFLASH",
-        icon: spellIcons.HOLYFLASH,
-      },
+      { name: "Generous Heal", icon: spellIcons.GENEROUSHEAL },
+      { name: "Smite Aoe", icon: spellIcons.SMITE_AOE },
+      { name: "Holy Flash", icon: spellIcons.HOLYFLASH },
     ],
     active2: [
-      {
-        name: "PULSINGHEAL",
-        icon: spellIcons.PULSINGHEAL,
-      },
-      {
-        name: "HEALINGBEAM",
-        icon: spellIcons.HEALINGBEAM,
-      },
-      {
-        name: "HOLYHOT",
-        icon: spellIcons.HOLYHOT,
-      },
-      {
-        name: "HOLYORB",
-        icon: spellIcons.HOLYORB,
-      },
-      {
-        name: "RESURRECTION",
-        icon: spellIcons.RESURRECTION,
-      },
+      { name: "Pulsing Heal", icon: spellIcons.PULSINGHEAL },
+      { name: "Healing Beam", icon: spellIcons.HEALINGBEAM },
+      { name: "Holy Hot", icon: spellIcons.HOLYHOT },
+      { name: "Holy Orb", icon: spellIcons.HOLYORB },
+      { name: "Resurrection", icon: spellIcons.RESURRECTION },
     ],
-    active3: [
-      {
-        name: "HOLYTOUCH",
-        icon: spellIcons.HOLYTOUCH,
-      },
-    ],
+    active3: [{ name: "Holy Touch", icon: spellIcons.HOLYTOUCH }],
     passive1: [
       {
-        name: "PASSIVE_HEALPOWERCHANCE",
+        name: "Passive Healpowerchance",
         icon: spellIcons.PASSIVE_HEALPOWERCHANCE,
       },
       {
-        name: "PASSIVE_ENERGYCHANCE_HOLYSTAFF",
+        name: "Passive Energychance Holystaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_HOLYSTAFF,
       },
       {
-        name: "PASSIVE_KNOCKBACK_CASTER_HOLYSTAFF",
+        name: "Passive Knockback Caster Holystaff",
         icon: spellIcons.PASSIVE_KNOCKBACK_CASTER_HOLYSTAFF,
       },
-      { name: "PASSIVE_HOLY_ASCENDED", icon: spellIcons.PASSIVE_HOLY_ASCENDED },
+      { name: "Passive Holy Ascended", icon: spellIcons.PASSIVE_HOLY_ASCENDED },
     ],
   },
   T8_2H_HOLYSTAFF_HELL: {
     active1: [
-      {
-        name: "GENEROUSHEAL",
-        icon: spellIcons.GENEROUSHEAL,
-      },
-      {
-        name: "SMITE_AOE",
-        icon: spellIcons.SMITE_AOE,
-      },
-      {
-        name: "HOLYFLASH",
-        icon: spellIcons.HOLYFLASH,
-      },
+      { name: "Generous Heal", icon: spellIcons.GENEROUSHEAL },
+      { name: "Smite Aoe", icon: spellIcons.SMITE_AOE },
+      { name: "Holy Flash", icon: spellIcons.HOLYFLASH },
     ],
     active2: [
-      {
-        name: "PULSINGHEAL",
-        icon: spellIcons.PULSINGHEAL,
-      },
-      {
-        name: "HEALINGBEAM",
-        icon: spellIcons.HEALINGBEAM,
-      },
-      {
-        name: "HOLYHOT",
-        icon: spellIcons.HOLYHOT,
-      },
-      {
-        name: "HOLYORB",
-        icon: spellIcons.HOLYORB,
-      },
-      {
-        name: "RESURRECTION",
-        icon: spellIcons.RESURRECTION,
-      },
+      { name: "Pulsing Heal", icon: spellIcons.PULSINGHEAL },
+      { name: "Healing Beam", icon: spellIcons.HEALINGBEAM },
+      { name: "Holy Hot", icon: spellIcons.HOLYHOT },
+      { name: "Holy Orb", icon: spellIcons.HOLYORB },
+      { name: "Resurrection", icon: spellIcons.RESURRECTION },
     ],
-    active3: [
-      {
-        name: "HOLY_ULTIMATE",
-        icon: spellIcons.HOLY_ULTIMATE,
-      },
-    ],
+    active3: [{ name: "Holy Ultimate", icon: spellIcons.HOLY_ULTIMATE }],
     passive1: [
       {
-        name: "PASSIVE_HEALPOWERCHANCE",
+        name: "Passive Healpowerchance",
         icon: spellIcons.PASSIVE_HEALPOWERCHANCE,
       },
       {
-        name: "PASSIVE_ENERGYCHANCE_HOLYSTAFF",
+        name: "Passive Energychance Holystaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_HOLYSTAFF,
       },
       {
-        name: "PASSIVE_KNOCKBACK_CASTER_HOLYSTAFF",
+        name: "Passive Knockback Caster Holystaff",
         icon: spellIcons.PASSIVE_KNOCKBACK_CASTER_HOLYSTAFF,
       },
-      { name: "PASSIVE_HOLY_ASCENDED", icon: spellIcons.PASSIVE_HOLY_ASCENDED },
+      { name: "Passive Holy Ascended", icon: spellIcons.PASSIVE_HOLY_ASCENDED },
     ],
   },
   T8_2H_HOLYSTAFF_UNDEAD: {
     active1: [
-      {
-        name: "GENEROUSHEAL",
-        icon: spellIcons.GENEROUSHEAL,
-      },
-      {
-        name: "SMITE_AOE",
-        icon: spellIcons.SMITE_AOE,
-      },
-      {
-        name: "HOLYFLASH",
-        icon: spellIcons.HOLYFLASH,
-      },
+      { name: "Generous Heal", icon: spellIcons.GENEROUSHEAL },
+      { name: "Smite Aoe", icon: spellIcons.SMITE_AOE },
+      { name: "Holy Flash", icon: spellIcons.HOLYFLASH },
     ],
     active2: [
-      {
-        name: "PULSINGHEAL",
-        icon: spellIcons.PULSINGHEAL,
-      },
-      {
-        name: "HEALINGBEAM",
-        icon: spellIcons.HEALINGBEAM,
-      },
-      {
-        name: "HOLYHOT",
-        icon: spellIcons.HOLYHOT,
-      },
-      {
-        name: "HOLYORB",
-        icon: spellIcons.HOLYORB,
-      },
-      {
-        name: "RESURRECTION",
-        icon: spellIcons.RESURRECTION,
-      },
+      { name: "Pulsing Heal", icon: spellIcons.PULSINGHEAL },
+      { name: "Healing Beam", icon: spellIcons.HEALINGBEAM },
+      { name: "Holy Hot", icon: spellIcons.HOLYHOT },
+      { name: "Holy Orb", icon: spellIcons.HOLYORB },
+      { name: "Resurrection", icon: spellIcons.RESURRECTION },
     ],
-    active3: [
-      {
-        name: "CELESTIAL_SPHERE",
-        icon: spellIcons.CELESTIAL_SPHERE,
-      },
-    ],
+    active3: [{ name: "Celestial Sphere", icon: spellIcons.CELESTIAL_SPHERE }],
     passive1: [
       {
-        name: "PASSIVE_HEALPOWERCHANCE",
+        name: "Passive Healpowerchance",
         icon: spellIcons.PASSIVE_HEALPOWERCHANCE,
       },
       {
-        name: "PASSIVE_ENERGYCHANCE_HOLYSTAFF",
+        name: "Passive Energychance Holystaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_HOLYSTAFF,
       },
       {
-        name: "PASSIVE_KNOCKBACK_CASTER_HOLYSTAFF",
+        name: "Passive Knockback Caster Holystaff",
         icon: spellIcons.PASSIVE_KNOCKBACK_CASTER_HOLYSTAFF,
       },
-      { name: "PASSIVE_HOLY_ASCENDED", icon: spellIcons.PASSIVE_HOLY_ASCENDED },
+      { name: "Passive Holy Ascended", icon: spellIcons.PASSIVE_HOLY_ASCENDED },
     ],
   },
   T8_MAIN_HOLYSTAFF_AVALON: {
     active1: [
-      {
-        name: "GENEROUSHEAL",
-        icon: spellIcons.GENEROUSHEAL,
-      },
-      {
-        name: "SMITE_AOE",
-        icon: spellIcons.SMITE_AOE,
-      },
-      {
-        name: "HOLYFLASH",
-        icon: spellIcons.HOLYFLASH,
-      },
+      { name: "Generous Heal", icon: spellIcons.GENEROUSHEAL },
+      { name: "Smite Aoe", icon: spellIcons.SMITE_AOE },
+      { name: "Holy Flash", icon: spellIcons.HOLYFLASH },
     ],
     active2: [
-      {
-        name: "PULSINGHEAL",
-        icon: spellIcons.PULSINGHEAL,
-      },
-      {
-        name: "HEALINGBEAM",
-        icon: spellIcons.HEALINGBEAM,
-      },
-      {
-        name: "HOLYHOT",
-        icon: spellIcons.HOLYHOT,
-      },
-      {
-        name: "HOLYORB",
-        icon: spellIcons.HOLYORB,
-      },
-      {
-        name: "RESURRECTION",
-        icon: spellIcons.RESURRECTION,
-      },
+      { name: "Pulsing Heal", icon: spellIcons.PULSINGHEAL },
+      { name: "Healing Beam", icon: spellIcons.HEALINGBEAM },
+      { name: "Holy Hot", icon: spellIcons.HOLYHOT },
+      { name: "Holy Orb", icon: spellIcons.HOLYORB },
+      { name: "Resurrection", icon: spellIcons.RESURRECTION },
     ],
-    active3: [
-      {
-        name: "DIVINE_JUMP",
-        icon: spellIcons.DIVINE_JUMP,
-      },
-    ],
+    active3: [{ name: "Divine Jump", icon: spellIcons.DIVINE_JUMP }],
     passive1: [
       {
-        name: "PASSIVE_HEALPOWERCHANCE",
+        name: "Passive Healpowerchance",
         icon: spellIcons.PASSIVE_HEALPOWERCHANCE,
       },
       {
-        name: "PASSIVE_ENERGYCHANCE_HOLYSTAFF",
+        name: "Passive Energychance Holystaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_HOLYSTAFF,
       },
       {
-        name: "PASSIVE_KNOCKBACK_CASTER_HOLYSTAFF",
+        name: "Passive Knockback Caster Holystaff",
         icon: spellIcons.PASSIVE_KNOCKBACK_CASTER_HOLYSTAFF,
       },
-      { name: "PASSIVE_HOLY_ASCENDED", icon: spellIcons.PASSIVE_HOLY_ASCENDED },
+      { name: "Passive Holy Ascended", icon: spellIcons.PASSIVE_HOLY_ASCENDED },
     ],
   },
   T8_2H_HOLYSTAFF_CRYSTAL: {
     active1: [
-      {
-        name: "GENEROUSHEAL",
-        icon: spellIcons.GENEROUSHEAL,
-      },
-      {
-        name: "SMITE_AOE",
-        icon: spellIcons.SMITE_AOE,
-      },
-      {
-        name: "HOLYFLASH",
-        icon: spellIcons.HOLYFLASH,
-      },
+      { name: "Generous Heal", icon: spellIcons.GENEROUSHEAL },
+      { name: "Smite Aoe", icon: spellIcons.SMITE_AOE },
+      { name: "Holy Flash", icon: spellIcons.HOLYFLASH },
     ],
     active2: [
-      {
-        name: "PULSINGHEAL",
-        icon: spellIcons.PULSINGHEAL,
-      },
-      {
-        name: "HEALINGBEAM",
-        icon: spellIcons.HEALINGBEAM,
-      },
-      {
-        name: "HOLYHOT",
-        icon: spellIcons.HOLYHOT,
-      },
-      {
-        name: "HOLYORB",
-        icon: spellIcons.HOLYORB,
-      },
-      {
-        name: "RESURRECTION",
-        icon: spellIcons.RESURRECTION,
-      },
+      { name: "Pulsing Heal", icon: spellIcons.PULSINGHEAL },
+      { name: "Healing Beam", icon: spellIcons.HEALINGBEAM },
+      { name: "Holy Hot", icon: spellIcons.HOLYHOT },
+      { name: "Holy Orb", icon: spellIcons.HOLYORB },
+      { name: "Resurrection", icon: spellIcons.RESURRECTION },
     ],
-    active3: [
-      {
-        name: "HOLY_DISPEL",
-        icon: spellIcons.HOLY_DISPEL,
-      },
-    ],
+    active3: [{ name: "Holy Dispel", icon: spellIcons.HOLY_DISPEL }],
     passive1: [
       {
-        name: "PASSIVE_HEALPOWERCHANCE",
+        name: "Passive Healpowerchance",
         icon: spellIcons.PASSIVE_HEALPOWERCHANCE,
       },
       {
-        name: "PASSIVE_ENERGYCHANCE_HOLYSTAFF",
+        name: "Passive Energychance Holystaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_HOLYSTAFF,
       },
       {
-        name: "PASSIVE_KNOCKBACK_CASTER_HOLYSTAFF",
+        name: "Passive Knockback Caster Holystaff",
         icon: spellIcons.PASSIVE_KNOCKBACK_CASTER_HOLYSTAFF,
       },
-      { name: "PASSIVE_HOLY_ASCENDED", icon: spellIcons.PASSIVE_HOLY_ASCENDED },
+      { name: "Passive Holy Ascended", icon: spellIcons.PASSIVE_HOLY_ASCENDED },
     ],
   },
   T8_MAIN_ARCANESTAFF: {
     active1: [
-      {
-        name: "ARCANE_CHAIN_MISSILE",
-        icon: spellIcons.ARCANE_CHAIN_MISSILE,
-      },
-      {
-        name: "SHIELDFRIENDLY",
-        icon: spellIcons.SHIELDFRIENDLY,
-      },
-      {
-        name: "MAGICSHOCK",
-        icon: spellIcons.MAGICSHOCK,
-      },
+      { name: "Arcane Chain Missile", icon: spellIcons.ARCANE_CHAIN_MISSILE },
+      { name: "Shieldfriendly", icon: spellIcons.SHIELDFRIENDLY },
+      { name: "Magicshock", icon: spellIcons.MAGICSHOCK },
     ],
     active2: [
-      {
-        name: "ENIGMA_BLADE",
-        icon: spellIcons.ENIGMA_BLADE,
-      },
-      {
-        name: "CLEANSESPEED2",
-        icon: spellIcons.CLEANSESPEED2,
-      },
-      {
-        name: "FRAZZLE2",
-        icon: spellIcons.FRAZZLE2,
-      },
-      {
-        name: "EMPOWERBEAM",
-        icon: spellIcons.EMPOWERBEAM,
-      },
-      {
-        name: "MIMIC",
-        icon: spellIcons.MIMIC,
-      },
+      { name: "Enigma Blade", icon: spellIcons.ENIGMA_BLADE },
+      { name: "Cleansespeed2", icon: spellIcons.CLEANSESPEED2 },
+      { name: "Frazzle2", icon: spellIcons.FRAZZLE2 },
+      { name: "Empowerbeam", icon: spellIcons.EMPOWERBEAM },
+      { name: "Mimic", icon: spellIcons.MIMIC },
     ],
-    active3: [
-      {
-        name: "ARCANEORB2",
-        icon: spellIcons.ARCANEORB2,
-      },
-    ],
+    active3: [{ name: "Arcaneorb2", icon: spellIcons.ARCANEORB2 }],
     passive1: [
       {
-        name: "PASSIVE_ATTACKBUFF_ARCANESTAFF",
+        name: "Passive Attackbuff Arcanestaff",
         icon: spellIcons.PASSIVE_ATTACKBUFF_ARCANESTAFF,
       },
       {
-        name: "PASSIVE_ENERGYCHANCE_ARCANESTAFF",
+        name: "Passive Energychance Arcanestaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_ARCANESTAFF,
       },
       {
-        name: "PASSIVE_ARMOR_CASTER_ARCANESTAFF",
+        name: "Passive Armor Caster Arcanestaff",
         icon: spellIcons.PASSIVE_ARMOR_CASTER_ARCANESTAFF,
       },
-      { name: "PASSIVE_SILENCECHANCE", icon: spellIcons.PASSIVE_SILENCECHANCE },
+      { name: "Passive Silencechance", icon: spellIcons.PASSIVE_SILENCECHANCE },
     ],
   },
   T8_2H_ARCANESTAFF: {
     active1: [
-      {
-        name: "ARCANE_CHAIN_MISSILE",
-        icon: spellIcons.ARCANE_CHAIN_MISSILE,
-      },
-      {
-        name: "SHIELDFRIENDLY",
-        icon: spellIcons.SHIELDFRIENDLY,
-      },
-      {
-        name: "MAGICSHOCK",
-        icon: spellIcons.MAGICSHOCK,
-      },
+      { name: "Arcane Chain Missile", icon: spellIcons.ARCANE_CHAIN_MISSILE },
+      { name: "Shieldfriendly", icon: spellIcons.SHIELDFRIENDLY },
+      { name: "Magicshock", icon: spellIcons.MAGICSHOCK },
     ],
     active2: [
-      {
-        name: "ENIGMA_BLADE",
-        icon: spellIcons.ENIGMA_BLADE,
-      },
-      {
-        name: "CLEANSESPEED2",
-        icon: spellIcons.CLEANSESPEED2,
-      },
-      {
-        name: "FRAZZLE2",
-        icon: spellIcons.FRAZZLE2,
-      },
-      {
-        name: "EMPOWERBEAM",
-        icon: spellIcons.EMPOWERBEAM,
-      },
-      {
-        name: "MIMIC",
-        icon: spellIcons.MIMIC,
-      },
+      { name: "Enigma Blade", icon: spellIcons.ENIGMA_BLADE },
+      { name: "Cleansespeed2", icon: spellIcons.CLEANSESPEED2 },
+      { name: "Frazzle2", icon: spellIcons.FRAZZLE2 },
+      { name: "Empowerbeam", icon: spellIcons.EMPOWERBEAM },
+      { name: "Mimic", icon: spellIcons.MIMIC },
     ],
-    active3: [
-      {
-        name: "TIME_FREEZE",
-        icon: spellIcons.TIME_FREEZE,
-      },
-    ],
+    active3: [{ name: "Time Freeze", icon: spellIcons.TIME_FREEZE }],
     passive1: [
       {
-        name: "PASSIVE_ATTACKBUFF_ARCANESTAFF",
+        name: "Passive Attackbuff Arcanestaff",
         icon: spellIcons.PASSIVE_ATTACKBUFF_ARCANESTAFF,
       },
       {
-        name: "PASSIVE_ENERGYCHANCE_ARCANESTAFF",
+        name: "Passive Energychance Arcanestaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_ARCANESTAFF,
       },
       {
-        name: "PASSIVE_ARMOR_CASTER_ARCANESTAFF",
+        name: "Passive Armor Caster Arcanestaff",
         icon: spellIcons.PASSIVE_ARMOR_CASTER_ARCANESTAFF,
       },
-      { name: "PASSIVE_SILENCECHANCE", icon: spellIcons.PASSIVE_SILENCECHANCE },
+      { name: "Passive Silencechance", icon: spellIcons.PASSIVE_SILENCECHANCE },
     ],
   },
   T8_2H_ENIGMATICSTAFF: {
     active1: [
-      {
-        name: "ARCANE_CHAIN_MISSILE",
-        icon: spellIcons.ARCANE_CHAIN_MISSILE,
-      },
-      {
-        name: "SHIELDFRIENDLY",
-        icon: spellIcons.SHIELDFRIENDLY,
-      },
-      {
-        name: "MAGICSHOCK",
-        icon: spellIcons.MAGICSHOCK,
-      },
+      { name: "Arcane Chain Missile", icon: spellIcons.ARCANE_CHAIN_MISSILE },
+      { name: "Shieldfriendly", icon: spellIcons.SHIELDFRIENDLY },
+      { name: "Magicshock", icon: spellIcons.MAGICSHOCK },
     ],
     active2: [
-      {
-        name: "ENIGMA_BLADE",
-        icon: spellIcons.ENIGMA_BLADE,
-      },
-      {
-        name: "CLEANSESPEED2",
-        icon: spellIcons.CLEANSESPEED2,
-      },
-      {
-        name: "FRAZZLE2",
-        icon: spellIcons.FRAZZLE2,
-      },
-      {
-        name: "EMPOWERBEAM",
-        icon: spellIcons.EMPOWERBEAM,
-      },
-      {
-        name: "MIMIC",
-        icon: spellIcons.MIMIC,
-      },
+      { name: "Enigma Blade", icon: spellIcons.ENIGMA_BLADE },
+      { name: "Cleansespeed2", icon: spellIcons.CLEANSESPEED2 },
+      { name: "Frazzle2", icon: spellIcons.FRAZZLE2 },
+      { name: "Empowerbeam", icon: spellIcons.EMPOWERBEAM },
+      { name: "Mimic", icon: spellIcons.MIMIC },
     ],
-    active3: [
-      {
-        name: "INVULNERABILITY",
-        icon: spellIcons.INVULNERABILITY,
-      },
-    ],
+    active3: [{ name: "Invulnerability", icon: spellIcons.INVULNERABILITY }],
     passive1: [
       {
-        name: "PASSIVE_ATTACKBUFF_ARCANESTAFF",
+        name: "Passive Attackbuff Arcanestaff",
         icon: spellIcons.PASSIVE_ATTACKBUFF_ARCANESTAFF,
       },
       {
-        name: "PASSIVE_ENERGYCHANCE_ARCANESTAFF",
+        name: "Passive Energychance Arcanestaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_ARCANESTAFF,
       },
       {
-        name: "PASSIVE_ARMOR_CASTER_ARCANESTAFF",
+        name: "Passive Armor Caster Arcanestaff",
         icon: spellIcons.PASSIVE_ARMOR_CASTER_ARCANESTAFF,
       },
-      { name: "PASSIVE_SILENCECHANCE", icon: spellIcons.PASSIVE_SILENCECHANCE },
+      { name: "Passive Silencechance", icon: spellIcons.PASSIVE_SILENCECHANCE },
     ],
   },
   T8_MAIN_ARCANESTAFF_UNDEAD: {
     active1: [
-      {
-        name: "ARCANE_CHAIN_MISSILE",
-        icon: spellIcons.ARCANE_CHAIN_MISSILE,
-      },
-      {
-        name: "SHIELDFRIENDLY",
-        icon: spellIcons.SHIELDFRIENDLY,
-      },
-      {
-        name: "MAGICSHOCK",
-        icon: spellIcons.MAGICSHOCK,
-      },
+      { name: "Arcane Chain Missile", icon: spellIcons.ARCANE_CHAIN_MISSILE },
+      { name: "Shieldfriendly", icon: spellIcons.SHIELDFRIENDLY },
+      { name: "Magicshock", icon: spellIcons.MAGICSHOCK },
     ],
     active2: [
-      {
-        name: "ENIGMA_BLADE",
-        icon: spellIcons.ENIGMA_BLADE,
-      },
-      {
-        name: "CLEANSESPEED2",
-        icon: spellIcons.CLEANSESPEED2,
-      },
-      {
-        name: "FRAZZLE2",
-        icon: spellIcons.FRAZZLE2,
-      },
-      {
-        name: "EMPOWERBEAM",
-        icon: spellIcons.EMPOWERBEAM,
-      },
-      {
-        name: "MIMIC",
-        icon: spellIcons.MIMIC,
-      },
+      { name: "Enigma Blade", icon: spellIcons.ENIGMA_BLADE },
+      { name: "Cleansespeed2", icon: spellIcons.CLEANSESPEED2 },
+      { name: "Frazzle2", icon: spellIcons.FRAZZLE2 },
+      { name: "Empowerbeam", icon: spellIcons.EMPOWERBEAM },
+      { name: "Mimic", icon: spellIcons.MIMIC },
     ],
-    active3: [
-      {
-        name: "BLACKHOLE",
-        icon: spellIcons.BLACKHOLE,
-      },
-    ],
+    active3: [{ name: "Blackhole", icon: spellIcons.BLACKHOLE }],
     passive1: [
       {
-        name: "PASSIVE_ATTACKBUFF_ARCANESTAFF",
+        name: "Passive Attackbuff Arcanestaff",
         icon: spellIcons.PASSIVE_ATTACKBUFF_ARCANESTAFF,
       },
       {
-        name: "PASSIVE_ENERGYCHANCE_ARCANESTAFF",
+        name: "Passive Energychance Arcanestaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_ARCANESTAFF,
       },
       {
-        name: "PASSIVE_ARMOR_CASTER_ARCANESTAFF",
+        name: "Passive Armor Caster Arcanestaff",
         icon: spellIcons.PASSIVE_ARMOR_CASTER_ARCANESTAFF,
       },
-      { name: "PASSIVE_SILENCECHANCE", icon: spellIcons.PASSIVE_SILENCECHANCE },
+      { name: "Passive Silencechance", icon: spellIcons.PASSIVE_SILENCECHANCE },
     ],
   },
   T8_2H_ARCANESTAFF_HELL: {
     active1: [
-      {
-        name: "ARCANE_CHAIN_MISSILE",
-        icon: spellIcons.ARCANE_CHAIN_MISSILE,
-      },
-      {
-        name: "SHIELDFRIENDLY",
-        icon: spellIcons.SHIELDFRIENDLY,
-      },
-      {
-        name: "MAGICSHOCK",
-        icon: spellIcons.MAGICSHOCK,
-      },
+      { name: "Arcane Chain Missile", icon: spellIcons.ARCANE_CHAIN_MISSILE },
+      { name: "Shieldfriendly", icon: spellIcons.SHIELDFRIENDLY },
+      { name: "Magicshock", icon: spellIcons.MAGICSHOCK },
     ],
     active2: [
-      {
-        name: "ENIGMA_BLADE",
-        icon: spellIcons.ENIGMA_BLADE,
-      },
-      {
-        name: "CLEANSESPEED2",
-        icon: spellIcons.CLEANSESPEED2,
-      },
-      {
-        name: "FRAZZLE2",
-        icon: spellIcons.FRAZZLE2,
-      },
-      {
-        name: "EMPOWERBEAM",
-        icon: spellIcons.EMPOWERBEAM,
-      },
-      {
-        name: "MIMIC",
-        icon: spellIcons.MIMIC,
-      },
+      { name: "Enigma Blade", icon: spellIcons.ENIGMA_BLADE },
+      { name: "Cleansespeed2", icon: spellIcons.CLEANSESPEED2 },
+      { name: "Frazzle2", icon: spellIcons.FRAZZLE2 },
+      { name: "Empowerbeam", icon: spellIcons.EMPOWERBEAM },
+      { name: "Mimic", icon: spellIcons.MIMIC },
     ],
-    active3: [
-      {
-        name: "ARCANECORRIDOR",
-        icon: spellIcons.ARCANECORRIDOR,
-      },
-    ],
+    active3: [{ name: "Arcanecorridor", icon: spellIcons.ARCANECORRIDOR }],
     passive1: [
       {
-        name: "PASSIVE_ATTACKBUFF_ARCANESTAFF",
+        name: "Passive Attackbuff Arcanestaff",
         icon: spellIcons.PASSIVE_ATTACKBUFF_ARCANESTAFF,
       },
       {
-        name: "PASSIVE_ENERGYCHANCE_ARCANESTAFF",
+        name: "Passive Energychance Arcanestaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_ARCANESTAFF,
       },
       {
-        name: "PASSIVE_ARMOR_CASTER_ARCANESTAFF",
+        name: "Passive Armor Caster Arcanestaff",
         icon: spellIcons.PASSIVE_ARMOR_CASTER_ARCANESTAFF,
       },
-      { name: "PASSIVE_SILENCECHANCE", icon: spellIcons.PASSIVE_SILENCECHANCE },
+      { name: "Passive Silencechance", icon: spellIcons.PASSIVE_SILENCECHANCE },
     ],
   },
   T8_2H_ENIGMATICORB_MORGANA: {
     active1: [
-      {
-        name: "ARCANE_CHAIN_MISSILE",
-        icon: spellIcons.ARCANE_CHAIN_MISSILE,
-      },
-      {
-        name: "SHIELDFRIENDLY",
-        icon: spellIcons.SHIELDFRIENDLY,
-      },
-      {
-        name: "MAGICSHOCK",
-        icon: spellIcons.MAGICSHOCK,
-      },
+      { name: "Arcane Chain Missile", icon: spellIcons.ARCANE_CHAIN_MISSILE },
+      { name: "Shieldfriendly", icon: spellIcons.SHIELDFRIENDLY },
+      { name: "Magicshock", icon: spellIcons.MAGICSHOCK },
     ],
     active2: [
-      {
-        name: "ENIGMA_BLADE",
-        icon: spellIcons.ENIGMA_BLADE,
-      },
-      {
-        name: "CLEANSESPEED2",
-        icon: spellIcons.CLEANSESPEED2,
-      },
-      {
-        name: "FRAZZLE2",
-        icon: spellIcons.FRAZZLE2,
-      },
-      {
-        name: "EMPOWERBEAM",
-        icon: spellIcons.EMPOWERBEAM,
-      },
-      {
-        name: "MIMIC",
-        icon: spellIcons.MIMIC,
-      },
+      { name: "Enigma Blade", icon: spellIcons.ENIGMA_BLADE },
+      { name: "Cleansespeed2", icon: spellIcons.CLEANSESPEED2 },
+      { name: "Frazzle2", icon: spellIcons.FRAZZLE2 },
+      { name: "Empowerbeam", icon: spellIcons.EMPOWERBEAM },
+      { name: "Mimic", icon: spellIcons.MIMIC },
     ],
-    active3: [
-      {
-        name: "VOID",
-        icon: spellIcons.VOID,
-      },
-    ],
+    active3: [{ name: "Void", icon: spellIcons.VOID }],
     passive1: [
       {
-        name: "PASSIVE_ATTACKBUFF_ARCANESTAFF",
+        name: "Passive Attackbuff Arcanestaff",
         icon: spellIcons.PASSIVE_ATTACKBUFF_ARCANESTAFF,
       },
       {
-        name: "PASSIVE_ENERGYCHANCE_ARCANESTAFF",
+        name: "Passive Energychance Arcanestaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_ARCANESTAFF,
       },
       {
-        name: "PASSIVE_ARMOR_CASTER_ARCANESTAFF",
+        name: "Passive Armor Caster Arcanestaff",
         icon: spellIcons.PASSIVE_ARMOR_CASTER_ARCANESTAFF,
       },
-      { name: "PASSIVE_SILENCECHANCE", icon: spellIcons.PASSIVE_SILENCECHANCE },
+      { name: "Passive Silencechance", icon: spellIcons.PASSIVE_SILENCECHANCE },
     ],
   },
   T8_2H_ARCANE_RINGPAIR_AVALON: {
     active1: [
-      {
-        name: "ARCANE_CHAIN_MISSILE",
-        icon: spellIcons.ARCANE_CHAIN_MISSILE,
-      },
-      {
-        name: "SHIELDFRIENDLY",
-        icon: spellIcons.SHIELDFRIENDLY,
-      },
-      {
-        name: "MAGICSHOCK",
-        icon: spellIcons.MAGICSHOCK,
-      },
+      { name: "Arcane Chain Missile", icon: spellIcons.ARCANE_CHAIN_MISSILE },
+      { name: "Shieldfriendly", icon: spellIcons.SHIELDFRIENDLY },
+      { name: "Magicshock", icon: spellIcons.MAGICSHOCK },
     ],
     active2: [
-      {
-        name: "ENIGMA_BLADE",
-        icon: spellIcons.ENIGMA_BLADE,
-      },
-      {
-        name: "CLEANSESPEED2",
-        icon: spellIcons.CLEANSESPEED2,
-      },
-      {
-        name: "FRAZZLE2",
-        icon: spellIcons.FRAZZLE2,
-      },
-      {
-        name: "EMPOWERBEAM",
-        icon: spellIcons.EMPOWERBEAM,
-      },
-      {
-        name: "MIMIC",
-        icon: spellIcons.MIMIC,
-      },
+      { name: "Enigma Blade", icon: spellIcons.ENIGMA_BLADE },
+      { name: "Cleansespeed2", icon: spellIcons.CLEANSESPEED2 },
+      { name: "Frazzle2", icon: spellIcons.FRAZZLE2 },
+      { name: "Empowerbeam", icon: spellIcons.EMPOWERBEAM },
+      { name: "Mimic", icon: spellIcons.MIMIC },
     ],
-    active3: [
-      {
-        name: "ARCANE_METEOR",
-        icon: spellIcons.ARCANE_METEOR,
-      },
-    ],
+    active3: [{ name: "Arcane Meteor", icon: spellIcons.ARCANE_METEOR }],
     passive1: [
       {
-        name: "PASSIVE_ATTACKBUFF_ARCANESTAFF",
+        name: "Passive Attackbuff Arcanestaff",
         icon: spellIcons.PASSIVE_ATTACKBUFF_ARCANESTAFF,
       },
       {
-        name: "PASSIVE_ENERGYCHANCE_ARCANESTAFF",
+        name: "Passive Energychance Arcanestaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_ARCANESTAFF,
       },
       {
-        name: "PASSIVE_ARMOR_CASTER_ARCANESTAFF",
+        name: "Passive Armor Caster Arcanestaff",
         icon: spellIcons.PASSIVE_ARMOR_CASTER_ARCANESTAFF,
       },
-      { name: "PASSIVE_SILENCECHANCE", icon: spellIcons.PASSIVE_SILENCECHANCE },
+      { name: "Passive Silencechance", icon: spellIcons.PASSIVE_SILENCECHANCE },
     ],
   },
+
   T8_2H_ARCANESTAFF_CRYSTAL: {
     active1: [
-      {
-        name: "ARCANE_CHAIN_MISSILE",
-        icon: spellIcons.ARCANE_CHAIN_MISSILE,
-      },
-      {
-        name: "SHIELDFRIENDLY",
-        icon: spellIcons.SHIELDFRIENDLY,
-      },
-      {
-        name: "MAGICSHOCK",
-        icon: spellIcons.MAGICSHOCK,
-      },
+      { name: "Arcane Chain Missile", icon: spellIcons.ARCANE_CHAIN_MISSILE },
+      { name: "Shieldfriendly", icon: spellIcons.SHIELDFRIENDLY },
+      { name: "Magicshock", icon: spellIcons.MAGICSHOCK },
     ],
     active2: [
-      {
-        name: "ENIGMA_BLADE",
-        icon: spellIcons.ENIGMA_BLADE,
-      },
-      {
-        name: "CLEANSESPEED2",
-        icon: spellIcons.CLEANSESPEED2,
-      },
-      {
-        name: "FRAZZLE2",
-        icon: spellIcons.FRAZZLE2,
-      },
-      {
-        name: "EMPOWERBEAM",
-        icon: spellIcons.EMPOWERBEAM,
-      },
-      {
-        name: "MIMIC",
-        icon: spellIcons.MIMIC,
-      },
+      { name: "Enigma Blade", icon: spellIcons.ENIGMA_BLADE },
+      { name: "Cleansespeed2", icon: spellIcons.CLEANSESPEED2 },
+      { name: "Frazzle2", icon: spellIcons.FRAZZLE2 },
+      { name: "Empowerbeam", icon: spellIcons.EMPOWERBEAM },
+      { name: "Mimic", icon: spellIcons.MIMIC },
     ],
-    active3: [
-      {
-        name: "STARFALL_DOT",
-        icon: spellIcons.STARFALL_DOT,
-      },
-    ],
+    active3: [{ name: "Starfall Dot", icon: spellIcons.STARFALL_DOT }],
     passive1: [
       {
-        name: "PASSIVE_ATTACKBUFF_ARCANESTAFF",
+        name: "Passive Attackbuff Arcanestaff",
         icon: spellIcons.PASSIVE_ATTACKBUFF_ARCANESTAFF,
       },
       {
-        name: "PASSIVE_ENERGYCHANCE_ARCANESTAFF",
+        name: "Passive Energychance Arcanestaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_ARCANESTAFF,
       },
       {
-        name: "PASSIVE_ARMOR_CASTER_ARCANESTAFF",
+        name: "Passive Armor Caster Arcanestaff",
         icon: spellIcons.PASSIVE_ARMOR_CASTER_ARCANESTAFF,
       },
-      { name: "PASSIVE_SILENCECHANCE", icon: spellIcons.PASSIVE_SILENCECHANCE },
+      { name: "Passive Silencechance", icon: spellIcons.PASSIVE_SILENCECHANCE },
     ],
   },
   T8_MAIN_FROSTSTAFF: {
     active1: [
-      {
-        name: "FROST_BITE",
-        icon: spellIcons.FROST_BITE,
-      },
-      {
-        name: "ICESHARD",
-        icon: spellIcons.ICESHARD,
-      },
-      {
-        name: "SHATTER_Q",
-        icon: spellIcons.SHATTER_Q,
-      },
+      { name: "Frost Bite", icon: spellIcons.FROST_BITE },
+      { name: "Iceshard", icon: spellIcons.ICESHARD },
+      { name: "Shatter Q", icon: spellIcons.SHATTER_Q },
     ],
     active2: [
-      {
-        name: "FROSTBOMB_CASTSLOW",
-        icon: spellIcons.FROSTBOMB_CASTSLOW,
-      },
-      {
-        name: "FROSTBEAM",
-        icon: spellIcons.FROSTBEAM,
-      },
-      {
-        name: "FROSTNOVA",
-        icon: spellIcons.FROSTNOVA,
-      },
-      {
-        name: "FROST_LANCE",
-        icon: spellIcons.FROST_LANCE,
-      },
-      {
-        name: "ICE_SCULPTURE",
-        icon: spellIcons.ICE_SCULPTURE,
-      },
+      { name: "Frostbomb Castslow", icon: spellIcons.FROSTBOMB_CASTSLOW },
+      { name: "Frostbeam", icon: spellIcons.FROSTBEAM },
+      { name: "Frostnova", icon: spellIcons.FROSTNOVA },
+      { name: "Frost Lance", icon: spellIcons.FROST_LANCE },
+      { name: "Ice Sculpture", icon: spellIcons.ICE_SCULPTURE },
     ],
-    active3: [
-      {
-        name: "FREEZINGWIND",
-        icon: spellIcons.FREEZINGWIND,
-      },
-    ],
+    active3: [{ name: "Freezingwind", icon: spellIcons.FREEZINGWIND }],
     passive1: [
+      { name: "Passive Frost", icon: spellIcons.PASSIVE_FROST },
       {
-        name: "PASSIVE_FROST",
-        icon: spellIcons.PASSIVE_FROST,
-      },
-      {
-        name: "PASSIVE_ENERGYCHANCE_FROSTSTAFF",
+        name: "Passive Energychance Froststaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_FROSTSTAFF,
       },
       {
-        name: "PASSIVE_CASTINGSPEED_CHANCE_FROSTSTAFF",
+        name: "Passive Castingspeed Chance Froststaff",
         icon: spellIcons.PASSIVE_CASTINGSPEED_CHANCE_FROSTSTAFF,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CASTER_FROSTSTAFF",
+        name: "Passive Spellpower Caster Froststaff",
         icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_FROSTSTAFF,
       },
     ],
   },
   T8_2H_FROSTSTAFF: {
     active1: [
-      {
-        name: "FROST_BITE",
-        icon: spellIcons.FROST_BITE,
-      },
-      {
-        name: "ICESHARD",
-        icon: spellIcons.ICESHARD,
-      },
-      {
-        name: "SHATTER_Q",
-        icon: spellIcons.SHATTER_Q,
-      },
+      { name: "Frost Bite", icon: spellIcons.FROST_BITE },
+      { name: "Iceshard", icon: spellIcons.ICESHARD },
+      { name: "Shatter Q", icon: spellIcons.SHATTER_Q },
     ],
     active2: [
-      {
-        name: "FROSTBOMB_CASTSLOW",
-        icon: spellIcons.FROSTBOMB_CASTSLOW,
-      },
-      {
-        name: "FROSTBEAM",
-        icon: spellIcons.FROSTBEAM,
-      },
-      {
-        name: "FROSTNOVA",
-        icon: spellIcons.FROSTNOVA,
-      },
-      {
-        name: "FROST_LANCE",
-        icon: spellIcons.FROST_LANCE,
-      },
-      {
-        name: "ICE_SCULPTURE",
-        icon: spellIcons.ICE_SCULPTURE,
-      },
+      { name: "Frostbomb Castslow", icon: spellIcons.FROSTBOMB_CASTSLOW },
+      { name: "Frostbeam", icon: spellIcons.FROSTBEAM },
+      { name: "Frostnova", icon: spellIcons.FROSTNOVA },
+      { name: "Frost Lance", icon: spellIcons.FROST_LANCE },
+      { name: "Ice Sculpture", icon: spellIcons.ICE_SCULPTURE },
     ],
-    active3: [
-      {
-        name: "HAIL_MULTI_1",
-        icon: spellIcons.HAIL_MULTI_1,
-      },
-    ],
+    active3: [{ name: "Hail Multi 1", icon: spellIcons.HAIL_MULTI_1 }],
     passive1: [
+      { name: "Passive Frost", icon: spellIcons.PASSIVE_FROST },
       {
-        name: "PASSIVE_FROST",
-        icon: spellIcons.PASSIVE_FROST,
-      },
-      {
-        name: "PASSIVE_ENERGYCHANCE_FROSTSTAFF",
+        name: "Passive Energychance Froststaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_FROSTSTAFF,
       },
       {
-        name: "PASSIVE_CASTINGSPEED_CHANCE_FROSTSTAFF",
+        name: "Passive Castingspeed Chance Froststaff",
         icon: spellIcons.PASSIVE_CASTINGSPEED_CHANCE_FROSTSTAFF,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CASTER_FROSTSTAFF",
+        name: "Passive Spellpower Caster Froststaff",
         icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_FROSTSTAFF,
       },
     ],
   },
   T8_2H_GLACIALSTAFF: {
     active1: [
-      {
-        name: "FROST_BITE",
-        icon: spellIcons.FROST_BITE,
-      },
-      {
-        name: "ICESHARD",
-        icon: spellIcons.ICESHARD,
-      },
-      {
-        name: "SHATTER_Q",
-        icon: spellIcons.SHATTER_Q,
-      },
+      { name: "Frost Bite", icon: spellIcons.FROST_BITE },
+      { name: "Iceshard", icon: spellIcons.ICESHARD },
+      { name: "Shatter Q", icon: spellIcons.SHATTER_Q },
     ],
     active2: [
-      {
-        name: "FROSTBOMB_CASTSLOW",
-        icon: spellIcons.FROSTBOMB_CASTSLOW,
-      },
-      {
-        name: "FROSTBEAM",
-        icon: spellIcons.FROSTBEAM,
-      },
-      {
-        name: "FROSTNOVA",
-        icon: spellIcons.FROSTNOVA,
-      },
-      {
-        name: "FROST_LANCE",
-        icon: spellIcons.FROST_LANCE,
-      },
-      {
-        name: "ICE_SCULPTURE",
-        icon: spellIcons.ICE_SCULPTURE,
-      },
+      { name: "Frostbomb Castslow", icon: spellIcons.FROSTBOMB_CASTSLOW },
+      { name: "Frostbeam", icon: spellIcons.FROSTBEAM },
+      { name: "Frostnova", icon: spellIcons.FROSTNOVA },
+      { name: "Frost Lance", icon: spellIcons.FROST_LANCE },
+      { name: "Ice Sculpture", icon: spellIcons.ICE_SCULPTURE },
     ],
-    active3: [
-      {
-        name: "ICESTORM2",
-        icon: spellIcons.ICESTORM2,
-      },
-    ],
+    active3: [{ name: "Icestorm2", icon: spellIcons.ICESTORM2 }],
     passive1: [
+      { name: "Passive Frost", icon: spellIcons.PASSIVE_FROST },
       {
-        name: "PASSIVE_FROST",
-        icon: spellIcons.PASSIVE_FROST,
-      },
-      {
-        name: "PASSIVE_ENERGYCHANCE_FROSTSTAFF",
+        name: "Passive Energychance Froststaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_FROSTSTAFF,
       },
       {
-        name: "PASSIVE_CASTINGSPEED_CHANCE_FROSTSTAFF",
+        name: "Passive Castingspeed Chance Froststaff",
         icon: spellIcons.PASSIVE_CASTINGSPEED_CHANCE_FROSTSTAFF,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CASTER_FROSTSTAFF",
+        name: "Passive Spellpower Caster Froststaff",
         icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_FROSTSTAFF,
       },
     ],
   },
   T8_MAIN_FROSTSTAFF_KEEPER: {
     active1: [
-      {
-        name: "FROST_BITE",
-        icon: spellIcons.FROST_BITE,
-      },
-      {
-        name: "ICESHARD",
-        icon: spellIcons.ICESHARD,
-      },
-      {
-        name: "SHATTER_Q",
-        icon: spellIcons.SHATTER_Q,
-      },
+      { name: "Frost Bite", icon: spellIcons.FROST_BITE },
+      { name: "Iceshard", icon: spellIcons.ICESHARD },
+      { name: "Shatter Q", icon: spellIcons.SHATTER_Q },
     ],
     active2: [
-      {
-        name: "FROSTBOMB_CASTSLOW",
-        icon: spellIcons.FROSTBOMB_CASTSLOW,
-      },
-      {
-        name: "FROSTBEAM",
-        icon: spellIcons.FROSTBEAM,
-      },
-      {
-        name: "FROSTNOVA",
-        icon: spellIcons.FROSTNOVA,
-      },
-      {
-        name: "FROST_LANCE",
-        icon: spellIcons.FROST_LANCE,
-      },
-      {
-        name: "ICE_SCULPTURE",
-        icon: spellIcons.ICE_SCULPTURE,
-      },
+      { name: "Frostbomb Castslow", icon: spellIcons.FROSTBOMB_CASTSLOW },
+      { name: "Frostbeam", icon: spellIcons.FROSTBEAM },
+      { name: "Frostnova", icon: spellIcons.FROSTNOVA },
+      { name: "Frost Lance", icon: spellIcons.FROST_LANCE },
+      { name: "Ice Sculpture", icon: spellIcons.ICE_SCULPTURE },
     ],
-    active3: [
-      {
-        name: "ICEROCK_EXPLODE",
-        icon: spellIcons.ICEROCK_EXPLODE,
-      },
-    ],
+    active3: [{ name: "Icerock Explode", icon: spellIcons.ICEROCK_EXPLODE }],
     passive1: [
+      { name: "Passive Frost", icon: spellIcons.PASSIVE_FROST },
       {
-        name: "PASSIVE_FROST",
-        icon: spellIcons.PASSIVE_FROST,
-      },
-      {
-        name: "PASSIVE_ENERGYCHANCE_FROSTSTAFF",
+        name: "Passive Energychance Froststaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_FROSTSTAFF,
       },
       {
-        name: "PASSIVE_CASTINGSPEED_CHANCE_FROSTSTAFF",
+        name: "Passive Castingspeed Chance Froststaff",
         icon: spellIcons.PASSIVE_CASTINGSPEED_CHANCE_FROSTSTAFF,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CASTER_FROSTSTAFF",
+        name: "Passive Spellpower Caster Froststaff",
         icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_FROSTSTAFF,
       },
     ],
   },
   T8_2H_ICEGAUNTLETS_HELL: {
     active1: [
-      {
-        name: "FROST_BITE",
-        icon: spellIcons.FROST_BITE,
-      },
-      {
-        name: "ICESHARD",
-        icon: spellIcons.ICESHARD,
-      },
-      {
-        name: "SHATTER_Q",
-        icon: spellIcons.SHATTER_Q,
-      },
+      { name: "Frost Bite", icon: spellIcons.FROST_BITE },
+      { name: "Iceshard", icon: spellIcons.ICESHARD },
+      { name: "Shatter Q", icon: spellIcons.SHATTER_Q },
     ],
     active2: [
-      {
-        name: "FROSTBOMB_CASTSLOW",
-        icon: spellIcons.FROSTBOMB_CASTSLOW,
-      },
-      {
-        name: "FROSTBEAM",
-        icon: spellIcons.FROSTBEAM,
-      },
-      {
-        name: "FROSTNOVA",
-        icon: spellIcons.FROSTNOVA,
-      },
-      {
-        name: "FROST_LANCE",
-        icon: spellIcons.FROST_LANCE,
-      },
-      {
-        name: "ICE_SCULPTURE",
-        icon: spellIcons.ICE_SCULPTURE,
-      },
+      { name: "Frostbomb Castslow", icon: spellIcons.FROSTBOMB_CASTSLOW },
+      { name: "Frostbeam", icon: spellIcons.FROSTBEAM },
+      { name: "Frostnova", icon: spellIcons.FROSTNOVA },
+      { name: "Frost Lance", icon: spellIcons.FROST_LANCE },
+      { name: "Ice Sculpture", icon: spellIcons.ICE_SCULPTURE },
     ],
-    active3: [
-      {
-        name: "GLACIALFIELD",
-        icon: spellIcons.GLACIALFIELD,
-      },
-    ],
+    active3: [{ name: "Glacialfield", icon: spellIcons.GLACIALFIELD }],
     passive1: [
+      { name: "Passive Frost", icon: spellIcons.PASSIVE_FROST },
       {
-        name: "PASSIVE_FROST",
-        icon: spellIcons.PASSIVE_FROST,
-      },
-      {
-        name: "PASSIVE_ENERGYCHANCE_FROSTSTAFF",
+        name: "Passive Energychance Froststaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_FROSTSTAFF,
       },
       {
-        name: "PASSIVE_CASTINGSPEED_CHANCE_FROSTSTAFF",
+        name: "Passive Castingspeed Chance Froststaff",
         icon: spellIcons.PASSIVE_CASTINGSPEED_CHANCE_FROSTSTAFF,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CASTER_FROSTSTAFF",
+        name: "Passive Spellpower Caster Froststaff",
         icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_FROSTSTAFF,
       },
     ],
   },
+
   T8_2H_ICECRYSTAL_UNDEAD: {
     active1: [
-      {
-        name: "FROST_BITE",
-        icon: spellIcons.FROST_BITE,
-      },
-      {
-        name: "ICESHARD",
-        icon: spellIcons.ICESHARD,
-      },
-      {
-        name: "SHATTER_Q",
-        icon: spellIcons.SHATTER_Q,
-      },
+      { name: "Frost Bite", icon: spellIcons.FROST_BITE },
+      { name: "Iceshard", icon: spellIcons.ICESHARD },
+      { name: "Shatter Q", icon: spellIcons.SHATTER_Q },
     ],
     active2: [
-      {
-        name: "FROSTBOMB_CASTSLOW",
-        icon: spellIcons.FROSTBOMB_CASTSLOW,
-      },
-      {
-        name: "FROSTBEAM",
-        icon: spellIcons.FROSTBEAM,
-      },
-      {
-        name: "FROSTNOVA",
-        icon: spellIcons.FROSTNOVA,
-      },
-      {
-        name: "FROST_LANCE",
-        icon: spellIcons.FROST_LANCE,
-      },
-      {
-        name: "ICE_SCULPTURE",
-        icon: spellIcons.ICE_SCULPTURE,
-      },
+      { name: "Frostbomb Castslow", icon: spellIcons.FROSTBOMB_CASTSLOW },
+      { name: "Frostbeam", icon: spellIcons.FROSTBEAM },
+      { name: "Frostnova", icon: spellIcons.FROSTNOVA },
+      { name: "Frost Lance", icon: spellIcons.FROST_LANCE },
+      { name: "Ice Sculpture", icon: spellIcons.ICE_SCULPTURE },
     ],
-    active3: [
-      {
-        name: "FROST_ULTIMATE",
-        icon: spellIcons.FROST_ULTIMATE,
-      },
-    ],
+    active3: [{ name: "Frost Ultimate", icon: spellIcons.FROST_ULTIMATE }],
     passive1: [
+      { name: "Passive Frost", icon: spellIcons.PASSIVE_FROST },
       {
-        name: "PASSIVE_FROST",
-        icon: spellIcons.PASSIVE_FROST,
-      },
-      {
-        name: "PASSIVE_ENERGYCHANCE_FROSTSTAFF",
+        name: "Passive Energychance Froststaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_FROSTSTAFF,
       },
       {
-        name: "PASSIVE_CASTINGSPEED_CHANCE_FROSTSTAFF",
+        name: "Passive Castingspeed Chance Froststaff",
         icon: spellIcons.PASSIVE_CASTINGSPEED_CHANCE_FROSTSTAFF,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CASTER_FROSTSTAFF",
+        name: "Passive Spellpower Caster Froststaff",
         icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_FROSTSTAFF,
       },
     ],
   },
   T8_MAIN_FROSTSTAFF_AVALON: {
     active1: [
-      {
-        name: "FROST_BITE",
-        icon: spellIcons.FROST_BITE,
-      },
-      {
-        name: "ICESHARD",
-        icon: spellIcons.ICESHARD,
-      },
-      {
-        name: "SHATTER_Q",
-        icon: spellIcons.SHATTER_Q,
-      },
+      { name: "Frost Bite", icon: spellIcons.FROST_BITE },
+      { name: "Iceshard", icon: spellIcons.ICESHARD },
+      { name: "Shatter Q", icon: spellIcons.SHATTER_Q },
     ],
     active2: [
-      {
-        name: "FROSTBOMB_CASTSLOW",
-        icon: spellIcons.FROSTBOMB_CASTSLOW,
-      },
-      {
-        name: "FROSTBEAM",
-        icon: spellIcons.FROSTBEAM,
-      },
-      {
-        name: "FROSTNOVA",
-        icon: spellIcons.FROSTNOVA,
-      },
-      {
-        name: "FROST_LANCE",
-        icon: spellIcons.FROST_LANCE,
-      },
-      {
-        name: "ICE_SCULPTURE",
-        icon: spellIcons.ICE_SCULPTURE,
-      },
+      { name: "Frostbomb Castslow", icon: spellIcons.FROSTBOMB_CASTSLOW },
+      { name: "Frostbeam", icon: spellIcons.FROSTBEAM },
+      { name: "Frostnova", icon: spellIcons.FROSTNOVA },
+      { name: "Frost Lance", icon: spellIcons.FROST_LANCE },
+      { name: "Ice Sculpture", icon: spellIcons.ICE_SCULPTURE },
     ],
-    active3: [
-      {
-        name: "FROZEN_CRYSTAL",
-        icon: spellIcons.FROZEN_CRYSTAL,
-      },
-    ],
+    active3: [{ name: "Frozen Crystal", icon: spellIcons.FROZEN_CRYSTAL }],
     passive1: [
+      { name: "Passive Frost", icon: spellIcons.PASSIVE_FROST },
       {
-        name: "PASSIVE_FROST",
-        icon: spellIcons.PASSIVE_FROST,
-      },
-      {
-        name: "PASSIVE_ENERGYCHANCE_FROSTSTAFF",
+        name: "Passive Energychance Froststaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_FROSTSTAFF,
       },
       {
-        name: "PASSIVE_CASTINGSPEED_CHANCE_FROSTSTAFF",
+        name: "Passive Castingspeed Chance Froststaff",
         icon: spellIcons.PASSIVE_CASTINGSPEED_CHANCE_FROSTSTAFF,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CASTER_FROSTSTAFF",
+        name: "Passive Spellpower Caster Froststaff",
         icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_FROSTSTAFF,
       },
     ],
   },
   T8_2H_FROSTSTAFF_CRYSTAL: {
     active1: [
-      {
-        name: "FROST_BITE",
-        icon: spellIcons.FROST_BITE,
-      },
-      {
-        name: "ICESHARD",
-        icon: spellIcons.ICESHARD,
-      },
-      {
-        name: "SHATTER_Q",
-        icon: spellIcons.SHATTER_Q,
-      },
+      { name: "Frost Bite", icon: spellIcons.FROST_BITE },
+      { name: "Iceshard", icon: spellIcons.ICESHARD },
+      { name: "Shatter Q", icon: spellIcons.SHATTER_Q },
     ],
     active2: [
-      {
-        name: "FROSTBOMB_CASTSLOW",
-        icon: spellIcons.FROSTBOMB_CASTSLOW,
-      },
-      {
-        name: "FROSTBEAM",
-        icon: spellIcons.FROSTBEAM,
-      },
-      {
-        name: "FROSTNOVA",
-        icon: spellIcons.FROSTNOVA,
-      },
-      {
-        name: "FROST_LANCE",
-        icon: spellIcons.FROST_LANCE,
-      },
-      {
-        name: "ICE_SCULPTURE",
-        icon: spellIcons.ICE_SCULPTURE,
-      },
+      { name: "Frostbomb Castslow", icon: spellIcons.FROSTBOMB_CASTSLOW },
+      { name: "Frostbeam", icon: spellIcons.FROSTBEAM },
+      { name: "Frostnova", icon: spellIcons.FROSTNOVA },
+      { name: "Frost Lance", icon: spellIcons.FROST_LANCE },
+      { name: "Ice Sculpture", icon: spellIcons.ICE_SCULPTURE },
     ],
     active3: [
       {
-        name: "FROST_TARGETED_CHANNEL",
+        name: "Frost Targeted Channel",
         icon: spellIcons.FROST_TARGETED_CHANNEL,
       },
     ],
     passive1: [
+      { name: "Passive Frost", icon: spellIcons.PASSIVE_FROST },
       {
-        name: "PASSIVE_FROST",
-        icon: spellIcons.PASSIVE_FROST,
-      },
-      {
-        name: "PASSIVE_ENERGYCHANCE_FROSTSTAFF",
+        name: "Passive Energychance Froststaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_FROSTSTAFF,
       },
       {
-        name: "PASSIVE_CASTINGSPEED_CHANCE_FROSTSTAFF",
+        name: "Passive Castingspeed Chance Froststaff",
         icon: spellIcons.PASSIVE_CASTINGSPEED_CHANCE_FROSTSTAFF,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CASTER_FROSTSTAFF",
+        name: "Passive Spellpower Caster Froststaff",
         icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_FROSTSTAFF,
       },
     ],
   },
   T8_MAIN_CURSEDSTAFF: {
     active1: [
-      {
-        name: "CURSEDOT",
-        icon: spellIcons.CURSEDOT,
-      },
-      {
-        name: "CURSEBLADE",
-        icon: spellIcons.CURSEBLADE,
-      },
-      {
-        name: "CURSED_SPLAT",
-        icon: spellIcons.CURSED_SPLAT,
-      },
+      { name: "Cursedot", icon: spellIcons.CURSEDOT },
+      { name: "Curseblade", icon: spellIcons.CURSEBLADE },
+      { name: "Cursed Splat", icon: spellIcons.CURSED_SPLAT },
     ],
     active2: [
-      {
-        name: "ARMORPIERCER",
-        icon: spellIcons.ARMORPIERCER,
-      },
-      {
-        name: "CURSENOVA",
-        icon: spellIcons.CURSENOVA,
-      },
-      {
-        name: "CURSEDHANDS_STACKUP",
-        icon: spellIcons.CURSEDHANDS_STACKUP,
-      },
-      {
-        name: "CURSEDBEAM",
-        icon: spellIcons.CURSEDBEAM,
-      },
-      {
-        name: "DARKMATTER",
-        icon: spellIcons.DARKMATTER,
-      },
+      { name: "Armorpiercer", icon: spellIcons.ARMORPIERCER },
+      { name: "Cursenova", icon: spellIcons.CURSENOVA },
+      { name: "Cursedhands Stackup", icon: spellIcons.CURSEDHANDS_STACKUP },
+      { name: "Cursedbeam", icon: spellIcons.CURSEDBEAM },
+      { name: "Darkmatter", icon: spellIcons.DARKMATTER },
     ],
-    active3: [
-      {
-        name: "DEATHCURSE2",
-        icon: spellIcons.DEATHCURSE2,
-      },
-    ],
+    active3: [{ name: "Deathcurse2", icon: spellIcons.DEATHCURSE2 }],
     passive1: [
+      { name: "Passive Curse", icon: spellIcons.PASSIVE_CURSE },
       {
-        name: "PASSIVE_CURSE",
-        icon: spellIcons.PASSIVE_CURSE,
-      },
-      {
-        name: "PASSIVE_ENERGYCHANCE_CURSEDSTAFF",
+        name: "Passive Energychance Cursedstaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_CURSEDSTAFF,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CASTER_CURSEDSTAFF",
+        name: "Passive Spellpower Caster Cursedstaff",
         icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_CURSEDSTAFF,
       },
       {
-        name: "PASSIVE_MOVESPEED_CHANCE_CURSEDSTAFF",
+        name: "Passive Movespeed Chance Cursedstaff",
         icon: spellIcons.PASSIVE_MOVESPEED_CHANCE_CURSEDSTAFF,
       },
     ],
   },
   T8_2H_CURSEDSTAFF: {
     active1: [
-      {
-        name: "CURSEDOT",
-        icon: spellIcons.CURSEDOT,
-      },
-      {
-        name: "CURSEBLADE",
-        icon: spellIcons.CURSEBLADE,
-      },
-      {
-        name: "CURSED_SPLAT",
-        icon: spellIcons.CURSED_SPLAT,
-      },
+      { name: "Cursedot", icon: spellIcons.CURSEDOT },
+      { name: "Curseblade", icon: spellIcons.CURSEBLADE },
+      { name: "Cursed Splat", icon: spellIcons.CURSED_SPLAT },
     ],
     active2: [
-      {
-        name: "ARMORPIERCER",
-        icon: spellIcons.ARMORPIERCER,
-      },
-      {
-        name: "CURSENOVA",
-        icon: spellIcons.CURSENOVA,
-      },
-      {
-        name: "CURSEDHANDS_STACKUP",
-        icon: spellIcons.CURSEDHANDS_STACKUP,
-      },
-      {
-        name: "CURSEDBEAM",
-        icon: spellIcons.CURSEDBEAM,
-      },
-      {
-        name: "DARKMATTER",
-        icon: spellIcons.DARKMATTER,
-      },
+      { name: "Armorpiercer", icon: spellIcons.ARMORPIERCER },
+      { name: "Cursenova", icon: spellIcons.CURSENOVA },
+      { name: "Cursedhands Stackup", icon: spellIcons.CURSEDHANDS_STACKUP },
+      { name: "Cursedbeam", icon: spellIcons.CURSEDBEAM },
+      { name: "Darkmatter", icon: spellIcons.DARKMATTER },
     ],
-    active3: [
-      {
-        name: "AREAOFDECAY",
-        icon: spellIcons.AREAOFDECAY,
-      },
-    ],
+    active3: [{ name: "Areaofdecay", icon: spellIcons.AREAOFDECAY }],
     passive1: [
+      { name: "Passive Curse", icon: spellIcons.PASSIVE_CURSE },
       {
-        name: "PASSIVE_CURSE",
-        icon: spellIcons.PASSIVE_CURSE,
-      },
-      {
-        name: "PASSIVE_ENERGYCHANCE_CURSEDSTAFF",
+        name: "Passive Energychance Cursedstaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_CURSEDSTAFF,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CASTER_CURSEDSTAFF",
+        name: "Passive Spellpower Caster Cursedstaff",
         icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_CURSEDSTAFF,
       },
       {
-        name: "PASSIVE_MOVESPEED_CHANCE_CURSEDSTAFF",
+        name: "Passive Movespeed Chance Cursedstaff",
         icon: spellIcons.PASSIVE_MOVESPEED_CHANCE_CURSEDSTAFF,
       },
     ],
   },
+
   T8_2H_DEMONICSTAFF: {
     active1: [
-      {
-        name: "CURSEDOT",
-        icon: spellIcons.CURSEDOT,
-      },
-      {
-        name: "CURSEBLADE",
-        icon: spellIcons.CURSEBLADE,
-      },
-      {
-        name: "CURSED_SPLAT",
-        icon: spellIcons.CURSED_SPLAT,
-      },
+      { name: "Cursedot", icon: spellIcons.CURSEDOT },
+      { name: "Curseblade", icon: spellIcons.CURSEBLADE },
+      { name: "Cursed Splat", icon: spellIcons.CURSED_SPLAT },
     ],
     active2: [
-      {
-        name: "ARMORPIERCER",
-        icon: spellIcons.ARMORPIERCER,
-      },
-      {
-        name: "CURSENOVA",
-        icon: spellIcons.CURSENOVA,
-      },
-      {
-        name: "CURSEDHANDS_STACKUP",
-        icon: spellIcons.CURSEDHANDS_STACKUP,
-      },
-      {
-        name: "CURSEDBEAM",
-        icon: spellIcons.CURSEDBEAM,
-      },
-      {
-        name: "DARKMATTER",
-        icon: spellIcons.DARKMATTER,
-      },
+      { name: "Armorpiercer", icon: spellIcons.ARMORPIERCER },
+      { name: "Cursenova", icon: spellIcons.CURSENOVA },
+      { name: "Cursedhands Stackup", icon: spellIcons.CURSEDHANDS_STACKUP },
+      { name: "Cursedbeam", icon: spellIcons.CURSEDBEAM },
+      { name: "Darkmatter", icon: spellIcons.DARKMATTER },
     ],
-    active3: [
-      {
-        name: "CURSED_WALL",
-        icon: spellIcons.CURSED_WALL,
-      },
-    ],
+    active3: [{ name: "Cursed Wall", icon: spellIcons.CURSED_WALL }],
     passive1: [
+      { name: "Passive Curse", icon: spellIcons.PASSIVE_CURSE },
       {
-        name: "PASSIVE_CURSE",
-        icon: spellIcons.PASSIVE_CURSE,
-      },
-      {
-        name: "PASSIVE_ENERGYCHANCE_CURSEDSTAFF",
+        name: "Passive Energychance Cursedstaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_CURSEDSTAFF,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CASTER_CURSEDSTAFF",
+        name: "Passive Spellpower Caster Cursedstaff",
         icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_CURSEDSTAFF,
       },
       {
-        name: "PASSIVE_MOVESPEED_CHANCE_CURSEDSTAFF",
+        name: "Passive Movespeed Chance Cursedstaff",
         icon: spellIcons.PASSIVE_MOVESPEED_CHANCE_CURSEDSTAFF,
       },
     ],
   },
   T8_MAIN_CURSEDSTAFF_UNDEAD: {
     active1: [
-      {
-        name: "CURSEDOT",
-        icon: spellIcons.CURSEDOT,
-      },
-      {
-        name: "CURSEBLADE",
-        icon: spellIcons.CURSEBLADE,
-      },
-      {
-        name: "CURSED_SPLAT",
-        icon: spellIcons.CURSED_SPLAT,
-      },
+      { name: "Cursedot", icon: spellIcons.CURSEDOT },
+      { name: "Curseblade", icon: spellIcons.CURSEBLADE },
+      { name: "Cursed Splat", icon: spellIcons.CURSED_SPLAT },
     ],
     active2: [
-      {
-        name: "ARMORPIERCER",
-        icon: spellIcons.ARMORPIERCER,
-      },
-      {
-        name: "CURSENOVA",
-        icon: spellIcons.CURSENOVA,
-      },
-      {
-        name: "CURSEDHANDS_STACKUP",
-        icon: spellIcons.CURSEDHANDS_STACKUP,
-      },
-      {
-        name: "CURSEDBEAM",
-        icon: spellIcons.CURSEDBEAM,
-      },
-      {
-        name: "DARKMATTER",
-        icon: spellIcons.DARKMATTER,
-      },
+      { name: "Armorpiercer", icon: spellIcons.ARMORPIERCER },
+      { name: "Cursenova", icon: spellIcons.CURSENOVA },
+      { name: "Cursedhands Stackup", icon: spellIcons.CURSEDHANDS_STACKUP },
+      { name: "Cursedbeam", icon: spellIcons.CURSEDBEAM },
+      { name: "Darkmatter", icon: spellIcons.DARKMATTER },
     ],
-    active3: [
-      {
-        name: "ENFEEBLEBLADES",
-        icon: spellIcons.ENFEEBLEBLADES,
-      },
-    ],
+    active3: [{ name: "Enfeebleblades", icon: spellIcons.ENFEEBLEBLADES }],
     passive1: [
+      { name: "Passive Curse", icon: spellIcons.PASSIVE_CURSE },
       {
-        name: "PASSIVE_CURSE",
-        icon: spellIcons.PASSIVE_CURSE,
-      },
-      {
-        name: "PASSIVE_ENERGYCHANCE_CURSEDSTAFF",
+        name: "Passive Energychance Cursedstaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_CURSEDSTAFF,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CASTER_CURSEDSTAFF",
+        name: "Passive Spellpower Caster Cursedstaff",
         icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_CURSEDSTAFF,
       },
       {
-        name: "PASSIVE_MOVESPEED_CHANCE_CURSEDSTAFF",
+        name: "Passive Movespeed Chance Cursedstaff",
         icon: spellIcons.PASSIVE_MOVESPEED_CHANCE_CURSEDSTAFF,
       },
     ],
   },
   T8_2H_SKULLORB_HELL: {
     active1: [
-      {
-        name: "CURSEDOT",
-        icon: spellIcons.CURSEDOT,
-      },
-      {
-        name: "CURSEBLADE",
-        icon: spellIcons.CURSEBLADE,
-      },
-      {
-        name: "CURSED_SPLAT",
-        icon: spellIcons.CURSED_SPLAT,
-      },
+      { name: "Cursedot", icon: spellIcons.CURSEDOT },
+      { name: "Curseblade", icon: spellIcons.CURSEBLADE },
+      { name: "Cursed Splat", icon: spellIcons.CURSED_SPLAT },
     ],
     active2: [
-      {
-        name: "ARMORPIERCER",
-        icon: spellIcons.ARMORPIERCER,
-      },
-      {
-        name: "CURSENOVA",
-        icon: spellIcons.CURSENOVA,
-      },
-      {
-        name: "CURSEDHANDS_STACKUP",
-        icon: spellIcons.CURSEDHANDS_STACKUP,
-      },
-      {
-        name: "CURSEDBEAM",
-        icon: spellIcons.CURSEDBEAM,
-      },
-      {
-        name: "DARKMATTER",
-        icon: spellIcons.DARKMATTER,
-      },
+      { name: "Armorpiercer", icon: spellIcons.ARMORPIERCER },
+      { name: "Cursenova", icon: spellIcons.CURSENOVA },
+      { name: "Cursedhands Stackup", icon: spellIcons.CURSEDHANDS_STACKUP },
+      { name: "Cursedbeam", icon: spellIcons.CURSEDBEAM },
+      { name: "Darkmatter", icon: spellIcons.DARKMATTER },
     ],
-    active3: [
-      {
-        name: "SKULLCURSE",
-        icon: spellIcons.SKULLCURSE,
-      },
-    ],
+    active3: [{ name: "Skullcurse", icon: spellIcons.SKULLCURSE }],
     passive1: [
+      { name: "Passive Curse", icon: spellIcons.PASSIVE_CURSE },
       {
-        name: "PASSIVE_CURSE",
-        icon: spellIcons.PASSIVE_CURSE,
-      },
-      {
-        name: "PASSIVE_ENERGYCHANCE_CURSEDSTAFF",
+        name: "Passive Energychance Cursedstaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_CURSEDSTAFF,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CASTER_CURSEDSTAFF",
+        name: "Passive Spellpower Caster Cursedstaff",
         icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_CURSEDSTAFF,
       },
       {
-        name: "PASSIVE_MOVESPEED_CHANCE_CURSEDSTAFF",
+        name: "Passive Movespeed Chance Cursedstaff",
         icon: spellIcons.PASSIVE_MOVESPEED_CHANCE_CURSEDSTAFF,
       },
     ],
   },
   T8_2H_CURSEDSTAFF_MORGANA: {
     active1: [
-      {
-        name: "CURSEDOT",
-        icon: spellIcons.CURSEDOT,
-      },
-      {
-        name: "CURSEBLADE",
-        icon: spellIcons.CURSEBLADE,
-      },
-      {
-        name: "CURSED_SPLAT",
-        icon: spellIcons.CURSED_SPLAT,
-      },
+      { name: "Cursedot", icon: spellIcons.CURSEDOT },
+      { name: "Curseblade", icon: spellIcons.CURSEBLADE },
+      { name: "Cursed Splat", icon: spellIcons.CURSED_SPLAT },
     ],
     active2: [
-      {
-        name: "ARMORPIERCER",
-        icon: spellIcons.ARMORPIERCER,
-      },
-      {
-        name: "CURSENOVA",
-        icon: spellIcons.CURSENOVA,
-      },
-      {
-        name: "CURSEDHANDS_STACKUP",
-        icon: spellIcons.CURSEDHANDS_STACKUP,
-      },
-      {
-        name: "CURSEDBEAM",
-        icon: spellIcons.CURSEDBEAM,
-      },
-      {
-        name: "DARKMATTER",
-        icon: spellIcons.DARKMATTER,
-      },
+      { name: "Armorpiercer", icon: spellIcons.ARMORPIERCER },
+      { name: "Cursenova", icon: spellIcons.CURSENOVA },
+      { name: "Cursedhands Stackup", icon: spellIcons.CURSEDHANDS_STACKUP },
+      { name: "Cursedbeam", icon: spellIcons.CURSEDBEAM },
+      { name: "Darkmatter", icon: spellIcons.DARKMATTER },
     ],
-    active3: [
-      {
-        name: "CURSEULTIMATE",
-        icon: spellIcons.CURSEULTIMATE,
-      },
-    ],
+    active3: [{ name: "Curseultimate", icon: spellIcons.CURSEULTIMATE }],
     passive1: [
+      { name: "Passive Curse", icon: spellIcons.PASSIVE_CURSE },
       {
-        name: "PASSIVE_CURSE",
-        icon: spellIcons.PASSIVE_CURSE,
-      },
-      {
-        name: "PASSIVE_ENERGYCHANCE_CURSEDSTAFF",
+        name: "Passive Energychance Cursedstaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_CURSEDSTAFF,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CASTER_CURSEDSTAFF",
+        name: "Passive Spellpower Caster Cursedstaff",
         icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_CURSEDSTAFF,
       },
       {
-        name: "PASSIVE_MOVESPEED_CHANCE_CURSEDSTAFF",
+        name: "Passive Movespeed Chance Cursedstaff",
         icon: spellIcons.PASSIVE_MOVESPEED_CHANCE_CURSEDSTAFF,
       },
     ],
   },
   T8_MAIN_CURSEDSTAFF_AVALON: {
     active1: [
-      {
-        name: "CURSEDOT",
-        icon: spellIcons.CURSEDOT,
-      },
-      {
-        name: "CURSEBLADE",
-        icon: spellIcons.CURSEBLADE,
-      },
-      {
-        name: "CURSED_SPLAT",
-        icon: spellIcons.CURSED_SPLAT,
-      },
+      { name: "Cursedot", icon: spellIcons.CURSEDOT },
+      { name: "Curseblade", icon: spellIcons.CURSEBLADE },
+      { name: "Cursed Splat", icon: spellIcons.CURSED_SPLAT },
     ],
     active2: [
-      {
-        name: "ARMORPIERCER",
-        icon: spellIcons.ARMORPIERCER,
-      },
-      {
-        name: "CURSENOVA",
-        icon: spellIcons.CURSENOVA,
-      },
-      {
-        name: "CURSEDHANDS_STACKUP",
-        icon: spellIcons.CURSEDHANDS_STACKUP,
-      },
-      {
-        name: "CURSEDBEAM",
-        icon: spellIcons.CURSEDBEAM,
-      },
-      {
-        name: "DARKMATTER",
-        icon: spellIcons.DARKMATTER,
-      },
+      { name: "Armorpiercer", icon: spellIcons.ARMORPIERCER },
+      { name: "Cursenova", icon: spellIcons.CURSENOVA },
+      { name: "Cursedhands Stackup", icon: spellIcons.CURSEDHANDS_STACKUP },
+      { name: "Cursedbeam", icon: spellIcons.CURSEDBEAM },
+      { name: "Darkmatter", icon: spellIcons.DARKMATTER },
     ],
-    active3: [
-      {
-        name: "DYNAMIC_CURSE",
-        icon: spellIcons.DYNAMIC_CURSE,
-      },
-    ],
+    active3: [{ name: "Dynamic Curse", icon: spellIcons.DYNAMIC_CURSE }],
     passive1: [
+      { name: "Passive Curse", icon: spellIcons.PASSIVE_CURSE },
       {
-        name: "PASSIVE_CURSE",
-        icon: spellIcons.PASSIVE_CURSE,
-      },
-      {
-        name: "PASSIVE_ENERGYCHANCE_CURSEDSTAFF",
+        name: "Passive Energychance Cursedstaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_CURSEDSTAFF,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CASTER_CURSEDSTAFF",
+        name: "Passive Spellpower Caster Cursedstaff",
         icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_CURSEDSTAFF,
       },
       {
-        name: "PASSIVE_MOVESPEED_CHANCE_CURSEDSTAFF",
+        name: "Passive Movespeed Chance Cursedstaff",
         icon: spellIcons.PASSIVE_MOVESPEED_CHANCE_CURSEDSTAFF,
       },
     ],
   },
   T8_MAIN_CURSEDSTAFF_CRYSTAL: {
     active1: [
-      {
-        name: "CURSEDOT",
-        icon: spellIcons.CURSEDOT,
-      },
-      {
-        name: "CURSEBLADE",
-        icon: spellIcons.CURSEBLADE,
-      },
-      {
-        name: "CURSED_SPLAT",
-        icon: spellIcons.CURSED_SPLAT,
-      },
+      { name: "Cursedot", icon: spellIcons.CURSEDOT },
+      { name: "Curseblade", icon: spellIcons.CURSEBLADE },
+      { name: "Cursed Splat", icon: spellIcons.CURSED_SPLAT },
     ],
     active2: [
-      {
-        name: "ARMORPIERCER",
-        icon: spellIcons.ARMORPIERCER,
-      },
-      {
-        name: "CURSENOVA",
-        icon: spellIcons.CURSENOVA,
-      },
-      {
-        name: "CURSEDHANDS_STACKUP",
-        icon: spellIcons.CURSEDHANDS_STACKUP,
-      },
-      {
-        name: "CURSEDBEAM",
-        icon: spellIcons.CURSEDBEAM,
-      },
-      {
-        name: "DARKMATTER",
-        icon: spellIcons.DARKMATTER,
-      },
+      { name: "Armorpiercer", icon: spellIcons.ARMORPIERCER },
+      { name: "Cursenova", icon: spellIcons.CURSENOVA },
+      { name: "Cursedhands Stackup", icon: spellIcons.CURSEDHANDS_STACKUP },
+      { name: "Cursedbeam", icon: spellIcons.CURSEDBEAM },
+      { name: "Darkmatter", icon: spellIcons.DARKMATTER },
     ],
     active3: [
       {
-        name: "CURSE_SKELETON_BARF_FDHR",
+        name: "Curse Skeleton Barf Fdhr",
         icon: spellIcons.CURSE_SKELETON_BARF_FDHR,
       },
     ],
     passive1: [
+      { name: "Passive Curse", icon: spellIcons.PASSIVE_CURSE },
       {
-        name: "PASSIVE_CURSE",
-        icon: spellIcons.PASSIVE_CURSE,
-      },
-      {
-        name: "PASSIVE_ENERGYCHANCE_CURSEDSTAFF",
+        name: "Passive Energychance Cursedstaff",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_CURSEDSTAFF,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CASTER_CURSEDSTAFF",
+        name: "Passive Spellpower Caster Cursedstaff",
         icon: spellIcons.PASSIVE_SPELLPOWER_CASTER_CURSEDSTAFF,
       },
       {
-        name: "PASSIVE_MOVESPEED_CHANCE_CURSEDSTAFF",
+        name: "Passive Movespeed Chance Cursedstaff",
         icon: spellIcons.PASSIVE_MOVESPEED_CHANCE_CURSEDSTAFF,
       },
     ],
   },
+
   T8_2H_BOW: {
     active1: [
-      {
-        name: "MULTISHOT2",
-        icon: spellIcons.MULTISHOT2,
-      },
-      {
-        name: "DEADLYSHOT",
-        icon: spellIcons.DEADLYSHOT,
-      },
-      {
-        name: "POISONARROW",
-        icon: spellIcons.POISONARROW,
-      },
+      { name: "Multishot2", icon: spellIcons.MULTISHOT2 },
+      { name: "Deadlyshot", icon: spellIcons.DEADLYSHOT },
+      { name: "Poisonarrow", icon: spellIcons.POISONARROW },
     ],
     active2: [
-      {
-        name: "GROUNDARROW",
-        icon: spellIcons.GROUNDARROW,
-      },
-      {
-        name: "JUMPSHOT2",
-        icon: spellIcons.JUMPSHOT2,
-      },
-      {
-        name: "SPEEDSHOT2",
-        icon: spellIcons.SPEEDSHOT2,
-      },
-      {
-        name: "BURNINGARROWS",
-        icon: spellIcons.BURNINGARROWS,
-      },
+      { name: "Groundarrow", icon: spellIcons.GROUNDARROW },
+      { name: "Jumpshot2", icon: spellIcons.JUMPSHOT2 },
+      { name: "Speedshot2", icon: spellIcons.SPEEDSHOT2 },
+      { name: "Burningarrows", icon: spellIcons.BURNINGARROWS },
     ],
-    active3: [
-      {
-        name: "SPEEDARCHER_KITE",
-        icon: spellIcons.SPEEDARCHER_KITE,
-      },
-    ],
+    active3: [{ name: "Speedarcher Kite", icon: spellIcons.SPEEDARCHER_KITE }],
     passive1: [
+      { name: "Passive Slowpoison", icon: spellIcons.PASSIVE_SLOWPOISON },
       {
-        name: "PASSIVE_SLOWPOISON",
-        icon: spellIcons.PASSIVE_SLOWPOISON,
-      },
-      {
-        name: "PASSIVE_ENERGYCHANCE_BOW",
+        name: "Passive Energychance Bow",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_BOW,
       },
       {
-        name: "PASSIVE_ARMOR_PIERCE_STACK",
+        name: "Passive Armor Pierce Stack",
         icon: spellIcons.PASSIVE_ARMOR_PIERCE_STACK,
       },
       {
-        name: "PASSIVE_AASPEEDCHANCE_BOW",
+        name: "Passive Aaspeedchance Bow",
         icon: spellIcons.PASSIVE_AASPEEDCHANCE_BOW,
       },
     ],
   },
   T8_2H_WARBOW: {
     active1: [
-      {
-        name: "MULTISHOT2",
-        icon: spellIcons.MULTISHOT2,
-      },
-      {
-        name: "DEADLYSHOT",
-        icon: spellIcons.DEADLYSHOT,
-      },
-      {
-        name: "POISONARROW",
-        icon: spellIcons.POISONARROW,
-      },
+      { name: "Multishot2", icon: spellIcons.MULTISHOT2 },
+      { name: "Deadlyshot", icon: spellIcons.DEADLYSHOT },
+      { name: "Poisonarrow", icon: spellIcons.POISONARROW },
     ],
     active2: [
-      {
-        name: "GROUNDARROW",
-        icon: spellIcons.GROUNDARROW,
-      },
-      {
-        name: "JUMPSHOT2",
-        icon: spellIcons.JUMPSHOT2,
-      },
-      {
-        name: "SPEEDSHOT2",
-        icon: spellIcons.SPEEDSHOT2,
-      },
-      {
-        name: "BURNINGARROWS",
-        icon: spellIcons.BURNINGARROWS,
-      },
+      { name: "Groundarrow", icon: spellIcons.GROUNDARROW },
+      { name: "Jumpshot2", icon: spellIcons.JUMPSHOT2 },
+      { name: "Speedshot2", icon: spellIcons.SPEEDSHOT2 },
+      { name: "Burningarrows", icon: spellIcons.BURNINGARROWS },
     ],
-    active3: [
-      {
-        name: "SKILLSHOT_STUN",
-        icon: spellIcons.SKILLSHOT_STUN,
-      },
-    ],
+    active3: [{ name: "Skillshot Stun", icon: spellIcons.SKILLSHOT_STUN }],
     passive1: [
+      { name: "Passive Slowpoison", icon: spellIcons.PASSIVE_SLOWPOISON },
       {
-        name: "PASSIVE_SLOWPOISON",
-        icon: spellIcons.PASSIVE_SLOWPOISON,
-      },
-      {
-        name: "PASSIVE_ENERGYCHANCE_BOW",
+        name: "Passive Energychance Bow",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_BOW,
       },
       {
-        name: "PASSIVE_ARMOR_PIERCE_STACK",
+        name: "Passive Armor Pierce Stack",
         icon: spellIcons.PASSIVE_ARMOR_PIERCE_STACK,
       },
       {
-        name: "PASSIVE_AASPEEDCHANCE_BOW",
+        name: "Passive Aaspeedchance Bow",
         icon: spellIcons.PASSIVE_AASPEEDCHANCE_BOW,
       },
     ],
   },
   T8_2H_LONGBOW: {
     active1: [
-      {
-        name: "MULTISHOT2",
-        icon: spellIcons.MULTISHOT2,
-      },
-      {
-        name: "DEADLYSHOT",
-        icon: spellIcons.DEADLYSHOT,
-      },
-      {
-        name: "POISONARROW",
-        icon: spellIcons.POISONARROW,
-      },
+      { name: "Multishot2", icon: spellIcons.MULTISHOT2 },
+      { name: "Deadlyshot", icon: spellIcons.DEADLYSHOT },
+      { name: "Poisonarrow", icon: spellIcons.POISONARROW },
     ],
     active2: [
-      {
-        name: "GROUNDARROW",
-        icon: spellIcons.GROUNDARROW,
-      },
-      {
-        name: "JUMPSHOT2",
-        icon: spellIcons.JUMPSHOT2,
-      },
-      {
-        name: "SPEEDSHOT2",
-        icon: spellIcons.SPEEDSHOT2,
-      },
-      {
-        name: "BURNINGARROWS",
-        icon: spellIcons.BURNINGARROWS,
-      },
+      { name: "Groundarrow", icon: spellIcons.GROUNDARROW },
+      { name: "Jumpshot2", icon: spellIcons.JUMPSHOT2 },
+      { name: "Speedshot2", icon: spellIcons.SPEEDSHOT2 },
+      { name: "Burningarrows", icon: spellIcons.BURNINGARROWS },
     ],
-    active3: [
-      {
-        name: "ARROWRAIN",
-        icon: spellIcons.ARROWRAIN,
-      },
-    ],
+    active3: [{ name: "Arrowrain", icon: spellIcons.ARROWRAIN }],
     passive1: [
+      { name: "Passive Slowpoison", icon: spellIcons.PASSIVE_SLOWPOISON },
       {
-        name: "PASSIVE_SLOWPOISON",
-        icon: spellIcons.PASSIVE_SLOWPOISON,
-      },
-      {
-        name: "PASSIVE_ENERGYCHANCE_BOW",
+        name: "Passive Energychance Bow",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_BOW,
       },
       {
-        name: "PASSIVE_ARMOR_PIERCE_STACK",
+        name: "Passive Armor Pierce Stack",
         icon: spellIcons.PASSIVE_ARMOR_PIERCE_STACK,
       },
       {
-        name: "PASSIVE_AASPEEDCHANCE_BOW",
+        name: "Passive Aaspeedchance Bow",
         icon: spellIcons.PASSIVE_AASPEEDCHANCE_BOW,
       },
     ],
   },
   T8_2H_LONGBOW_UNDEAD: {
     active1: [
-      {
-        name: "MULTISHOT2",
-        icon: spellIcons.MULTISHOT2,
-      },
-      {
-        name: "DEADLYSHOT",
-        icon: spellIcons.DEADLYSHOT,
-      },
-      {
-        name: "POISONARROW",
-        icon: spellIcons.POISONARROW,
-      },
+      { name: "Multishot2", icon: spellIcons.MULTISHOT2 },
+      { name: "Deadlyshot", icon: spellIcons.DEADLYSHOT },
+      { name: "Poisonarrow", icon: spellIcons.POISONARROW },
     ],
     active2: [
-      {
-        name: "GROUNDARROW",
-        icon: spellIcons.GROUNDARROW,
-      },
-      {
-        name: "JUMPSHOT2",
-        icon: spellIcons.JUMPSHOT2,
-      },
-      {
-        name: "SPEEDSHOT2",
-        icon: spellIcons.SPEEDSHOT2,
-      },
-      {
-        name: "BURNINGARROWS",
-        icon: spellIcons.BURNINGARROWS,
-      },
+      { name: "Groundarrow", icon: spellIcons.GROUNDARROW },
+      { name: "Jumpshot2", icon: spellIcons.JUMPSHOT2 },
+      { name: "Speedshot2", icon: spellIcons.SPEEDSHOT2 },
+      { name: "Burningarrows", icon: spellIcons.BURNINGARROWS },
     ],
-    active3: [
-      {
-        name: "UNDEADARROWS",
-        icon: spellIcons.UNDEADARROWS,
-      },
-    ],
+    active3: [{ name: "Undedarrows", icon: spellIcons.UNDEADARROWS }],
     passive1: [
+      { name: "Passive Slowpoison", icon: spellIcons.PASSIVE_SLOWPOISON },
       {
-        name: "PASSIVE_SLOWPOISON",
-        icon: spellIcons.PASSIVE_SLOWPOISON,
-      },
-      {
-        name: "PASSIVE_ENERGYCHANCE_BOW",
+        name: "Passive Energychance Bow",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_BOW,
       },
       {
-        name: "PASSIVE_ARMOR_PIERCE_STACK",
+        name: "Passive Armor Pierce Stack",
         icon: spellIcons.PASSIVE_ARMOR_PIERCE_STACK,
       },
       {
-        name: "PASSIVE_AASPEEDCHANCE_BOW",
+        name: "Passive Aaspeedchance Bow",
         icon: spellIcons.PASSIVE_AASPEEDCHANCE_BOW,
       },
     ],
   },
   T8_2H_BOW_HELL: {
     active1: [
-      {
-        name: "MULTISHOT2",
-        icon: spellIcons.MULTISHOT2,
-      },
-      {
-        name: "DEADLYSHOT",
-        icon: spellIcons.DEADLYSHOT,
-      },
-      {
-        name: "POISONARROW",
-        icon: spellIcons.POISONARROW,
-      },
+      { name: "Multishot2", icon: spellIcons.MULTISHOT2 },
+      { name: "Deadlyshot", icon: spellIcons.DEADLYSHOT },
+      { name: "Poisonarrow", icon: spellIcons.POISONARROW },
     ],
     active2: [
-      {
-        name: "GROUNDARROW",
-        icon: spellIcons.GROUNDARROW,
-      },
-      {
-        name: "JUMPSHOT2",
-        icon: spellIcons.JUMPSHOT2,
-      },
-      {
-        name: "SPEEDSHOT2",
-        icon: spellIcons.SPEEDSHOT2,
-      },
-      {
-        name: "BURNINGARROWS",
-        icon: spellIcons.BURNINGARROWS,
-      },
+      { name: "Groundarrow", icon: spellIcons.GROUNDARROW },
+      { name: "Jumpshot2", icon: spellIcons.JUMPSHOT2 },
+      { name: "Speedshot2", icon: spellIcons.SPEEDSHOT2 },
+      { name: "Burningarrows", icon: spellIcons.BURNINGARROWS },
     ],
-    active3: [
-      {
-        name: "HELL_ARROW",
-        icon: spellIcons.HELL_ARROW,
-      },
-    ],
+    active3: [{ name: "Hell Arrow", icon: spellIcons.HELL_ARROW }],
     passive1: [
+      { name: "Passive Slowpoison", icon: spellIcons.PASSIVE_SLOWPOISON },
       {
-        name: "PASSIVE_SLOWPOISON",
-        icon: spellIcons.PASSIVE_SLOWPOISON,
-      },
-      {
-        name: "PASSIVE_ENERGYCHANCE_BOW",
+        name: "Passive Energychance Bow",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_BOW,
       },
       {
-        name: "PASSIVE_ARMOR_PIERCE_STACK",
+        name: "Passive Armor Pierce Stack",
         icon: spellIcons.PASSIVE_ARMOR_PIERCE_STACK,
       },
       {
-        name: "PASSIVE_AASPEEDCHANCE_BOW",
+        name: "Passive Aaspeedchance Bow",
         icon: spellIcons.PASSIVE_AASPEEDCHANCE_BOW,
       },
     ],
   },
   T8_2H_BOW_KEEPER: {
     active1: [
-      {
-        name: "MULTISHOT2",
-        icon: spellIcons.MULTISHOT2,
-      },
-      {
-        name: "DEADLYSHOT",
-        icon: spellIcons.DEADLYSHOT,
-      },
-      {
-        name: "POISONARROW",
-        icon: spellIcons.POISONARROW,
-      },
+      { name: "Multishot2", icon: spellIcons.MULTISHOT2 },
+      { name: "Deadlyshot", icon: spellIcons.DEADLYSHOT },
+      { name: "Poisonarrow", icon: spellIcons.POISONARROW },
     ],
     active2: [
-      {
-        name: "GROUNDARROW",
-        icon: spellIcons.GROUNDARROW,
-      },
-      {
-        name: "JUMPSHOT2",
-        icon: spellIcons.JUMPSHOT2,
-      },
-      {
-        name: "SPEEDSHOT2",
-        icon: spellIcons.SPEEDSHOT2,
-      },
-      {
-        name: "BURNINGARROWS",
-        icon: spellIcons.BURNINGARROWS,
-      },
+      { name: "Groundarrow", icon: spellIcons.GROUNDARROW },
+      { name: "Jumpshot2", icon: spellIcons.JUMPSHOT2 },
+      { name: "Speedshot2", icon: spellIcons.SPEEDSHOT2 },
+      { name: "Burningarrows", icon: spellIcons.BURNINGARROWS },
     ],
-    active3: [
-      {
-        name: "LIGHTNING_ARROW",
-        icon: spellIcons.LIGHTNING_ARROW,
-      },
-    ],
+    active3: [{ name: "Lightning Arrow", icon: spellIcons.LIGHTNING_ARROW }],
     passive1: [
+      { name: "Passive Slowpoison", icon: spellIcons.PASSIVE_SLOWPOISON },
       {
-        name: "PASSIVE_SLOWPOISON",
-        icon: spellIcons.PASSIVE_SLOWPOISON,
-      },
-      {
-        name: "PASSIVE_ENERGYCHANCE_BOW",
+        name: "Passive Energychance Bow",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_BOW,
       },
       {
-        name: "PASSIVE_ARMOR_PIERCE_STACK",
+        name: "Passive Armor Pierce Stack",
         icon: spellIcons.PASSIVE_ARMOR_PIERCE_STACK,
       },
       {
-        name: "PASSIVE_AASPEEDCHANCE_BOW",
+        name: "Passive Aaspeedchance Bow",
         icon: spellIcons.PASSIVE_AASPEEDCHANCE_BOW,
       },
     ],
   },
+
   T8_2H_BOW_AVALON: {
     active1: [
       {
-        name: "MULTISHOT2",
+        name: "Multishot2",
         icon: spellIcons.MULTISHOT2,
       },
       {
-        name: "DEADLYSHOT",
+        name: "Deadlyshot",
         icon: spellIcons.DEADLYSHOT,
       },
       {
-        name: "POISONARROW",
+        name: "Poisonarrow",
         icon: spellIcons.POISONARROW,
       },
     ],
     active2: [
       {
-        name: "GROUNDARROW",
+        name: "Groundarrow",
         icon: spellIcons.GROUNDARROW,
       },
       {
-        name: "JUMPSHOT2",
+        name: "Jumpshot2",
         icon: spellIcons.JUMPSHOT2,
       },
       {
-        name: "SPEEDSHOT2",
+        name: "Speedshot2",
         icon: spellIcons.SPEEDSHOT2,
       },
       {
-        name: "BURNINGARROWS",
+        name: "Burningarrows",
         icon: spellIcons.BURNINGARROWS,
       },
     ],
     active3: [
       {
-        name: "HAWK_SHOT_MULTI1",
+        name: "Hawk Shot Multi1",
         icon: spellIcons.HAWK_SHOT_MULTI1,
       },
     ],
     passive1: [
       {
-        name: "PASSIVE_SLOWPOISON",
+        name: "Passive Slowpoison",
         icon: spellIcons.PASSIVE_SLOWPOISON,
       },
       {
-        name: "PASSIVE_ENERGYCHANCE_BOW",
+        name: "Passive Energychance Bow",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_BOW,
       },
       {
-        name: "PASSIVE_ARMOR_PIERCE_STACK",
+        name: "Passive Armor Pierce Stack",
         icon: spellIcons.PASSIVE_ARMOR_PIERCE_STACK,
       },
       {
-        name: "PASSIVE_AASPEEDCHANCE_BOW",
+        name: "Passive Aaspeedchance Bow",
         icon: spellIcons.PASSIVE_AASPEEDCHANCE_BOW,
       },
     ],
   },
+
   T8_2H_BOW_CRYSTAL: {
     active1: [
       {
-        name: "MULTISHOT2",
+        name: "Multishot2",
         icon: spellIcons.MULTISHOT2,
       },
       {
-        name: "DEADLYSHOT",
+        name: "Deadlyshot",
         icon: spellIcons.DEADLYSHOT,
       },
       {
-        name: "POISONARROW",
+        name: "Poisonarrow",
         icon: spellIcons.POISONARROW,
       },
     ],
     active2: [
       {
-        name: "GROUNDARROW",
+        name: "Groundarrow",
         icon: spellIcons.GROUNDARROW,
       },
       {
-        name: "JUMPSHOT2",
+        name: "Jumpshot2",
         icon: spellIcons.JUMPSHOT2,
       },
       {
-        name: "SPEEDSHOT2",
+        name: "Speedshot2",
         icon: spellIcons.SPEEDSHOT2,
       },
       {
-        name: "BURNINGARROWS",
+        name: "Burningarrows",
         icon: spellIcons.BURNINGARROWS,
       },
     ],
     active3: [
       {
-        name: "AIR_RAID",
+        name: "Air Raid",
         icon: spellIcons.AIR_RAID,
       },
     ],
     passive1: [
       {
-        name: "PASSIVE_SLOWPOISON",
+        name: "Passive Slowpoison",
         icon: spellIcons.PASSIVE_SLOWPOISON,
       },
       {
-        name: "PASSIVE_ENERGYCHANCE_BOW",
+        name: "Passive Energychance Bow",
         icon: spellIcons.PASSIVE_ENERGYCHANCE_BOW,
       },
       {
-        name: "PASSIVE_ARMOR_PIERCE_STACK",
+        name: "Passive Armor Pierce Stack",
         icon: spellIcons.PASSIVE_ARMOR_PIERCE_STACK,
       },
       {
-        name: "PASSIVE_AASPEEDCHANCE_BOW",
+        name: "Passive Aaspeedchance Bow",
         icon: spellIcons.PASSIVE_AASPEEDCHANCE_BOW,
       },
     ],
   },
 
-  //2
   T8_MAIN_DAGGER: {
     active1: [
-      {
-        name: "SUNDERARMOR2",
-        icon: spellIcons.SUNDERARMOR2,
-      },
-      {
-        name: "QDASH",
-        icon: spellIcons.QDASH,
-      },
-      {
-        name: "ASSASSINSPIRIT",
-        icon: spellIcons.ASSASSINSPIRIT,
-      },
+      { name: "Sunderarmor2", icon: spellIcons.SUNDERARMOR2 },
+      { name: "Qdash", icon: spellIcons.QDASH },
+      { name: "Assassinspirit", icon: spellIcons.ASSASSINSPIRIT },
     ],
     active2: [
-      {
-        name: "THROWINGBLADES",
-        icon: spellIcons.THROWINGBLADES,
-      },
-      {
-        name: "GROUNDDASH",
-        icon: spellIcons.GROUNDDASH,
-      },
-      {
-        name: "DEEPCUTS",
-        icon: spellIcons.DEEPCUTS,
-      },
-      {
-        name: "SKILLSHOT_TELEPORT",
-        icon: spellIcons.SKILLSHOT_TELEPORT,
-      },
-      {
-        name: "CHAINDASH",
-        icon: spellIcons.CHAINDASH,
-      },
+      { name: "Throwingblades", icon: spellIcons.THROWINGBLADES },
+      { name: "Grounddash", icon: spellIcons.GROUNDDASH },
+      { name: "Deepcuts", icon: spellIcons.DEEPCUTS },
+      { name: "Skillshot Teleport", icon: spellIcons.SKILLSHOT_TELEPORT },
+      { name: "Chaindash", icon: spellIcons.CHAINDASH },
     ],
     active3: [
-      {
-        name: "BLOODTHIRSTYBLADE",
-        icon: spellIcons.BLOODTHIRSTYBLADE,
-      },
+      { name: "Bloodthirstyblade", icon: spellIcons.BLOODTHIRSTYBLADE },
     ],
     passive1: [
+      { name: "Passive Bleedchance", icon: spellIcons.PASSIVE_BLEEDCHANCE },
       {
-        name: "PASSIVE_BLEEDCHANCE",
-        icon: spellIcons.PASSIVE_BLEEDCHANCE,
-      },
-      {
-        name: "PASSIVE_HEALTHCHANCE_DAGGER",
+        name: "Passive Healthchance Dagger",
         icon: spellIcons.PASSIVE_HEALTHCHANCE_DAGGER,
       },
       {
-        name: "PASSIVE_AASPEEDCHANCE_DAGGER",
+        name: "Passive Aaspeedchance Dagger",
         icon: spellIcons.PASSIVE_AASPEEDCHANCE_DAGGER,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CHANCE_DAGGER",
-        icon: spellIcons.PASSIVE_SPELLPOWER_CHANCE_DAGGER,
-      },
-    ],
-  },
-  T8_2H_DAGGERPAIR: {
-    active1: [
-      {
-        name: "SUNDERARMOR2",
-        icon: spellIcons.SUNDERARMOR2,
-      },
-      {
-        name: "QDASH",
-        icon: spellIcons.QDASH,
-      },
-      {
-        name: "ASSASSINSPIRIT",
-        icon: spellIcons.ASSASSINSPIRIT,
-      },
-    ],
-    active2: [
-      {
-        name: "THROWINGBLADES",
-        icon: spellIcons.THROWINGBLADES,
-      },
-      {
-        name: "GROUNDDASH",
-        icon: spellIcons.GROUNDDASH,
-      },
-      {
-        name: "DEEPCUTS",
-        icon: spellIcons.DEEPCUTS,
-      },
-      {
-        name: "SKILLSHOT_TELEPORT",
-        icon: spellIcons.SKILLSHOT_TELEPORT,
-      },
-      {
-        name: "CHAINDASH",
-        icon: spellIcons.CHAINDASH,
-      },
-    ],
-    active3: [
-      {
-        name: "EXECUTEDAGGER",
-        icon: spellIcons.EXECUTEDAGGER,
-      },
-    ],
-    passive1: [
-      {
-        name: "PASSIVE_BLEEDCHANCE",
-        icon: spellIcons.PASSIVE_BLEEDCHANCE,
-      },
-      {
-        name: "PASSIVE_HEALTHCHANCE_DAGGER",
-        icon: spellIcons.PASSIVE_HEALTHCHANCE_DAGGER,
-      },
-      {
-        name: "PASSIVE_AASPEEDCHANCE_DAGGER",
-        icon: spellIcons.PASSIVE_AASPEEDCHANCE_DAGGER,
-      },
-      {
-        name: "PASSIVE_SPELLPOWER_CHANCE_DAGGER",
-        icon: spellIcons.PASSIVE_SPELLPOWER_CHANCE_DAGGER,
-      },
-    ],
-  },
-  T8_2H_CLAWPAIR: {
-    active1: [
-      {
-        name: "SUNDERARMOR2",
-        icon: spellIcons.SUNDERARMOR2,
-      },
-      {
-        name: "QDASH",
-        icon: spellIcons.QDASH,
-      },
-      {
-        name: "ASSASSINSPIRIT",
-        icon: spellIcons.ASSASSINSPIRIT,
-      },
-    ],
-    active2: [
-      {
-        name: "THROWINGBLADES",
-        icon: spellIcons.THROWINGBLADES,
-      },
-      {
-        name: "GROUNDDASH",
-        icon: spellIcons.GROUNDDASH,
-      },
-      {
-        name: "DEEPCUTS",
-        icon: spellIcons.DEEPCUTS,
-      },
-      {
-        name: "SKILLSHOT_TELEPORT",
-        icon: spellIcons.SKILLSHOT_TELEPORT,
-      },
-      {
-        name: "CHAINDASH",
-        icon: spellIcons.CHAINDASH,
-      },
-    ],
-    active3: [
-      {
-        name: "DISEMBOWEL",
-        icon: spellIcons.DISEMBOWEL,
-      },
-    ],
-    passive1: [
-      {
-        name: "PASSIVE_BLEEDCHANCE",
-        icon: spellIcons.PASSIVE_BLEEDCHANCE,
-      },
-      {
-        name: "PASSIVE_HEALTHCHANCE_DAGGER",
-        icon: spellIcons.PASSIVE_HEALTHCHANCE_DAGGER,
-      },
-      {
-        name: "PASSIVE_AASPEEDCHANCE_DAGGER",
-        icon: spellIcons.PASSIVE_AASPEEDCHANCE_DAGGER,
-      },
-      {
-        name: "PASSIVE_SPELLPOWER_CHANCE_DAGGER",
-        icon: spellIcons.PASSIVE_SPELLPOWER_CHANCE_DAGGER,
-      },
-    ],
-  },
-  T8_MAIN_RAPIER_MORGANA: {
-    active1: [
-      {
-        name: "SUNDERARMOR2",
-        icon: spellIcons.SUNDERARMOR2,
-      },
-      {
-        name: "QDASH",
-        icon: spellIcons.QDASH,
-      },
-      {
-        name: "ASSASSINSPIRIT",
-        icon: spellIcons.ASSASSINSPIRIT,
-      },
-    ],
-    active2: [
-      {
-        name: "THROWINGBLADES",
-        icon: spellIcons.THROWINGBLADES,
-      },
-      {
-        name: "GROUNDDASH",
-        icon: spellIcons.GROUNDDASH,
-      },
-      {
-        name: "DEEPCUTS",
-        icon: spellIcons.DEEPCUTS,
-      },
-      {
-        name: "SKILLSHOT_TELEPORT",
-        icon: spellIcons.SKILLSHOT_TELEPORT,
-      },
-      {
-        name: "CHAINDASH",
-        icon: spellIcons.CHAINDASH,
-      },
-    ],
-    active3: [
-      {
-        name: "RAPIERSTAB",
-        icon: spellIcons.RAPIERSTAB,
-      },
-    ],
-    passive1: [
-      {
-        name: "PASSIVE_BLEEDCHANCE",
-        icon: spellIcons.PASSIVE_BLEEDCHANCE,
-      },
-      {
-        name: "PASSIVE_HEALTHCHANCE_DAGGER",
-        icon: spellIcons.PASSIVE_HEALTHCHANCE_DAGGER,
-      },
-      {
-        name: "PASSIVE_AASPEEDCHANCE_DAGGER",
-        icon: spellIcons.PASSIVE_AASPEEDCHANCE_DAGGER,
-      },
-      {
-        name: "PASSIVE_SPELLPOWER_CHANCE_DAGGER",
-        icon: spellIcons.PASSIVE_SPELLPOWER_CHANCE_DAGGER,
-      },
-    ],
-  },
-  T8_MAIN_DAGGER_HELL: {
-    active1: [
-      {
-        name: "SUNDERARMOR2",
-        icon: spellIcons.SUNDERARMOR2,
-      },
-      {
-        name: "QDASH",
-        icon: spellIcons.QDASH,
-      },
-      {
-        name: "ASSASSINSPIRIT",
-        icon: spellIcons.ASSASSINSPIRIT,
-      },
-    ],
-    active2: [
-      {
-        name: "THROWINGBLADES",
-        icon: spellIcons.THROWINGBLADES,
-      },
-      {
-        name: "GROUNDDASH",
-        icon: spellIcons.GROUNDDASH,
-      },
-      {
-        name: "DEEPCUTS",
-        icon: spellIcons.DEEPCUTS,
-      },
-      {
-        name: "SKILLSHOT_TELEPORT",
-        icon: spellIcons.SKILLSHOT_TELEPORT,
-      },
-      {
-        name: "CHAINDASH",
-        icon: spellIcons.CHAINDASH,
-      },
-    ],
-    active3: [
-      {
-        name: "BLOOD_BLADE",
-        icon: spellIcons.BLOOD_BLADE,
-      },
-    ],
-    passive1: [
-      {
-        name: "PASSIVE_BLEEDCHANCE",
-        icon: spellIcons.PASSIVE_BLEEDCHANCE,
-      },
-      {
-        name: "PASSIVE_HEALTHCHANCE_DAGGER",
-        icon: spellIcons.PASSIVE_HEALTHCHANCE_DAGGER,
-      },
-      {
-        name: "PASSIVE_AASPEEDCHANCE_DAGGER",
-        icon: spellIcons.PASSIVE_AASPEEDCHANCE_DAGGER,
-      },
-      {
-        name: "PASSIVE_SPELLPOWER_CHANCE_DAGGER",
-        icon: spellIcons.PASSIVE_SPELLPOWER_CHANCE_DAGGER,
-      },
-    ],
-  },
-  T8_2H_DUALSICKLE_UNDEAD: {
-    active1: [
-      {
-        name: "SUNDERARMOR2",
-        icon: spellIcons.SUNDERARMOR2,
-      },
-      {
-        name: "QDASH",
-        icon: spellIcons.QDASH,
-      },
-      {
-        name: "ASSASSINSPIRIT",
-        icon: spellIcons.ASSASSINSPIRIT,
-      },
-    ],
-    active2: [
-      {
-        name: "THROWINGBLADES",
-        icon: spellIcons.THROWINGBLADES,
-      },
-      {
-        name: "GROUNDDASH",
-        icon: spellIcons.GROUNDDASH,
-      },
-      {
-        name: "DEEPCUTS",
-        icon: spellIcons.DEEPCUTS,
-      },
-      {
-        name: "SKILLSHOT_TELEPORT",
-        icon: spellIcons.SKILLSHOT_TELEPORT,
-      },
-      {
-        name: "CHAINDASH",
-        icon: spellIcons.CHAINDASH,
-      },
-    ],
-    active3: [
-      {
-        name: "GHOSTSTRIKE",
-        icon: spellIcons.GHOSTSTRIKE,
-      },
-    ],
-    passive1: [
-      {
-        name: "PASSIVE_BLEEDCHANCE",
-        icon: spellIcons.PASSIVE_BLEEDCHANCE,
-      },
-      {
-        name: "PASSIVE_HEALTHCHANCE_DAGGER",
-        icon: spellIcons.PASSIVE_HEALTHCHANCE_DAGGER,
-      },
-      {
-        name: "PASSIVE_AASPEEDCHANCE_DAGGER",
-        icon: spellIcons.PASSIVE_AASPEEDCHANCE_DAGGER,
-      },
-      {
-        name: "PASSIVE_SPELLPOWER_CHANCE_DAGGER",
-        icon: spellIcons.PASSIVE_SPELLPOWER_CHANCE_DAGGER,
-      },
-    ],
-  },
-  T8_2H_DAGGER_KATAR_AVALON: {
-    active1: [
-      {
-        name: "SUNDERARMOR2",
-        icon: spellIcons.SUNDERARMOR2,
-      },
-      {
-        name: "QDASH",
-        icon: spellIcons.QDASH,
-      },
-      {
-        name: "ASSASSINSPIRIT",
-        icon: spellIcons.ASSASSINSPIRIT,
-      },
-    ],
-    active2: [
-      {
-        name: "THROWINGBLADES",
-        icon: spellIcons.THROWINGBLADES,
-      },
-      {
-        name: "GROUNDDASH",
-        icon: spellIcons.GROUNDDASH,
-      },
-      {
-        name: "DEEPCUTS",
-        icon: spellIcons.DEEPCUTS,
-      },
-      {
-        name: "SKILLSHOT_TELEPORT",
-        icon: spellIcons.SKILLSHOT_TELEPORT,
-      },
-      {
-        name: "CHAINDASH",
-        icon: spellIcons.CHAINDASH,
-      },
-    ],
-    active3: [
-      {
-        name: "BACK_SLASH",
-        icon: spellIcons.BACK_SLASH,
-      },
-    ],
-    passive1: [
-      {
-        name: "PASSIVE_BLEEDCHANCE",
-        icon: spellIcons.PASSIVE_BLEEDCHANCE,
-      },
-      {
-        name: "PASSIVE_HEALTHCHANCE_DAGGER",
-        icon: spellIcons.PASSIVE_HEALTHCHANCE_DAGGER,
-      },
-      {
-        name: "PASSIVE_AASPEEDCHANCE_DAGGER",
-        icon: spellIcons.PASSIVE_AASPEEDCHANCE_DAGGER,
-      },
-      {
-        name: "PASSIVE_SPELLPOWER_CHANCE_DAGGER",
-        icon: spellIcons.PASSIVE_SPELLPOWER_CHANCE_DAGGER,
-      },
-    ],
-  },
-  T8_2H_DAGGERPAIR_CRYSTAL: {
-    active1: [
-      {
-        name: "SUNDERARMOR2",
-        icon: spellIcons.SUNDERARMOR2,
-      },
-      {
-        name: "QDASH",
-        icon: spellIcons.QDASH,
-      },
-      {
-        name: "ASSASSINSPIRIT",
-        icon: spellIcons.ASSASSINSPIRIT,
-      },
-    ],
-    active2: [
-      {
-        name: "THROWINGBLADES",
-        icon: spellIcons.THROWINGBLADES,
-      },
-      {
-        name: "GROUNDDASH",
-        icon: spellIcons.GROUNDDASH,
-      },
-      {
-        name: "DEEPCUTS",
-        icon: spellIcons.DEEPCUTS,
-      },
-      {
-        name: "SKILLSHOT_TELEPORT",
-        icon: spellIcons.SKILLSHOT_TELEPORT,
-      },
-      {
-        name: "CHAINDASH",
-        icon: spellIcons.CHAINDASH,
-      },
-    ],
-    active3: [
-      {
-        name: "CRYSTAL_DAGGER_BLADE_RING",
-        icon: spellIcons.CRYSTAL_DAGGER_BLADE_RING,
-      },
-    ],
-    passive1: [
-      {
-        name: "PASSIVE_BLEEDCHANCE",
-        icon: spellIcons.PASSIVE_BLEEDCHANCE,
-      },
-      {
-        name: "PASSIVE_HEALTHCHANCE_DAGGER",
-        icon: spellIcons.PASSIVE_HEALTHCHANCE_DAGGER,
-      },
-      {
-        name: "PASSIVE_AASPEEDCHANCE_DAGGER",
-        icon: spellIcons.PASSIVE_AASPEEDCHANCE_DAGGER,
-      },
-      {
-        name: "PASSIVE_SPELLPOWER_CHANCE_DAGGER",
+        name: "Passive Spellpower Chance Dagger",
         icon: spellIcons.PASSIVE_SPELLPOWER_CHANCE_DAGGER,
       },
     ],
   },
 
-  //3
+  T8_2H_DAGGERPAIR: {
+    active1: [
+      { name: "Sunderarmor2", icon: spellIcons.SUNDERARMOR2 },
+      { name: "Qdash", icon: spellIcons.QDASH },
+      { name: "Assassinspirit", icon: spellIcons.ASSASSINSPIRIT },
+    ],
+    active2: [
+      { name: "Throwingblades", icon: spellIcons.THROWINGBLADES },
+      { name: "Grounddash", icon: spellIcons.GROUNDDASH },
+      { name: "Deepcuts", icon: spellIcons.DEEPCUTS },
+      { name: "Skillshot Teleport", icon: spellIcons.SKILLSHOT_TELEPORT },
+      { name: "Chaindash", icon: spellIcons.CHAINDASH },
+    ],
+    active3: [{ name: "Executedagger", icon: spellIcons.EXECUTEDAGGER }],
+    passive1: [
+      { name: "Passive Bleedchance", icon: spellIcons.PASSIVE_BLEEDCHANCE },
+      {
+        name: "Passive Healthchance Dagger",
+        icon: spellIcons.PASSIVE_HEALTHCHANCE_DAGGER,
+      },
+      {
+        name: "Passive Aaspeedchance Dagger",
+        icon: spellIcons.PASSIVE_AASPEEDCHANCE_DAGGER,
+      },
+      {
+        name: "Passive Spellpower Chance Dagger",
+        icon: spellIcons.PASSIVE_SPELLPOWER_CHANCE_DAGGER,
+      },
+    ],
+  },
+
+  T8_2H_CLAWPAIR: {
+    active1: [
+      { name: "Sunderarmor2", icon: spellIcons.SUNDERARMOR2 },
+      { name: "Qdash", icon: spellIcons.QDASH },
+      { name: "Assassinspirit", icon: spellIcons.ASSASSINSPIRIT },
+    ],
+    active2: [
+      { name: "Throwingblades", icon: spellIcons.THROWINGBLADES },
+      { name: "Grounddash", icon: spellIcons.GROUNDDASH },
+      { name: "Deepcuts", icon: spellIcons.DEEPCUTS },
+      { name: "Skillshot Teleport", icon: spellIcons.SKILLSHOT_TELEPORT },
+      { name: "Chaindash", icon: spellIcons.CHAINDASH },
+    ],
+    active3: [{ name: "Disembowel", icon: spellIcons.DISEMBOWEL }],
+    passive1: [
+      { name: "Passive Bleedchance", icon: spellIcons.PASSIVE_BLEEDCHANCE },
+      {
+        name: "Passive Healthchance Dagger",
+        icon: spellIcons.PASSIVE_HEALTHCHANCE_DAGGER,
+      },
+      {
+        name: "Passive Aaspeedchance Dagger",
+        icon: spellIcons.PASSIVE_AASPEEDCHANCE_DAGGER,
+      },
+      {
+        name: "Passive Spellpower Chance Dagger",
+        icon: spellIcons.PASSIVE_SPELLPOWER_CHANCE_DAGGER,
+      },
+    ],
+  },
+
+  T8_MAIN_RAPIER_MORGANA: {
+    active1: [
+      { name: "Sunderarmor2", icon: spellIcons.SUNDERARMOR2 },
+      { name: "Qdash", icon: spellIcons.QDASH },
+      { name: "Assassinspirit", icon: spellIcons.ASSASSINSPIRIT },
+    ],
+    active2: [
+      { name: "Throwingblades", icon: spellIcons.THROWINGBLADES },
+      { name: "Grounddash", icon: spellIcons.GROUNDDASH },
+      { name: "Deepcuts", icon: spellIcons.DEEPCUTS },
+      { name: "Skillshot Teleport", icon: spellIcons.SKILLSHOT_TELEPORT },
+      { name: "Chaindash", icon: spellIcons.CHAINDASH },
+    ],
+    active3: [{ name: "Rapierstab", icon: spellIcons.RAPIERSTAB }],
+    passive1: [
+      { name: "Passive Bleedchance", icon: spellIcons.PASSIVE_BLEEDCHANCE },
+      {
+        name: "Passive Healthchance Dagger",
+        icon: spellIcons.PASSIVE_HEALTHCHANCE_DAGGER,
+      },
+      {
+        name: "Passive Aaspeedchance Dagger",
+        icon: spellIcons.PASSIVE_AASPEEDCHANCE_DAGGER,
+      },
+      {
+        name: "Passive Spellpower Chance Dagger",
+        icon: spellIcons.PASSIVE_SPELLPOWER_CHANCE_DAGGER,
+      },
+    ],
+  },
+
+  T8_MAIN_DAGGER_HELL: {
+    active1: [
+      {
+        name: "Sunderarmor2",
+        icon: spellIcons.SUNDERARMOR2,
+      },
+      {
+        name: "Qdash",
+        icon: spellIcons.QDASH,
+      },
+      {
+        name: "Assassinspirit",
+        icon: spellIcons.ASSASSINSPIRIT,
+      },
+    ],
+    active2: [
+      {
+        name: "Throwingblades",
+        icon: spellIcons.THROWINGBLADES,
+      },
+      {
+        name: "Grounddash",
+        icon: spellIcons.GROUNDDASH,
+      },
+      {
+        name: "Deepcuts",
+        icon: spellIcons.DEEPCUTS,
+      },
+      {
+        name: "Skillshot Teleport",
+        icon: spellIcons.SKILLSHOT_TELEPORT,
+      },
+      {
+        name: "Chaindash",
+        icon: spellIcons.CHAINDASH,
+      },
+    ],
+    active3: [
+      {
+        name: "Blood Blade",
+        icon: spellIcons.BLOOD_BLADE,
+      },
+    ],
+    passive1: [
+      {
+        name: "Passive Bleedchance",
+        icon: spellIcons.PASSIVE_BLEEDCHANCE,
+      },
+      {
+        name: "Passive Healthchance Dagger",
+        icon: spellIcons.PASSIVE_HEALTHCHANCE_DAGGER,
+      },
+      {
+        name: "Passive Aaspeedchance Dagger",
+        icon: spellIcons.PASSIVE_AASPEEDCHANCE_DAGGER,
+      },
+      {
+        name: "Passive Spellpower Chance Dagger",
+        icon: spellIcons.PASSIVE_SPELLPOWER_CHANCE_DAGGER,
+      },
+    ],
+  },
+
+  T8_2H_DUALSICKLE_UNDEAD: {
+    active1: [
+      {
+        name: "Sunderarmor2",
+        icon: spellIcons.SUNDERARMOR2,
+      },
+      {
+        name: "Qdash",
+        icon: spellIcons.QDASH,
+      },
+      {
+        name: "Assassinspirit",
+        icon: spellIcons.ASSASSINSPIRIT,
+      },
+    ],
+    active2: [
+      {
+        name: "Throwingblades",
+        icon: spellIcons.THROWINGBLADES,
+      },
+      {
+        name: "Grounddash",
+        icon: spellIcons.GROUNDDASH,
+      },
+      {
+        name: "Deepcuts",
+        icon: spellIcons.DEEPCUTS,
+      },
+      {
+        name: "Skillshot Teleport",
+        icon: spellIcons.SKILLSHOT_TELEPORT,
+      },
+      {
+        name: "Chaindash",
+        icon: spellIcons.CHAINDASH,
+      },
+    ],
+    active3: [
+      {
+        name: "Ghoststrike",
+        icon: spellIcons.GHOSTSTRIKE,
+      },
+    ],
+    passive1: [
+      {
+        name: "Passive Bleedchance",
+        icon: spellIcons.PASSIVE_BLEEDCHANCE,
+      },
+      {
+        name: "Passive Healthchance Dagger",
+        icon: spellIcons.PASSIVE_HEALTHCHANCE_DAGGER,
+      },
+      {
+        name: "Passive Aaspeedchance Dagger",
+        icon: spellIcons.PASSIVE_AASPEEDCHANCE_DAGGER,
+      },
+      {
+        name: "Passive Spellpower Chance Dagger",
+        icon: spellIcons.PASSIVE_SPELLPOWER_CHANCE_DAGGER,
+      },
+    ],
+  },
+
+  T8_2H_DAGGER_KATAR_AVALON: {
+    active1: [
+      {
+        name: "Sunderarmor2",
+        icon: spellIcons.SUNDERARMOR2,
+      },
+      {
+        name: "Qdash",
+        icon: spellIcons.QDASH,
+      },
+      {
+        name: "Assassinspirit",
+        icon: spellIcons.ASSASSINSPIRIT,
+      },
+    ],
+    active2: [
+      {
+        name: "Throwingblades",
+        icon: spellIcons.THROWINGBLADES,
+      },
+      {
+        name: "Grounddash",
+        icon: spellIcons.GROUNDDASH,
+      },
+      {
+        name: "Deepcuts",
+        icon: spellIcons.DEEPCUTS,
+      },
+      {
+        name: "Skillshot Teleport",
+        icon: spellIcons.SKILLSHOT_TELEPORT,
+      },
+      {
+        name: "Chaindash",
+        icon: spellIcons.CHAINDASH,
+      },
+    ],
+    active3: [
+      {
+        name: "Back Slash",
+        icon: spellIcons.BACK_SLASH,
+      },
+    ],
+    passive1: [
+      {
+        name: "Passive Bleedchance",
+        icon: spellIcons.PASSIVE_BLEEDCHANCE,
+      },
+      {
+        name: "Passive Healthchance Dagger",
+        icon: spellIcons.PASSIVE_HEALTHCHANCE_DAGGER,
+      },
+      {
+        name: "Passive Aaspeedchance Dagger",
+        icon: spellIcons.PASSIVE_AASPEEDCHANCE_DAGGER,
+      },
+      {
+        name: "Passive Spellpower Chance Dagger",
+        icon: spellIcons.PASSIVE_SPELLPOWER_CHANCE_DAGGER,
+      },
+    ],
+  },
+
+  T8_2H_DAGGERPAIR_CRYSTAL: {
+    active1: [
+      {
+        name: "Sunderarmor2",
+        icon: spellIcons.SUNDERARMOR2,
+      },
+      {
+        name: "Qdash",
+        icon: spellIcons.QDASH,
+      },
+      {
+        name: "Assassinspirit",
+        icon: spellIcons.ASSASSINSPIRIT,
+      },
+    ],
+    active2: [
+      {
+        name: "Throwingblades",
+        icon: spellIcons.THROWINGBLADES,
+      },
+      {
+        name: "Grounddash",
+        icon: spellIcons.GROUNDDASH,
+      },
+      {
+        name: "Deepcuts",
+        icon: spellIcons.DEEPCUTS,
+      },
+      {
+        name: "Skillshot Teleport",
+        icon: spellIcons.SKILLSHOT_TELEPORT,
+      },
+      {
+        name: "Chaindash",
+        icon: spellIcons.CHAINDASH,
+      },
+    ],
+    active3: [
+      {
+        name: "Crystal Dagger Blade Ring",
+        icon: spellIcons.CRYSTAL_DAGGER_BLADE_RING,
+      },
+    ],
+    passive1: [
+      {
+        name: "Passive Bleedchance",
+        icon: spellIcons.PASSIVE_BLEEDCHANCE,
+      },
+      {
+        name: "Passive Healthchance Dagger",
+        icon: spellIcons.PASSIVE_HEALTHCHANCE_DAGGER,
+      },
+      {
+        name: "Passive Aaspeedchance Dagger",
+        icon: spellIcons.PASSIVE_AASPEEDCHANCE_DAGGER,
+      },
+      {
+        name: "Passive Spellpower Chance Dagger",
+        icon: spellIcons.PASSIVE_SPELLPOWER_CHANCE_DAGGER,
+      },
+    ],
+  },
+
   T8_MAIN_SPEAR: {
     active1: [
       {
-        name: "SPEAR_LUNGE",
+        name: "Spear Lunge",
         icon: spellIcons.SPEAR_LUNGE,
       },
       {
-        name: "SPIRITSPEAR",
+        name: "Spiritspear",
         icon: spellIcons.SPIRITSPEAR,
       },
     ],
     active2: [
       {
-        name: "FORESTOFSPEARS",
+        name: "Forestofspears",
         icon: spellIcons.FORESTOFSPEARS,
       },
       {
-        name: "CHARGINGBLADE",
+        name: "Chargingblade",
         icon: spellIcons.CHARGINGBLADE,
       },
       {
-        name: "LEGBREAKER",
+        name: "Legbreaker",
         icon: spellIcons.LEGBREAKER,
       },
       {
-        name: "DEFLECTINGSTANCE",
+        name: "Deflectingstance",
         icon: spellIcons.DEFLECTINGSTANCE,
       },
       {
-        name: "GROUNDSPEAR",
+        name: "Groundspear",
         icon: spellIcons.GROUNDSPEAR,
       },
       {
-        name: "SKILLSHOT_PULL",
+        name: "Skillshot Pull",
         icon: spellIcons.SKILLSHOT_PULL,
       },
     ],
     active3: [
       {
-        name: "DASHDMG",
+        name: "Dashdmg",
         icon: spellIcons.DASHDMG,
       },
     ],
     passive1: [
       {
-        name: "PASSIVE_SLOWPOISON",
+        name: "Passive Slowpoison",
         icon: spellIcons.PASSIVE_SLOWPOISON,
       },
       {
-        name: "PASSIVE_HEALTHCHANCE_SPEAR",
+        name: "Passive Healthchance Spear",
         icon: spellIcons.PASSIVE_HEALTHCHANCE_SPEAR,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CHANCE_SPEAR",
+        name: "Passive Spellpower Chance Spear",
         icon: spellIcons.PASSIVE_SPELLPOWER_CHANCE_SPEAR,
       },
       {
-        name: "PASSIVE_AASPEEDCHANCE_SPEAR",
+        name: "Passive Aaspeedchance Spear",
         icon: spellIcons.PASSIVE_AASPEEDCHANCE_SPEAR,
       },
     ],
   },
+
   T8_2H_SPEAR: {
     active1: [
       {
-        name: "SPEAR_LUNGE",
+        name: "Spear Lunge",
         icon: spellIcons.SPEAR_LUNGE,
       },
       {
-        name: "SPIRITSPEAR",
+        name: "Spiritspear",
         icon: spellIcons.SPIRITSPEAR,
       },
     ],
     active2: [
       {
-        name: "FORESTOFSPEARS",
+        name: "Forestofspears",
         icon: spellIcons.FORESTOFSPEARS,
       },
       {
-        name: "CHARGINGBLADE",
+        name: "Chargingblade",
         icon: spellIcons.CHARGINGBLADE,
       },
       {
-        name: "LEGBREAKER",
+        name: "Legbreaker",
         icon: spellIcons.LEGBREAKER,
       },
       {
-        name: "DEFLECTINGSTANCE",
+        name: "Deflectingstance",
         icon: spellIcons.DEFLECTINGSTANCE,
       },
       {
-        name: "GROUNDSPEAR",
+        name: "Groundspear",
         icon: spellIcons.GROUNDSPEAR,
       },
       {
-        name: "SKILLSHOT_PULL",
+        name: "Skillshot Pull",
         icon: spellIcons.SKILLSHOT_PULL,
       },
     ],
     active3: [
       {
-        name: "HALBERDSMASH",
+        name: "Halberdsmash",
         icon: spellIcons.HALBERDSMASH,
       },
     ],
     passive1: [
       {
-        name: "PASSIVE_SLOWPOISON",
+        name: "Passive Slowpoison",
         icon: spellIcons.PASSIVE_SLOWPOISON,
       },
       {
-        name: "PASSIVE_HEALTHCHANCE_SPEAR",
+        name: "Passive Healthchance Spear",
         icon: spellIcons.PASSIVE_HEALTHCHANCE_SPEAR,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CHANCE_SPEAR",
+        name: "Passive Spellpower Chance Spear",
         icon: spellIcons.PASSIVE_SPELLPOWER_CHANCE_SPEAR,
       },
       {
-        name: "PASSIVE_AASPEEDCHANCE_SPEAR",
+        name: "Passive Aaspeedchance Spear",
         icon: spellIcons.PASSIVE_AASPEEDCHANCE_SPEAR,
       },
     ],
   },
   T8_2H_GLAIVE: {
     active1: [
-      {
-        name: "SPEAR_LUNGE",
-        icon: spellIcons.SPEAR_LUNGE,
-      },
-      {
-        name: "SPIRITSPEAR",
-        icon: spellIcons.SPIRITSPEAR,
-      },
+      { name: "Spear Lunge", icon: spellIcons.SPEAR_LUNGE },
+      { name: "Spiritspear", icon: spellIcons.SPIRITSPEAR },
     ],
     active2: [
-      {
-        name: "FORESTOFSPEARS",
-        icon: spellIcons.FORESTOFSPEARS,
-      },
-      {
-        name: "CHARGINGBLADE",
-        icon: spellIcons.CHARGINGBLADE,
-      },
-      {
-        name: "LEGBREAKER",
-        icon: spellIcons.LEGBREAKER,
-      },
-      {
-        name: "DEFLECTINGSTANCE",
-        icon: spellIcons.DEFLECTINGSTANCE,
-      },
-      {
-        name: "GROUNDSPEAR",
-        icon: spellIcons.GROUNDSPEAR,
-      },
-      {
-        name: "SKILLSHOT_PULL",
-        icon: spellIcons.SKILLSHOT_PULL,
-      },
+      { name: "Forestofspears", icon: spellIcons.FORESTOFSPEARS },
+      { name: "Chargingblade", icon: spellIcons.CHARGINGBLADE },
+      { name: "Legbreaker", icon: spellIcons.LEGBREAKER },
+      { name: "Deflectingstance", icon: spellIcons.DEFLECTINGSTANCE },
+      { name: "Groundspear", icon: spellIcons.GROUNDSPEAR },
+      { name: "Skillshot Pull", icon: spellIcons.SKILLSHOT_PULL },
     ],
-    active3: [
-      {
-        name: "SHOVEL",
-        icon: spellIcons.SHOVEL,
-      },
-    ],
+    active3: [{ name: "Shovel", icon: spellIcons.SHOVEL }],
     passive1: [
+      { name: "Passive Slowpoison", icon: spellIcons.PASSIVE_SLOWPOISON },
       {
-        name: "PASSIVE_SLOWPOISON",
-        icon: spellIcons.PASSIVE_SLOWPOISON,
-      },
-      {
-        name: "PASSIVE_HEALTHCHANCE_SPEAR",
+        name: "Passive Healthchance Spear",
         icon: spellIcons.PASSIVE_HEALTHCHANCE_SPEAR,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CHANCE_SPEAR",
+        name: "Passive Spellpower Chance Spear",
         icon: spellIcons.PASSIVE_SPELLPOWER_CHANCE_SPEAR,
       },
       {
-        name: "PASSIVE_AASPEEDCHANCE_SPEAR",
+        name: "Passive Aaspeedchance Spear",
         icon: spellIcons.PASSIVE_AASPEEDCHANCE_SPEAR,
       },
     ],
   },
   T8_MAIN_SPEAR_KEEPER: {
     active1: [
-      {
-        name: "SPEAR_LUNGE",
-        icon: spellIcons.SPEAR_LUNGE,
-      },
-      {
-        name: "SPIRITSPEAR",
-        icon: spellIcons.SPIRITSPEAR,
-      },
+      { name: "Spear Lunge", icon: spellIcons.SPEAR_LUNGE },
+      { name: "Spiritspear", icon: spellIcons.SPIRITSPEAR },
     ],
     active2: [
-      {
-        name: "FORESTOFSPEARS",
-        icon: spellIcons.FORESTOFSPEARS,
-      },
-      {
-        name: "CHARGINGBLADE",
-        icon: spellIcons.CHARGINGBLADE,
-      },
-      {
-        name: "LEGBREAKER",
-        icon: spellIcons.LEGBREAKER,
-      },
-      {
-        name: "DEFLECTINGSTANCE",
-        icon: spellIcons.DEFLECTINGSTANCE,
-      },
-      {
-        name: "GROUNDSPEAR",
-        icon: spellIcons.GROUNDSPEAR,
-      },
-      {
-        name: "SKILLSHOT_PULL",
-        icon: spellIcons.SKILLSHOT_PULL,
-      },
+      { name: "Forestofspears", icon: spellIcons.FORESTOFSPEARS },
+      { name: "Chargingblade", icon: spellIcons.CHARGINGBLADE },
+      { name: "Legbreaker", icon: spellIcons.LEGBREAKER },
+      { name: "Deflectingstance", icon: spellIcons.DEFLECTINGSTANCE },
+      { name: "Groundspear", icon: spellIcons.GROUNDSPEAR },
+      { name: "Skillshot Pull", icon: spellIcons.SKILLSHOT_PULL },
     ],
-    active3: [
-      {
-        name: "TAINTED_STEEL",
-        icon: spellIcons.TAINTED_STEEL,
-      },
-    ],
+    active3: [{ name: "Tainted Steel", icon: spellIcons.TAINTED_STEEL }],
     passive1: [
+      { name: "Passive Slowpoison", icon: spellIcons.PASSIVE_SLOWPOISON },
       {
-        name: "PASSIVE_SLOWPOISON",
-        icon: spellIcons.PASSIVE_SLOWPOISON,
-      },
-      {
-        name: "PASSIVE_HEALTHCHANCE_SPEAR",
+        name: "Passive Healthchance Spear",
         icon: spellIcons.PASSIVE_HEALTHCHANCE_SPEAR,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CHANCE_SPEAR",
+        name: "Passive Spellpower Chance Spear",
         icon: spellIcons.PASSIVE_SPELLPOWER_CHANCE_SPEAR,
       },
       {
-        name: "PASSIVE_AASPEEDCHANCE_SPEAR",
+        name: "Passive Aaspeedchance Spear",
         icon: spellIcons.PASSIVE_AASPEEDCHANCE_SPEAR,
       },
     ],
   },
+
   T8_2H_HARPOON_HELL: {
     active1: [
-      {
-        name: "SPEAR_LUNGE",
-        icon: spellIcons.SPEAR_LUNGE,
-      },
-      {
-        name: "SPIRITSPEAR",
-        icon: spellIcons.SPIRITSPEAR,
-      },
+      { name: "Spear Lunge", icon: spellIcons.SPEAR_LUNGE },
+      { name: "Spiritspear", icon: spellIcons.SPIRITSPEAR },
     ],
     active2: [
-      {
-        name: "FORESTOFSPEARS",
-        icon: spellIcons.FORESTOFSPEARS,
-      },
-      {
-        name: "CHARGINGBLADE",
-        icon: spellIcons.CHARGINGBLADE,
-      },
-      {
-        name: "LEGBREAKER",
-        icon: spellIcons.LEGBREAKER,
-      },
-      {
-        name: "DEFLECTINGSTANCE",
-        icon: spellIcons.DEFLECTINGSTANCE,
-      },
-      {
-        name: "GROUNDSPEAR",
-        icon: spellIcons.GROUNDSPEAR,
-      },
-      {
-        name: "SKILLSHOT_PULL",
-        icon: spellIcons.SKILLSHOT_PULL,
-      },
+      { name: "Forestofspears", icon: spellIcons.FORESTOFSPEARS },
+      { name: "Chargingblade", icon: spellIcons.CHARGINGBLADE },
+      { name: "Legbreaker", icon: spellIcons.LEGBREAKER },
+      { name: "Deflectingstance", icon: spellIcons.DEFLECTINGSTANCE },
+      { name: "Groundspear", icon: spellIcons.GROUNDSPEAR },
+      { name: "Skillshot Pull", icon: spellIcons.SKILLSHOT_PULL },
     ],
-    active3: [
-      {
-        name: "SPEARTHROW",
-        icon: spellIcons.SPEARTHROW,
-      },
-    ],
+    active3: [{ name: "Spearthrow", icon: spellIcons.SPEARTHROW }],
     passive1: [
+      { name: "Passive Slowpoison", icon: spellIcons.PASSIVE_SLOWPOISON },
       {
-        name: "PASSIVE_SLOWPOISON",
-        icon: spellIcons.PASSIVE_SLOWPOISON,
-      },
-      {
-        name: "PASSIVE_HEALTHCHANCE_SPEAR",
+        name: "Passive Healthchance Spear",
         icon: spellIcons.PASSIVE_HEALTHCHANCE_SPEAR,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CHANCE_SPEAR",
+        name: "Passive Spellpower Chance Spear",
         icon: spellIcons.PASSIVE_SPELLPOWER_CHANCE_SPEAR,
       },
       {
-        name: "PASSIVE_AASPEEDCHANCE_SPEAR",
+        name: "Passive Aaspeedchance Spear",
         icon: spellIcons.PASSIVE_AASPEEDCHANCE_SPEAR,
       },
     ],
   },
+
   T8_2H_TRIDENT_UNDEAD: {
     active1: [
-      {
-        name: "SPEAR_LUNGE",
-        icon: spellIcons.SPEAR_LUNGE,
-      },
-      {
-        name: "SPIRITSPEAR",
-        icon: spellIcons.SPIRITSPEAR,
-      },
+      { name: "Spear Lunge", icon: spellIcons.SPEAR_LUNGE },
+      { name: "Spiritspear", icon: spellIcons.SPIRITSPEAR },
     ],
     active2: [
-      {
-        name: "FORESTOFSPEARS",
-        icon: spellIcons.FORESTOFSPEARS,
-      },
-      {
-        name: "CHARGINGBLADE",
-        icon: spellIcons.CHARGINGBLADE,
-      },
-      {
-        name: "LEGBREAKER",
-        icon: spellIcons.LEGBREAKER,
-      },
-      {
-        name: "DEFLECTINGSTANCE",
-        icon: spellIcons.DEFLECTINGSTANCE,
-      },
-      {
-        name: "GROUNDSPEAR",
-        icon: spellIcons.GROUNDSPEAR,
-      },
-      {
-        name: "SKILLSHOT_PULL",
-        icon: spellIcons.SKILLSHOT_PULL,
-      },
+      { name: "Forestofspears", icon: spellIcons.FORESTOFSPEARS },
+      { name: "Chargingblade", icon: spellIcons.CHARGINGBLADE },
+      { name: "Legbreaker", icon: spellIcons.LEGBREAKER },
+      { name: "Deflectingstance", icon: spellIcons.DEFLECTINGSTANCE },
+      { name: "Groundspear", icon: spellIcons.GROUNDSPEAR },
+      { name: "Skillshot Pull", icon: spellIcons.SKILLSHOT_PULL },
     ],
-    active3: [
-      {
-        name: "TRIDENTTHROW",
-        icon: spellIcons.TRIDENTTHROW,
-      },
-    ],
+    active3: [{ name: "Tridentthrow", icon: spellIcons.TRIDENTTHROW }],
     passive1: [
+      { name: "Passive Slowpoison", icon: spellIcons.PASSIVE_SLOWPOISON },
       {
-        name: "PASSIVE_SLOWPOISON",
-        icon: spellIcons.PASSIVE_SLOWPOISON,
-      },
-      {
-        name: "PASSIVE_HEALTHCHANCE_SPEAR",
+        name: "Passive Healthchance Spear",
         icon: spellIcons.PASSIVE_HEALTHCHANCE_SPEAR,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CHANCE_SPEAR",
+        name: "Passive Spellpower Chance Spear",
         icon: spellIcons.PASSIVE_SPELLPOWER_CHANCE_SPEAR,
       },
       {
-        name: "PASSIVE_AASPEEDCHANCE_SPEAR",
+        name: "Passive Aaspeedchance Spear",
         icon: spellIcons.PASSIVE_AASPEEDCHANCE_SPEAR,
       },
     ],
   },
+
   T8_MAIN_SPEAR_LANCE_AVALON: {
     active1: [
-      {
-        name: "SPEAR_LUNGE",
-        icon: spellIcons.SPEAR_LUNGE,
-      },
-      {
-        name: "SPIRITSPEAR",
-        icon: spellIcons.SPIRITSPEAR,
-      },
+      { name: "Spear Lunge", icon: spellIcons.SPEAR_LUNGE },
+      { name: "Spiritspear", icon: spellIcons.SPIRITSPEAR },
     ],
     active2: [
-      {
-        name: "FORESTOFSPEARS",
-        icon: spellIcons.FORESTOFSPEARS,
-      },
-      {
-        name: "CHARGINGBLADE",
-        icon: spellIcons.CHARGINGBLADE,
-      },
-      {
-        name: "LEGBREAKER",
-        icon: spellIcons.LEGBREAKER,
-      },
-      {
-        name: "DEFLECTINGSTANCE",
-        icon: spellIcons.DEFLECTINGSTANCE,
-      },
-      {
-        name: "GROUNDSPEAR",
-        icon: spellIcons.GROUNDSPEAR,
-      },
-      {
-        name: "SKILLSHOT_PULL",
-        icon: spellIcons.SKILLSHOT_PULL,
-      },
+      { name: "Forestofspears", icon: spellIcons.FORESTOFSPEARS },
+      { name: "Chargingblade", icon: spellIcons.CHARGINGBLADE },
+      { name: "Legbreaker", icon: spellIcons.LEGBREAKER },
+      { name: "Deflectingstance", icon: spellIcons.DEFLECTINGSTANCE },
+      { name: "Groundspear", icon: spellIcons.GROUNDSPEAR },
+      { name: "Skillshot Pull", icon: spellIcons.SKILLSHOT_PULL },
     ],
-    active3: [
-      {
-        name: "LANCE_CHARGE",
-        icon: spellIcons.LANCE_CHARGE,
-      },
-    ],
+    active3: [{ name: "Lance Charge", icon: spellIcons.LANCE_CHARGE }],
     passive1: [
+      { name: "Passive Slowpoison", icon: spellIcons.PASSIVE_SLOWPOISON },
       {
-        name: "PASSIVE_SLOWPOISON",
-        icon: spellIcons.PASSIVE_SLOWPOISON,
-      },
-      {
-        name: "PASSIVE_HEALTHCHANCE_SPEAR",
+        name: "Passive Healthchance Spear",
         icon: spellIcons.PASSIVE_HEALTHCHANCE_SPEAR,
       },
       {
-        name: "PASSIVE_SPELLPOWER_CHANCE_SPEAR",
+        name: "Passive Spellpower Chance Spear",
         icon: spellIcons.PASSIVE_SPELLPOWER_CHANCE_SPEAR,
       },
       {
-        name: "PASSIVE_AASPEEDCHANCE_SPEAR",
+        name: "Passive Aaspeedchance Spear",
         icon: spellIcons.PASSIVE_AASPEEDCHANCE_SPEAR,
       },
     ],
   },
+
   T8_2H_GLAIVE_CRYSTAL: {
     active1: [
       {
