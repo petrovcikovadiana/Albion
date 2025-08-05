@@ -161,20 +161,28 @@ function MainContent() {
           const { active: activeCount, passive: passiveCount } =
             getSpellSlotCount(id);
 
-          const activeIndexes = Array.from(
-            { length: activeCount },
-            (_, i) => spellIndexes[i] ?? null
-          );
+          const activeIndexes = Array.from({ length: activeCount }, (_, i) => {
+            const val = spellIndexes[i];
+            return val === null || val === -1 ? null : val;
+          });
+
           const passiveIndexes = Array.from(
             { length: passiveCount },
             (_, i) => spellIndexes[activeCount + i] ?? null
           );
 
-          const activeSpells = activeIndexes.map((idx, i) =>
-            id && idx !== null && idx !== -1
-              ? getSpellsForItem({ id }, "activeSpell", i)[idx]
-              : null
-          );
+          const activeSpells = activeIndexes.map((idx, i) => {
+            const spells = getSpellsForItem({ id }, "activeSpell", i);
+
+            const isThirdOffhand =
+              slot === 2 && i === 2 && spellDB[id]?.active3?.length === 1;
+
+            if (isThirdOffhand) {
+              return spellDB[id].active3[0];
+            }
+
+            return id && idx !== null && idx !== -1 ? spells[idx] : null;
+          });
 
           const passiveSpells = passiveIndexes.map((idx, i) =>
             id && idx !== null && idx !== -1
@@ -233,7 +241,11 @@ function MainContent() {
                 const spellIndex = spell
                   ? spellList.findIndex((s) => s.name === spell.name)
                   : -1;
-                if (spellIndex !== -1) parts.push(spellIndex);
+                if (spellIndex !== -1) {
+                  parts.push(spellIndex);
+                } else {
+                  parts.push(-1);
+                }
               });
             }
 
@@ -458,7 +470,11 @@ function MainContent() {
                   <div
                     key={slotIndex}
                     className={`relative w-[100px] h-[100px] flex items-center justify-center rounded-lg group
-      ${slot ? "" : "border-2 border-sky-500"}
+      ${
+        slot
+          ? ""
+          : "border-2 border-sky-500 transform transition duration-200 hover:scale-105"
+      }
       ${
         isSlotLocked(buildIndex, slotIndex)
           ? "opacity-50 pointer-events-none"
@@ -503,7 +519,7 @@ function MainContent() {
                         onClick={() => handleSlotClick(buildIndex, slotIndex)}
                         className="group w-full h-full flex items-center justify-center cursor-pointer bg-transparent hover:bg-zinc-800 rounded-lg"
                       >
-                        <span className="text-3xl text-cyan-500 font-bold transform transition-transform duration-150 group-hover:rotate-45">
+                        <span className="inline-flex w-8 h-8 items-center justify-center text-3xl text-cyan-500 font-bold transform duration-200 group-hover:rotate-90  origin-center leading-none">
                           +
                         </span>
                       </div>
@@ -584,14 +600,22 @@ function MainContent() {
                                       src={selected.icon}
                                       alt={selected.name}
                                       className="w-[48px] h-[48px] min-w-[48px] min-h-[48px] flex items-center justify-center mt-2 "
-                                      onClick={() =>
-                                        setSpellDropdown({
-                                          buildIndex,
-                                          slot: item.slot,
-                                          type: "activeSpell",
-                                          index: idx,
-                                        })
-                                      }
+                                      onClick={() => {
+                                        const isThirdOffhand =
+                                          item.slot === 2 &&
+                                          idx === 2 &&
+                                          spellDB[item.id]?.active3?.length ===
+                                            1;
+
+                                        if (!isThirdOffhand) {
+                                          setSpellDropdown({
+                                            buildIndex,
+                                            slot: item.slot,
+                                            type: "activeSpell",
+                                            index: idx,
+                                          });
+                                        }
+                                      }}
                                     />
                                   </Tooltip>
                                 ) : (
