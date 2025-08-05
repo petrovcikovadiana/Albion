@@ -2,7 +2,7 @@ const gearOptions = {
   helmet: {
     categories: [
       {
-        name: "Scholar Cowl",
+        name: "Cloth Cowl",
         image: "T3_HEAD_CLOTH_SET1",
         items: [
           { id: "T8_HEAD_CLOTH_SET1", name: "Scholar Cowl" },
@@ -17,7 +17,7 @@ const gearOptions = {
         ],
       },
       {
-        name: "Mercenary Hood",
+        name: "Leather Hood",
         image: "T3_HEAD_LEATHER_SET1",
         items: [
           { id: "T8_HEAD_LEATHER_SET1", name: "Mercenary Hood" },
@@ -32,7 +32,7 @@ const gearOptions = {
         ],
       },
       {
-        name: "Guardian Helmet",
+        name: "Plate Helmet",
         image: "T3_HEAD_PLATE_SET1",
         items: [
           { id: "T8_HEAD_PLATE_SET1", name: "Soldier Helmet" },
@@ -214,7 +214,7 @@ const gearOptions = {
   armor: {
     categories: [
       {
-        name: "Scholar Robe",
+        name: "Cloth Robe",
         image: "T3_ARMOR_CLOTH_SET1",
         items: [
           { id: "T8_ARMOR_CLOTH_SET1", name: "Scholar Robe" },
@@ -229,7 +229,7 @@ const gearOptions = {
         ],
       },
       {
-        name: "Mercenary Jacket",
+        name: "Leather Jacket",
         image: "T3_ARMOR_LEATHER_SET1",
         items: [
           { id: "T8_ARMOR_LEATHER_SET1", name: "Mercenary Jacket" },
@@ -244,7 +244,7 @@ const gearOptions = {
         ],
       },
       {
-        name: "Soldier Armor",
+        name: "Plate Armor",
         image: "T3_ARMOR_PLATE_SET1",
         items: [
           { id: "T8_ARMOR_PLATE_SET1", name: "Soldier Armor" },
@@ -302,7 +302,7 @@ const gearOptions = {
   boots: {
     categories: [
       {
-        name: "Scholar Sandals",
+        name: "Cloth Sandals",
         image: "T3_SHOES_CLOTH_SET1",
         items: [
           { id: "T8_SHOES_CLOTH_SET1", name: "Scholar Sandals" },
@@ -317,7 +317,7 @@ const gearOptions = {
         ],
       },
       {
-        name: "Hunter Shoes",
+        name: "Leather Shoes",
         image: "T3_SHOES_LEATHER_SET1",
         items: [
           { id: "T8_SHOES_LEATHER_SET1", name: "Mercenary Shoes" },
@@ -333,7 +333,7 @@ const gearOptions = {
         ],
       },
       {
-        name: "Soldier Boots",
+        name: "Plate Boots",
         image: "T3_SHOES_PLATE_SET1",
         items: [
           { id: "T8_SHOES_PLATE_SET1", name: "Soldier Boots" },
@@ -352,7 +352,7 @@ const gearOptions = {
   offhand: {
     categories: [
       {
-        name: "Fire staff",
+        name: "Mage",
         image: "T2_MAIN_FIRESTAFF",
         subcategories: [
           {
@@ -402,7 +402,7 @@ const gearOptions = {
             ],
           },
           {
-            name: "Fighter Hoods",
+            name: "Holy Staff",
             image: "T3_MAIN_HOLYSTAFF",
             items: [
               { id: "T8_MAIN_HOLYSTAFF", twoHanded: false, name: "Holy Staff" },
@@ -584,7 +584,7 @@ const gearOptions = {
         ],
       },
       {
-        name: "Bow",
+        name: "Hunter",
         image: "T2_2H_BOW",
         subcategories: [
           {
@@ -814,11 +814,11 @@ const gearOptions = {
         ],
       },
       {
-        name: "Broadsword",
+        name: "Warrior",
         image: "T2_MAIN_SWORD",
         subcategories: [
           {
-            name: "Swords",
+            name: "Sword",
             image: "T3_MAIN_SWORD",
             items: [
               { id: "T8_MAIN_SWORD", twoHanded: false, name: "Broadsword" },
