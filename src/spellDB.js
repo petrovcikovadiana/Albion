@@ -1703,7 +1703,7 @@ const spellDB = {
     active1: [
       { name: "Dodge", icon: spellIcons.DODGE },
       { name: "Rejuvenating Sprint", icon: spellIcons.Rejuvenating_Sprint },
-      { name: "Battlefrenzy", icon: spellIcons.BATTLEFRENZY },
+      { name: "Royal March", icon: spellIcons.ROYAL_MARCH },
     ],
     passive1: [
       { name: "Passive Maxload Shoes", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
@@ -1716,7 +1716,7 @@ const spellDB = {
     active1: [
       { name: "Dodge", icon: spellIcons.DODGE },
       { name: "Rejuvenating Sprint", icon: spellIcons.Rejuvenating_Sprint },
-      { name: "Royal March", icon: spellIcons.ROYAL_MARCH },
+      { name: "Battle Frenzy", icon: spellIcons.BATTLEFRENZY },
     ],
     passive1: [
       { name: "Passive Maxload Shoes", icon: spellIcons.PASSIVE_MAXLOAD_SHOES },
